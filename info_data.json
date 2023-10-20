@@ -1,6 +1,5 @@
 {
     "recents": [
-        "good-bot",
         "knife",
         "knife",
         "dab",
@@ -20,6 +19,7 @@
         "knife",
         "everyone",
         "noob",
+        "jacob",
         "jacob",
         "jacob",
         "jacob",
@@ -426,7 +426,7 @@
         },
         {
             "command": "jacob",
-            "counter": 5,
+            "counter": 6,
             "message": "<@132268173432061952>",
             "categoryId": "kappa:358293780107100160"
         },
