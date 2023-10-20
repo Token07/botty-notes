@@ -1,6 +1,5 @@
 {
     "recents": [
-        "issues",
         "401",
         "401",
         "rso",
@@ -23,7 +22,8 @@
         "rso",
         "yeet",
         "yeet",
-        "yeet"
+        "yeet",
+        "dab"
     ],
     "categories": [
         {
@@ -252,7 +252,7 @@
         },
         {
             "command": "dab",
-            "counter": 125,
+            "counter": 126,
             "message": "<:dab:499726833890230273>",
             "categoryId": "kappa:358293780107100160"
         },
