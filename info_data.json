@@ -641,12 +641,6 @@
             "categoryId": "%F0%9F%94%97"
         },
         {
-            "command": "rgea",
-            "counter": 18,
-            "message": "Riot Games Ecosystem Analytics is basically a JS script to be included on every page of a 3rd party application to allow Riot to collect/track usage. The goal is to gain better insight into the player impact of tools that utilize the Riot Games API. Riot belives the data will better help inform and prioritize decisions around the API.\n```\nThe snippet collects a couple metrics from sites that are RGEA enabled:\nProperty Id (pid)\nDevice Id (did) - generated uuid (Cleared when anonymized)\nSession Id (sid) - generated uuid (Cleared when anonymized)\nUser Id (uid) - encrypted puuid (Cleared when anonymized)\nUser Timestamp (uts)\nLeague Platform Id (lolpid)\nLeague Account Id (lolaid) - encrypted accountId (Cleared when anonymized)\nWebsite Host (dh)\nWebsite Path (dp)\nUser Language (ul)\nUser Timezone (utz)\nAnonymize (anon)\n```",
-            "categoryId": "%E2%84%B9"
-        },
-        {
             "command": "rhythms",
             "counter": 9,
             "message": "lol",
