@@ -1,6 +1,5 @@
 {
     "recents": [
-        "knife",
         "dab",
         "dab",
         "dab",
@@ -157,7 +156,7 @@
         },
         {
             "command": "app-verify",
-            "counter": 7,
+            "counter": 8,
             "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
             "categoryId": "%E2%84%B9"
         },
