@@ -1,0 +1,204 @@
+{
+    "botty": {
+        "restart": {
+            "admin": true,
+            "aliases": [
+                "restart",
+                "reboot"
+            ],
+            "description": "Restarts Botty."
+        }
+    },
+    "gamedata": {
+        "lookup": {
+            "aliases": [
+                "lookup",
+                "search",
+                "item",
+                "perk",
+                "rune",
+                "champion",
+                "champ",
+                "summonerspell",
+                "summ",
+                "spell"
+            ],
+            "description": "Search for information on that content in the game"
+        }
+    },
+    "games": {
+        "ttt": {
+            "aliases": [
+                "ttt"
+            ],
+            "description": "Starts a game of TTT versus that player"
+        }
+    },
+    "admin": {
+        "mute": {
+            "admin": true,
+            "aliases": [
+                "mute"
+            ],
+            "description": "Mutes a user"
+        },
+        "ban": {
+            "admin": true,
+            "aliases": [
+                "ban"
+            ],
+            "description": "Ban one or several users with a specific note or message. "
+        },
+        "kick": {
+            "admin": true,
+            "aliases": [
+                "kick"
+            ],
+            "description": "Kick one or several users with a specific note or message. "
+        },
+        "unmute": {
+            "admin": true,
+            "aliases": [
+                "unmute"
+            ],
+            "description": "Unmutes a user"
+        },
+        "ticket": {
+            "admin": true,
+            "aliases": [
+                "ticket",
+                "tickets"
+            ],
+            "description": "List previous offenses of a user or add a new one."
+        }
+    },
+    "esports": {
+        "date": {
+            "aliases": [
+                "esports"
+            ],
+            "description": "Print out esport games on that date"
+        },
+        "pickem": {
+            "aliases": [
+                "pickem",
+                "pick_em",
+                "pick_ems",
+                "pickems"
+            ],
+            "description": "Print out your pickems"
+        }
+    },
+    "controller": {
+        "toggle": {
+            "admin": true,
+            "aliases": [
+                "toggle_command"
+            ],
+            "description": "Enables or disables commands (!toggle_command {command})"
+        },
+        "help": {
+            "aliases": [
+                "help"
+            ],
+            "description": "Prints all the commands"
+        }
+    },
+    "apiSchema": {
+        "updateSchema": {
+            "admin": true,
+            "aliases": [
+                "update_schema",
+                "updateschema"
+            ],
+            "description": "Loads an updated api url schema",
+            "cooldown": 300000
+        }
+    },
+    "keyFinder": {
+        "admin": true,
+        "aliases": [
+            "active_keys",
+            "activekeys"
+        ],
+        "description": "prints a list of keys that botty have seen, and that are still active"
+    },
+    "info": {
+        "note": {
+            "aliases": [
+                "note",
+                "notes"
+            ],
+            "description": "Prints all the notes, or the content of a note if used with a parameter"
+        },
+        "all": {
+            "aliases": [
+                "*"
+            ],
+            "description": "Prints all the notes, or the content of a note if used with a parameter",
+            "prefix": "."
+        }
+    },
+    "welcome": {
+        "aliases": [
+            "welcome"
+        ],
+        "description": "Prints out a copy of the welcome message.",
+        "cooldown": 300000
+    },
+    "riotApiLibraries": {
+        "aliases": [
+            "lib",
+            "libs",
+            "libraries"
+        ],
+        "description": "Print a list of the public libraries"
+    },
+    "autoReact": {
+        "toggle_default_thinking": {
+            "aliases": [
+                "toggle_default_thinking"
+            ],
+            "description": "Changes bottys reaction from the normal thinking emote, to one of the custom ones (or opposite)"
+        },
+        "toggle_react": {
+            "aliases": [
+                "toggle_react"
+            ],
+            "description": "Decides if botty reacts to your messages"
+        },
+        "refresh_thinking": {
+            "admin": true,
+            "aliases": [
+                "refresh_thinking"
+            ],
+            "description": "Reloads the thinking emojis"
+        }
+    },
+    "apiStatus": {
+        "aliases": [
+            "status",
+            "apistatus"
+        ],
+        "description": "Prints the status of the Riot Games API",
+        "cooldown": 300000
+    },
+    "endpointManager": {
+        "endpoint": {
+            "admin": false,
+            "aliases": [
+                "endpoint"
+            ],
+            "description": "Gives a link to a single Riot API endpoint"
+        },
+        "endpoints": {
+            "admin": false,
+            "aliases": [
+                "endpoints",
+                "endpointlist",
+                "endpoint_list"
+            ],
+            "description": "Shows a list of all Riot API endpoints."
+        }
+    }
+}

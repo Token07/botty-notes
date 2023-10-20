@@ -932,7 +932,9 @@
         "rgea",
         "rgea",
         "support",
-        "support"
+        "support",
+        "euw",
+        "euw"
     ],
     "categories": [
         {
@@ -1227,7 +1229,7 @@
         },
         {
             "command": "euw",
-            "counter": 5,
+            "counter": 6,
             "message": "<:429:344978692826726402>",
             "categoryId": "kappa:358293780107100160"
         },
