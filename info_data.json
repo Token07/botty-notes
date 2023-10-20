@@ -23,6 +23,8 @@
         "knife",
         "knife",
         "dab",
+        "dab",
+        "dab",
         "dab"
     ],
     "categories": [
@@ -252,7 +254,7 @@
         },
         {
             "command": "dab",
-            "counter": 124,
+            "counter": 125,
             "message": "<:dab:499726833890230273>",
             "categoryId": "kappa:358293780107100160"
         },
