@@ -1,6 +1,5 @@
 {
     "recents": [
-        "rso",
         "match-v4",
         "match-v4",
         "dab",
@@ -23,7 +22,8 @@
         "404",
         "knife",
         "jacob",
-        "knife"
+        "knife",
+        "everyone"
     ],
     "categories": [
         {
@@ -324,7 +324,7 @@
         },
         {
             "command": "everyone",
-            "counter": 0,
+            "counter": 1,
             "message": "@everyone",
             "categoryId": "%E2%84%B9"
         },
