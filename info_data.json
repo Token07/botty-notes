@@ -1,7 +1,6 @@
 {
     "recents": [
         "knife",
-        "knife",
         "dab",
         "dab",
         "dab",
@@ -23,7 +22,9 @@
         "jacob",
         "jacob",
         "jacob",
-        "jacob"
+        "jacob",
+        "server-info",
+        "server-info"
     ],
     "categories": [
         {
@@ -727,7 +728,7 @@
         {
             "command": "server-info",
             "message": "This Discord server is for the Riot Games API, a tool which provides data to sites like op.gg. All Rioters here that are working officially are part of the team that manages the API, and will not be able to help you with support or gameplay issues. If you're having account related issues or technical problems, contact Riot Games support: <https://support.riotgames.com/hc/en-us>. If you have a game-related suggestion or feedback, post on the subreddit, or the League of Legends Discord: <https://www.reddit.com/r/leagueoflegends/> / <https://discordapp.com/invite/lol>",
-            "counter": 620,
+            "counter": 622,
             "categoryId": "%E2%84%B9"
         },
         {
