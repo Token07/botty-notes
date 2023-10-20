@@ -443,6 +443,12 @@
             "categoryId": "kappa:358293780107100160"
         },
         {
+            "command": "lcu",
+            "counter": 45,
+            "message": "https://developer.riotgames.com/league-client-apis.html",
+            "categoryId": "%F0%9F%94%97"
+        },
+        {
             "command": "lcu-start",
             "counter": 12,
             "message": "https://hextechdocs.dev/getting-started-with-the-lcu-api/",
@@ -837,12 +843,6 @@
             "counter": 8,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
-        },
-        {
-            "command": "jacob",
-            "counter": 0,
-            "message": "<@310325712869392385>",
-            "categoryId": "kappa:358293780107100160"
         }
     ]
 }
