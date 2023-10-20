@@ -3,7 +3,6 @@
         "rso",
         "rso",
         "rso",
-        "rso",
         "match-v4",
         "match-v4",
         "dab",
@@ -23,7 +22,8 @@
         "yeet",
         "dab",
         "429",
-        "404"
+        "404",
+        "knife"
     ],
     "categories": [
         {
@@ -432,7 +432,7 @@
         },
         {
             "command": "knife",
-            "counter": 7,
+            "counter": 8,
             "message": "🔪",
             "categoryId": "kappa:358293780107100160"
         },
