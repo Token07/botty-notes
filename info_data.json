@@ -1,7 +1,6 @@
 {
     "recents": [
         "rso",
-        "rso",
         "match-v4",
         "match-v4",
         "dab",
@@ -23,7 +22,8 @@
         "429",
         "404",
         "knife",
-        "jacob"
+        "jacob",
+        "knife"
     ],
     "categories": [
         {
@@ -444,7 +444,7 @@
         },
         {
             "command": "knife",
-            "counter": 8,
+            "counter": 9,
             "message": "🔪",
             "categoryId": "kappa:358293780107100160"
         },
@@ -626,6 +626,12 @@
             "command": "rate-limit",
             "message": "https://developer.riotgames.com/rate-limiting.html",
             "counter": 18,
+            "categoryId": "%F0%9F%94%97"
+        },
+        {
+            "command": "rate-limiting",
+            "message": "https://developer.riotgames.com/rate-limiting.html",
+            "counter": 23,
             "categoryId": "%F0%9F%94%97"
         },
         {
@@ -843,12 +849,6 @@
             "counter": 8,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
-        },
-        {
-            "command": "everyone",
-            "counter": 0,
-            "message": "@everyone",
-            "categoryId": "%E2%84%B9"
         }
     ]
 }
