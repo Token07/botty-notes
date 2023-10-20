@@ -25,7 +25,9 @@
         "dab",
         "dab",
         "dab",
-        "dab"
+        "dab",
+        "rso",
+        "rso"
     ],
     "categories": [
         {
@@ -675,7 +677,7 @@
         {
             "command": "rso",
             "message": "> RSO is Riot Sign On, standard OAuth2 that allows you to verify users own an account.\n> You need an approved production application and then apply to use RSO on the beta developer portal at <https://beta.developer.riotgames.com/>\n> For detailed questions on usage look at the pins and ask in <#946641562757107782>\n> or see the examples at: <https://github.com/RiotGames/developer-relations/tree/main/sample_apps/rso_sample_apps>",
-            "counter": 129,
+            "counter": 130,
             "categoryId": "%E2%84%B9"
         },
         {
