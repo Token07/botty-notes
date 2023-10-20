@@ -2,7 +2,6 @@
     "recents": [
         "rso",
         "rso",
-        "rso",
         "match-v4",
         "match-v4",
         "dab",
@@ -23,7 +22,8 @@
         "dab",
         "429",
         "404",
-        "knife"
+        "knife",
+        "jacob"
     ],
     "categories": [
         {
@@ -420,7 +420,7 @@
         },
         {
             "command": "jacob",
-            "counter": 0,
+            "counter": 1,
             "message": "<@310325712869392385>",
             "categoryId": "kappa:358293780107100160"
         },
