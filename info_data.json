@@ -1,6 +1,5 @@
 {
     "recents": [
-        "match-v4",
         "dab",
         "dab",
         "good-bot",
@@ -23,7 +22,8 @@
         "jacob",
         "knife",
         "everyone",
-        "noob"
+        "noob",
+        "jacob"
     ],
     "categories": [
         {
@@ -426,7 +426,7 @@
         },
         {
             "command": "jacob",
-            "counter": 1,
+            "counter": 2,
             "message": "<@310325712869392385>",
             "categoryId": "kappa:358293780107100160"
         },
