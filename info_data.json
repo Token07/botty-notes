@@ -1,7 +1,6 @@
 {
     "recents": [
         "401",
-        "401",
         "rso",
         "rso",
         "rso",
@@ -23,7 +22,8 @@
         "yeet",
         "yeet",
         "yeet",
-        "dab"
+        "dab",
+        "429"
     ],
     "categories": [
         {
@@ -109,7 +109,7 @@
         {
             "command": "429",
             "message": "__**429 (Rate Limit Exceeded)**__\nThis error indicates that the application has exhausted its maximum number of allotted API calls allowed for a given duration. If the client receives a Rate Limit Exceeded response the client should process this response and halt future API calls for the duration, in seconds, indicated by the `Retry-After` header. **Applications that are in violation of this policy may have their access disabled to preserve the integrity of the API.** Please refer to our Rate Limiting documentation (https://developer.riotgames.com/rate-limiting.html) for more information on determining if you have been rate limited and how to avoid it.\n\n**Common Reasons:**\nUnregulated API calls. Check your API Call Graphs to monitor your Dev and Production API key activity.\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 46,
+            "counter": 47,
             "categoryId": "429:453058143694487554"
         },
         {
