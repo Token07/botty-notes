@@ -926,6 +926,8 @@
         "dab",
         "dab",
         "dab",
+        "dab",
+        "dab",
         "dab"
     ],
     "categories": [
@@ -1155,7 +1157,7 @@
         },
         {
             "command": "dab",
-            "counter": 123,
+            "counter": 124,
             "message": "<:dab:499726833890230273>",
             "categoryId": "kappa:358293780107100160"
         },
