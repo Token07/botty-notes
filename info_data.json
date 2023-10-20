@@ -1754,6 +1754,12 @@
             "counter": 8,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
+        },
+        {
+            "command": "test",
+            "counter": 0,
+            "message": ".",
+            "categoryId": "%E2%84%B9"
         }
     ]
 }
