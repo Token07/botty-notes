@@ -1,7 +1,6 @@
 {
     "recents": [
         "issues",
-        "issues",
         "401",
         "401",
         "rso",
@@ -22,6 +21,7 @@
         "dab",
         "rso",
         "rso",
+        "yeet",
         "yeet",
         "yeet"
     ],
@@ -828,7 +828,7 @@
         },
         {
             "command": "yeet",
-            "counter": 7,
+            "counter": 8,
             "message": "``` ╭┻━━┻╮\n ┃╭╮╭╮┃\n╭┫▕▎▕▎┣╮\n╰┓┳╰╯┳┏╯ For You\n╭┛╰━━╯┗━━━━━╮\n┃┃    ┏━━━╭╰╯╮\n┃┃    ┃┏━━┻━━┻━━┓\n╰┫ ╭╮ ┃┃  YEET  ┃ \n ┃ ┃┃ ┃╰━━━━━━━━┛```",
             "categoryId": "TuxHammer:358298723035643905"
         },
