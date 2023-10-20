@@ -53,12 +53,6 @@
     ],
     "messages": [
         {
-            "command": "🤡",
-            "counter": 0,
-            "message": "test",
-            "categoryId": "%E2%84%B9"
-        },
-        {
             "command": "200",
             "counter": 6,
             "message": "Everything is fine here, move along. ",
@@ -539,6 +533,12 @@
             "categoryId": "%E2%84%B9"
         },
         {
+            "command": "match-prefix",
+            "counter": 4,
+            "message": "If you get a gameId from the client you will need to add the platform prefix to the gameId to get a matchId.\nFor example if you're playing on EUW and your gameId is ``6553947989`` the matchId will be ``EUW1_6553947989``.\nCustom game data is still unavailable even if you have the matchId.",
+            "categoryId": "%E2%84%B9"
+        },
+        {
             "command": "match-v4",
             "counter": 18,
             "message": "match-v4 was removed from the API <t:1632715200:R>. Any code, documentation or examples referencing match-v4 should be considered incorrect and will need to be updated. Match-v5 (<https://developer.riotgames.com/apis#match-v5>) is the replacement. Take note the parameters have changed from match-v4.",
@@ -561,6 +561,12 @@
             "message": "You can create a mobile app that uses the API, but you'll need to create a webpage to explain the app, and a server to proxy your API calls. The website should contain enough information so that Rioters can evaluate your project (to ensure it isn't breaking any rules) without actually downloading it. You'll also need to setup a server to make your API calls from. You cannot securely store your API key in a distributed app, so your app will need to communicate with a server, which will in turn communicate with the API.",
             "counter": 41,
             "categoryId": "%E2%84%B9"
+        },
+        {
+            "command": "money",
+            "counter": 10,
+            "message": "https://developer.riotgames.com/policies.html#monetization",
+            "categoryId": "%F0%9F%91%AA"
         },
         {
             "command": "my-apps",
@@ -849,12 +855,6 @@
             "counter": 8,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
-        },
-        {
-            "command": "🤡",
-            "counter": 0,
-            "message": "test",
-            "categoryId": "%E2%84%B9"
         }
     ]
 }
