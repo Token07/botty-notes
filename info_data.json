@@ -27,7 +27,9 @@
         "dab",
         "dab",
         "rso",
-        "rso"
+        "rso",
+        "yeet",
+        "yeet"
     ],
     "categories": [
         {
@@ -832,7 +834,7 @@
         },
         {
             "command": "yeet",
-            "counter": 6,
+            "counter": 7,
             "message": "``` ╭┻━━┻╮\n ┃╭╮╭╮┃\n╭┫▕▎▕▎┣╮\n╰┓┳╰╯┳┏╯ For You\n╭┛╰━━╯┗━━━━━╮\n┃┃    ┏━━━╭╰╯╮\n┃┃    ┃┏━━┻━━┻━━┓\n╰┫ ╭╮ ┃┃  YEET  ┃ \n ┃ ┃┃ ┃╰━━━━━━━━┛```",
             "categoryId": "TuxHammer:358298723035643905"
         },
