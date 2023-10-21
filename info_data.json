@@ -2,7 +2,6 @@
     "recents": [
         "dab",
         "dab",
-        "dab",
         "rso",
         "rso",
         "yeet",
@@ -23,7 +22,8 @@
         "jacob",
         "server-info",
         "server-info",
-        "andre"
+        "andre",
+        "jacob"
     ],
     "categories": [
         {
@@ -426,7 +426,7 @@
         },
         {
             "command": "jacob",
-            "counter": 6,
+            "counter": 7,
             "message": "<@132268173432061952>",
             "categoryId": "kappa:358293780107100160"
         },
