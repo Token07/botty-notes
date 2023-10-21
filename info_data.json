@@ -1,7 +1,6 @@
 {
     "recents": [
         "dab",
-        "dab",
         "rso",
         "rso",
         "yeet",
@@ -23,7 +22,8 @@
         "server-info",
         "server-info",
         "andre",
-        "jacob"
+        "jacob",
+        "repo"
     ],
     "categories": [
         {
@@ -637,7 +637,7 @@
         {
             "command": "repo",
             "message": "https://github.com/Querijn/BottyMcBotface",
-            "counter": 143,
+            "counter": 144,
             "categoryId": "%F0%9F%91%AA"
         },
         {
