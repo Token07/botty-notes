@@ -1,15 +1,5 @@
 {
     "recents": [
-        "everyone",
-        "noob",
-        "jacob",
-        "jacob",
-        "jacob",
-        "jacob",
-        "jacob",
-        "server-info",
-        "server-info",
-        "andre",
         "jacob",
         "repo",
         "championrates",
@@ -23,7 +13,18 @@
         "tuxedo",
         "tuxedo",
         "tuxedo",
-        "tuxedo"
+        "tuxedo",
+        "tuxedo",
+        "tuxedo",
+        "tuxedo",
+        "tuxedo",
+        "tuxedo",
+        "good-bot",
+        "tuxedo",
+        "server-info",
+        "bad-fred",
+        "memes",
+        "omaewamoushindeiru"
     ],
     "categories": [
         {
@@ -355,7 +356,7 @@
         {
             "command": "good-bot",
             "message": "ty bby",
-            "counter": 107,
+            "counter": 108,
             "categoryId": "kappa:358293780107100160"
         },
         {
@@ -534,7 +535,7 @@
         },
         {
             "command": "memes",
-            "counter": 32,
+            "counter": 33,
             "message": "<https://imgur.com/a/j22Ov>",
             "categoryId": "kappa:358293780107100160"
         },
@@ -570,7 +571,7 @@
         },
         {
             "command": "omaewamoushindeiru",
-            "counter": 3,
+            "counter": 4,
             "message": "NANI?!",
             "categoryId": "kappa:358293780107100160"
         },
@@ -721,7 +722,7 @@
         {
             "command": "server-info",
             "message": "This Discord server is for the Riot Games API, a tool which provides data to sites like op.gg. All Rioters here that are working officially are part of the team that manages the API, and will not be able to help you with support or gameplay issues. If you're having account related issues or technical problems, contact Riot Games support: <https://support.riotgames.com/hc/en-us>. If you have a game-related suggestion or feedback, post on the subreddit, or the League of Legends Discord: <https://www.reddit.com/r/leagueoflegends/> / <https://discordapp.com/invite/lol>",
-            "counter": 622,
+            "counter": 623,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -786,7 +787,7 @@
         },
         {
             "command": "tuxedo",
-            "counter": 441,
+            "counter": 447,
             "message": "😍 [̲̅W̲̅][̲̅O̲̅][̲̅W̲̅]! You've found the 【S】【E】【C】【R】【E】【T】 𝕋𝕌𝕏𝔼𝔻𝕆 note! <:tuxedo:341518598084493313>\n```★·.·´¯`·.·★ Ｕｓｅ ｔｈｉｓ ｎｏｔｅ {counter} ｍｏｒｅ ｔｉｍｅｓ ｆｏｒ ７ ｙｅａｒｓ ｏｆ ｆｒｅｅ ｐｉｚｚａ! ★·.·´¯`·.·★```",
             "categoryId": "kappa:358293780107100160"
         },
