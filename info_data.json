@@ -1,14 +1,5 @@
 {
     "recents": [
-        "jacob",
-        "repo",
-        "championrates",
-        "tuxedo",
-        "tuxedo",
-        "tuxedo",
-        "tuxedo",
-        "tuxedo",
-        "tuxedo",
         "tuxedo",
         "tuxedo",
         "tuxedo",
@@ -24,7 +15,15 @@
         "server-info",
         "bad-fred",
         "memes",
-        "omaewamoushindeiru"
+        "omaewamoushindeiru",
+        "adab",
+        "hi",
+        "hi",
+        "hi",
+        "euw",
+        "new\nline",
+        "new\nline",
+        "remove"
     ],
     "categories": [
         {
@@ -127,7 +126,7 @@
         },
         {
             "command": "adab",
-            "counter": 24,
+            "counter": 25,
             "message": "<a:adab:599715211288510468>",
             "categoryId": "kappa:358293780107100160"
         },
@@ -319,7 +318,7 @@
         },
         {
             "command": "euw",
-            "counter": 6,
+            "counter": 7,
             "message": "<:429:344978692826726402>",
             "categoryId": "kappa:358293780107100160"
         },
@@ -379,7 +378,7 @@
         },
         {
             "command": "hi",
-            "counter": 1,
+            "counter": 4,
             "message": "Stop it. Get some help.",
             "categoryId": "kappa:358293780107100160"
         },
@@ -565,7 +564,7 @@
         },
         {
             "command": "new\nline",
-            "counter": 2,
+            "counter": 4,
             "message": "sup boiii",
             "categoryId": "kappa:358293780107100160"
         },
@@ -772,12 +771,6 @@
             "counter": 4,
             "message": "You can find more about tournament callbacks here: <https://developer.riotgames.com/docs/lol#tournament-api_server-callback>\nIf you are using https, it probably won't work due to a newer certificate in your chain, http is much more reliable. (If the certificate authority in your chain is issued after 2012 it won't work, there are very few issuers who fall into this category)\nIf you are using a newer uncommon TLD (something other than .com, .net, etc.) verify it is supported on the link above.\nTournament callbacks are only done when the game is fully complete, meaning the nexus has exploded.\nYou can test your callback endpoint using the sample data provided in the link above.",
             "categoryId": "%E2%84%B9"
-        },
-        {
-            "command": "tournament-stub",
-            "counter": 6,
-            "message": "tournament-stub has been broken since <t:1669636800:R>, see <https://github.com/RiotGames/developer-relations/issues/730>",
-            "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "translators",
