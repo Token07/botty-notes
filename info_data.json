@@ -1,9 +1,5 @@
 {
     "recents": [
-        "tuxedo",
-        "tuxedo",
-        "good-bot",
-        "tuxedo",
         "server-info",
         "bad-fred",
         "memes",
@@ -24,7 +20,10 @@
         "holland",
         "holland",
         "how-long",
-        "lol-match-retention"
+        "lol-match-retention",
+        "issues",
+        "401",
+        "rso"
     ],
     "categories": [
         {
@@ -73,7 +72,7 @@
         },
         {
             "command": "401",
-            "counter": 90,
+            "counter": 91,
             "message": "__**401 (Unauthorized)**__ \nThis error indicates that the request being made did not contain the necessary authentication credentials (e.g., an API key) and therefore the client was denied access. The client should not continue to make similar requests without including an API key in the request.\n\n**Common Reasons:**\nAn API key has not been included in the request.",
             "categoryId": "429:453058143694487554"
         },
@@ -415,7 +414,7 @@
         },
         {
             "command": "issues",
-            "counter": 169,
+            "counter": 170,
             "message": "https://github.com/RiotGames/developer-relations/issues",
             "categoryId": "%F0%9F%94%97"
         },
@@ -674,7 +673,13 @@
         {
             "command": "rso",
             "message": "> RSO is Riot Sign On, standard OAuth2 that allows you to verify users own an account.\n> You need an approved production application and then apply to use RSO on the beta developer portal at <https://beta.developer.riotgames.com/>\n> For detailed questions on usage look at the pins and ask in <#946641562757107782>\n> or see the examples at: <https://github.com/RiotGames/developer-relations/tree/main/sample_apps/rso_sample_apps>",
-            "counter": 130,
+            "counter": 131,
+            "categoryId": "%E2%84%B9"
+        },
+        {
+            "command": "rso-endpoints",
+            "counter": 0,
+            "message": "The /me endpoints and any endpoints requiring an ``Authorization`` Header require an access token from RSO. Unless you need to verify the users identity you are most likely looking for another endpoint. To learn more about RSO type ``!note rso`` or see <#946641562757107782>",
             "categoryId": "%E2%84%B9"
         },
         {
