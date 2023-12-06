@@ -479,6 +479,12 @@
             "categoryId": "%F0%9F%94%97"
         },
         {
+            "command": "libraries",
+            "counter": 0,
+            "message": "Use `!libs <your library here>` to get a list of libraries made for your language. For example, `!libs python`.",
+            "categoryId": "%E2%84%B9"
+        },
+        {
             "command": "libs",
             "counter": 82,
             "message": "Did you mean `!libs`?",
@@ -665,12 +671,6 @@
             "categoryId": "%E2%84%B9"
         },
         {
-            "command": "routing-values",
-            "counter": 0,
-            "message": "As listed on the top of the developer portal:\n> The AMERICAS routing value serves NA, BR, LAN and LAS. The ASIA routing value serves KR and JP. The EUROPE routing value serves EUNE, EUW, TR and RU. The SEA routing value serves OCE, PH2, SG2, TH2, TW2 and VN2.",
-            "categoryId": "%E2%84%B9"
-        },
-        {
             "command": "rso",
             "message": "> RSO is Riot Sign On, standard OAuth2 that allows you to verify users own an account.\n> You need an approved production application and then apply to use RSO on the beta developer portal at <https://beta.developer.riotgames.com/>\n> For detailed questions on usage look at the pins and ask in <#946641562757107782>\n> or see the examples at: <https://github.com/RiotGames/developer-relations/tree/main/sample_apps/rso_sample_apps>",
             "counter": 133,
@@ -843,6 +843,12 @@
             "counter": 10,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
+        },
+        {
+            "command": "libraries",
+            "counter": 0,
+            "message": "Use `!libs <your library here>` to get a list of libraries made for your language. For example, `!libs python`.",
+            "categoryId": "%E2%84%B9"
         }
     ]
 }
