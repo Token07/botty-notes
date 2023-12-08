@@ -1,27 +1,5 @@
 {
     "recents": [
-        "tuxedo",
-        "net8",
-        "how-long",
-        "403",
-        "queues",
-        "cors",
-        "perks",
-        "match-prefix",
-        "perks",
-        "how-long",
-        "match-prefix",
-        "good-bot",
-        "lcu",
-        "lcu-start",
-        "awesome-lcu",
-        "perks",
-        "good-bot",
-        "net8",
-        "gozaq",
-        "api-status-api",
-        "summoner-name",
-        "summoner-name",
         "repo",
         "youbanistan",
         "cors",
@@ -30,7 +8,22 @@
         "python",
         "libraries",
         "forum",
-        "libraries"
+        "libraries",
+        "still",
+        "libraries",
+        "rso",
+        "how-long",
+        "riot-id",
+        "summoner-name",
+        "api-status-page",
+        "how-long",
+        "cdragon",
+        "lcu-swagger",
+        "lcu-swagger",
+        "good-bot",
+        "youbanistan",
+        "queues",
+        "update"
     ],
     "categories": [
         {
@@ -157,7 +150,7 @@
         },
         {
             "command": "api-status-page",
-            "counter": 11,
+            "counter": 12,
             "message": "The API status page should not be relied on as there are numerous endpoints incorrectly listed or not listed at all.",
             "categoryId": "%E2%84%B9"
         },
@@ -211,7 +204,7 @@
         },
         {
             "command": "cdragon",
-            "counter": 274,
+            "counter": 275,
             "message": "cdragon is a community project aimed at fixing the errors in ddragon and providing assets from the game. Join the cdragon discord here https://discord.gg/yNFG5yk\nYou can find raw files (no API) here: https://raw.communitydragon.org/\nYou can find the CDN endpoints here: https://cdn.communitydragon.org/endpoints",
             "categoryId": "%F0%9F%91%AA"
         },
@@ -362,7 +355,7 @@
         {
             "command": "good-bot",
             "message": "ty bby",
-            "counter": 115,
+            "counter": 116,
             "categoryId": "kappa:358293780107100160"
         },
         {
@@ -391,7 +384,7 @@
         },
         {
             "command": "how-long",
-            "counter": 124,
+            "counter": 126,
             "message": "**Applications**: They are typically reviewed weekly for the previous week. However, due to overwhelming amounts of requests, sometimes the review process can take up to three weeks.\n**Messages**: Each week they review messages from the week prior. Due to an overwhelming amount of messages, sometimes it can take up to two weeks to respond. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.",
             "categoryId": "kappa:358293780107100160"
         },
@@ -463,8 +456,8 @@
         },
         {
             "command": "lcu-swagger",
-            "counter": 30,
-            "message": "Here is an online tool listing the LCU API endpoints: http://www.mingweisamuel.com/lcu-schema/tool/.\nUse Rift Explorer (!note rift-explorer) if you want to interactively call the endpoints.",
+            "counter": 32,
+            "message": "Here are online tools listing the LCU API endpoints: <https://lcu.kebs.dev/> or <https://swagger.dysolix.dev/lcu/>.",
             "categoryId": "%F0%9F%91%AA"
         },
         {
@@ -481,8 +474,8 @@
         },
         {
             "command": "libraries",
-            "counter": 1,
-            "message": "Use `!libs <your library here>` to get a list of libraries made for your language. For example, `!libs python`.",
+            "counter": 2,
+            "message": "Use !libs <your language here> to get a list of libraries made for your language. For example, !libs python.",
             "categoryId": "%E2%84%B9"
         },
         {
@@ -613,8 +606,8 @@
         },
         {
             "command": "queues",
-            "counter": 6,
-            "message": "To search for games of a certain type or to identify what kind of game was played in match history use the queue or queueId field.\nhttps://static.developer.riotgames.com/docs/lol/queues.json",
+            "counter": 7,
+            "message": "To search for games of a certain type or to identify what kind of game was played in match history use the queue or queueId field.\nhttps://static.developer.riotgames.com/docs/lol/queues.json\nRiot's data is manually updated and may be missing queues, CDragon has data from the client that may be more accurate but less descriptive:\nhttps://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/queues.json",
             "categoryId": "%E2%84%B9"
         },
         {
@@ -680,7 +673,7 @@
         {
             "command": "rso",
             "message": "> RSO is Riot Sign On, standard OAuth2 that allows you to verify users own an account.\n> You need an approved production application and then apply to use RSO on the beta developer portal at <https://beta.developer.riotgames.com/>\n> For detailed questions on usage look at the pins and ask in <#946641562757107782>\n> or see the examples at: <https://github.com/RiotGames/developer-relations/tree/main/sample_apps/rso_sample_apps>",
-            "counter": 133,
+            "counter": 134,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -757,7 +750,7 @@
         },
         {
             "command": "summoner-name",
-            "counter": 16,
+            "counter": 17,
             "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names will remain in the API for the foreseeable future, new accounts will not have a summoner name and instead will have a generated UUID.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
             "categoryId": "%E2%84%B9"
         },
@@ -847,7 +840,7 @@
         },
         {
             "command": "youbanistan",
-            "counter": 10,
+            "counter": 11,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
         }
