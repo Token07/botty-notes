@@ -1,7 +1,5 @@
 {
     "recents": [
-        "youbanistan",
-        "cdragon",
         "meraki",
         "policies",
         "policies",
@@ -23,7 +21,9 @@
         "rule-6a",
         "rule-6b",
         "rule-5",
-        "rule-6a"
+        "rule-6a",
+        "rule-6b",
+        "rule-6b"
     ],
     "categories": [
         {
@@ -705,12 +705,6 @@
             "counter": 6,
             "message": "...except André",
             "categoryId": "TuxHammer:358298723035643905"
-        },
-        {
-            "command": "rule-6b",
-            "counter": 0,
-            "message": "the rule-6a is optional...",
-            "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "rules-gurus",
