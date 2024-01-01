@@ -1,8 +1,5 @@
 {
     "recents": [
-        "meraki",
-        "policies",
-        "policies",
         "lol-match-retention",
         "just-ask",
         "just-ask",
@@ -23,7 +20,10 @@
         "rule-5",
         "rule-6a",
         "rule-6b",
-        "rule-6b"
+        "rule-6b",
+        "repo",
+        "rules-gurus",
+        "youbanistan"
     ],
     "categories": [
         {
@@ -631,7 +631,7 @@
         {
             "command": "repo",
             "message": "https://github.com/Querijn/BottyMcBotface",
-            "counter": 146,
+            "counter": 147,
             "categoryId": "%F0%9F%91%AA"
         },
         {
@@ -708,7 +708,7 @@
         },
         {
             "command": "rules-gurus",
-            "counter": 3,
+            "counter": 4,
             "message": "rules dont apply to gurus, so shh",
             "categoryId": "%E2%84%B9"
         },
@@ -840,8 +840,14 @@
         },
         {
             "command": "youbanistan",
-            "counter": 15,
+            "counter": 16,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
+            "categoryId": "TuxHammer:358298723035643905"
+        },
+        {
+            "command": "test1234",
+            "counter": 0,
+            "message": "test",
             "categoryId": "TuxHammer:358298723035643905"
         }
     ]
