@@ -1,16 +1,5 @@
 {
     "recents": [
-        "summonerspell",
-        "summonerspells",
-        "spells",
-        "champion",
-        "legal",
-        "issues",
-        "devportal",
-        "how-long",
-        "match-prefix",
-        "lol-match-retention",
-        "support",
         "youbanistan",
         "youbanistan",
         "cdragon",
@@ -25,7 +14,16 @@
         "how-long",
         "400",
         "400",
-        "400"
+        "400",
+        "tuxedo",
+        "lcu-start",
+        "rate-limiting",
+        "cors",
+        "summoner-name",
+        "rule-6",
+        "rule-6a",
+        "rule-6b",
+        "rule-5"
     ],
     "categories": [
         {
@@ -242,7 +240,7 @@
         },
         {
             "command": "cors",
-            "counter": 187,
+            "counter": 188,
             "message": "Client-side calls are blocked because there is no way to make them without exposing your API key to users. You will need to setup a backend server that can make API calls while keeping your API key secure. If you want to quickly setup a proxy server, you can create some functions with AWS Lambda (<https://pastebin.com/LYsyfGgD>) or use Kernel (<https://github.com/meraki-analytics/kernel>).\nIf your project is only intended for personal usage, you can modify your browser settings to disable CORS (the mechanism which blocks you from making client-side calls). However, you will not be allowed to publish your site if you do this. More info about disabling CORS can be found here: <https://www.thepolyglotdeveloper.com/2014/08/bypass-cors-errors-testing-apis-locally/>",
             "categoryId": "%E2%84%B9"
         },
@@ -452,7 +450,7 @@
         },
         {
             "command": "lcu-start",
-            "counter": 13,
+            "counter": 14,
             "message": "https://hextechdocs.dev/getting-started-with-the-lcu-api/",
             "categoryId": "%F0%9F%94%97"
         },
@@ -627,7 +625,7 @@
         {
             "command": "rate-limiting",
             "message": "https://developer.riotgames.com/rate-limiting.html",
-            "counter": 25,
+            "counter": 26,
             "categoryId": "%F0%9F%94%97"
         },
         {
@@ -686,7 +684,7 @@
         },
         {
             "command": "rule-5",
-            "counter": 8,
+            "counter": 9,
             "message": "dont dm rioters.",
             "categoryId": "TuxHammer:358298723035643905"
         },
@@ -698,15 +696,21 @@
         },
         {
             "command": "rule-6",
-            "counter": 22,
+            "counter": 23,
             "message": "Gurus do whatever they want. #screwTheRules ",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "rule-6a",
-            "counter": 4,
+            "counter": 5,
             "message": "...except André",
             "categoryId": "TuxHammer:358298723035643905"
+        },
+        {
+            "command": "rule-6b",
+            "counter": 0,
+            "message": "the rule-6a is optional...",
+            "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "rules-gurus",
@@ -752,7 +756,7 @@
         },
         {
             "command": "summoner-name",
-            "counter": 27,
+            "counter": 28,
             "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names will remain in the API for the foreseeable future, new accounts will not have a summoner name and instead will have a generated UUID.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
             "categoryId": "%E2%84%B9"
         },
@@ -788,7 +792,7 @@
         },
         {
             "command": "tuxedo",
-            "counter": 517,
+            "counter": 518,
             "message": "😍 [̲̅W̲̅][̲̅O̲̅][̲̅W̲̅]! You've found the 【S】【E】【C】【R】【E】【T】 𝕋𝕌𝕏𝔼𝔻𝕆 note! <:tuxedo:341518598084493313>\n```★·.·´¯`·.·★ Ｕｓｅ ｔｈｉｓ ｎｏｔｅ {counter} ｍｏｒｅ ｔｉｍｅｓ ｆｏｒ ７ ｙｅａｒｓ ｏｆ ｆｒｅｅ ｐｉｚｚａ! ★·.·´¯`·.·★```",
             "categoryId": "kappa:358293780107100160"
         },
@@ -841,10 +845,10 @@
             "categoryId": "%F0%9F%91%AA"
         },
         {
-            "command": "youbanistan",
-            "counter": 15,
-            "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
-            "categoryId": "TuxHammer:358298723035643905"
+            "command": "rule-6b",
+            "counter": 0,
+            "message": "the rule-6a is optional...",
+            "categoryId": "kappa:358293780107100160"
         }
     ]
 }
