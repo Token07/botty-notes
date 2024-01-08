@@ -23,7 +23,8 @@
         "ids",
         "verify-github",
         "app-verify",
-        "ids"
+        "ids",
+        "tournament-stub"
     ],
     "categories": [
         {
@@ -779,6 +780,12 @@
             "categoryId": "%E2%84%B9"
         },
         {
+            "command": "tournament-stub",
+            "counter": 1,
+            "message": "The tournament stub is an API available to developer and personal keys for development of the Tournament API. It helps you build the flow of the Tournament API into your application. The codes it generates are not real codes and will be the same every time.\nOnce your product is built you can apply for a production key with tournament access to use Tournament-V5 for the ability to generate real tournament codes.",
+            "categoryId": "%E2%84%B9"
+        },
+        {
             "command": "translators",
             "message": "If you'd prefer to speak to somebody in your native language, there is a list of volunteer translators pinned in #off-topic. These people can help you directly in your native language, or translate messages so somebody else can help you.",
             "categoryId": "%E2%84%B9",
@@ -843,12 +850,6 @@
             "counter": 16,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
-        },
-        {
-            "command": "tournament-stub",
-            "counter": 0,
-            "message": "The tournament stub is an API available to developer and personal keys for development of the Tournament API. It helps you build the flow of the Tournament API into your application. The codes it generates are not real codes and will be the same every time.\nOnce your product is built you can apply for a production key with tournament access to use Tournament-V5 for the ability to generate real tournament codes.",
-            "categoryId": "%E2%84%B9"
         }
     ]
 }
