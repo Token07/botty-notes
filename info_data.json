@@ -1,29 +1,29 @@
 {
     "recents": [
-        "lol-match-retention",
-        "just-ask",
-        "just-ask",
-        "match-v4",
-        "api-status-page",
-        "how-long",
-        "400",
-        "400",
-        "400",
-        "tuxedo",
-        "lcu-start",
-        "rate-limiting",
-        "cors",
+        "app-verify",
         "summoner-name",
-        "rule-6",
-        "rule-6a",
-        "rule-6b",
-        "rule-5",
-        "rule-6a",
-        "rule-6b",
-        "rule-6b",
-        "repo",
-        "rules-gurus",
-        "youbanistan"
+        "ids",
+        "good-bot",
+        "lcu",
+        "awesome-lcu",
+        "ids",
+        "ids",
+        "lcu-start",
+        "dont-mention-rioters",
+        "lcu-start",
+        "awesome-lcu",
+        "libs",
+        "arena",
+        "summoner-name",
+        "400",
+        "summoner-name",
+        "champion",
+        "513",
+        "cdragon",
+        "ids",
+        "verify-github",
+        "app-verify",
+        "ids"
     ],
     "categories": [
         {
@@ -66,7 +66,7 @@
         },
         {
             "command": "400",
-            "counter": 88,
+            "counter": 90,
             "message": "**400**: If you're getting this message, you've most likely entered an incorrect summonerId or PUUID.\nApplications are given a unique encryption on all IDs (summoner, account, and puuids). If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
             "categoryId": "429:453058143694487554"
         },
@@ -121,7 +121,7 @@
         {
             "command": "503",
             "message": "__**503 (Service Unavailable)**__\nThis error indicates the server is currently unavailable to handle requests because of an unknown reason. The Service Unavailable response implies a temporary condition which will be alleviated after some delay.\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 46,
+            "counter": 47,
             "categoryId": "429:453058143694487554"
         },
         {
@@ -156,7 +156,7 @@
         },
         {
             "command": "app-verify",
-            "counter": 25,
+            "counter": 28,
             "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
             "categoryId": "%E2%84%B9"
         },
@@ -174,7 +174,7 @@
         },
         {
             "command": "awesome-lcu",
-            "counter": 11,
+            "counter": 13,
             "message": "https://github.com/PixelHir/awesome-lcu",
             "categoryId": "%F0%9F%91%AA"
         },
@@ -204,7 +204,7 @@
         },
         {
             "command": "cdragon",
-            "counter": 279,
+            "counter": 282,
             "message": "cdragon is a community project aimed at fixing the errors in ddragon and providing assets from the game. Join the cdragon discord here https://discord.gg/yNFG5yk\nYou can find raw files (no API) here: https://raw.communitydragon.org/\nYou can find the CDN endpoints here: https://cdn.communitydragon.org/endpoints",
             "categoryId": "%F0%9F%91%AA"
         },
@@ -228,7 +228,7 @@
         },
         {
             "command": "champion",
-            "counter": 337,
+            "counter": 339,
             "message": "Here is a JSON containing all champion data for patch {ddragonVersion}: <http://ddragon.leagueoflegends.com/cdn/{ddragonVersion}/data/en_US/champion.json>\nHere are a couple of Javascript helper functions to get up to date champion info (using latest patch, with translation options and examples): <https://gist.github.com/Querijn/5fe4b9f65a1236b98ead0bc39ab155ad>",
             "categoryId": "%F0%9F%94%97"
         },
@@ -240,7 +240,7 @@
         },
         {
             "command": "cors",
-            "counter": 188,
+            "counter": 189,
             "message": "Client-side calls are blocked because there is no way to make them without exposing your API key to users. You will need to setup a backend server that can make API calls while keeping your API key secure. If you want to quickly setup a proxy server, you can create some functions with AWS Lambda (<https://pastebin.com/LYsyfGgD>) or use Kernel (<https://github.com/meraki-analytics/kernel>).\nIf your project is only intended for personal usage, you can modify your browser settings to disable CORS (the mechanism which blocks you from making client-side calls). However, you will not be allowed to publish your site if you do this. More info about disabling CORS can be found here: <https://www.thepolyglotdeveloper.com/2014/08/bypass-cors-errors-testing-apis-locally/>",
             "categoryId": "%E2%84%B9"
         },
@@ -264,7 +264,7 @@
         },
         {
             "command": "ddragon-explorer",
-            "counter": 6,
+            "counter": 7,
             "message": "You can look at the ddragon CDN contents here: http://ddragon.canisback.com/",
             "categoryId": "%F0%9F%94%97"
         },
@@ -289,7 +289,7 @@
         {
             "command": "dont-mention-rioters",
             "message": "Rule 5. Please do not mention or DM individual Rioters for help (unless advised to). Instead, ask in one of the public channels for assistance as it will get more exposure there (More 👀 will see it) and you will probably receive an answer faster. Note: This rule does not apply to Gurus, and Rioters.",
-            "counter": 175,
+            "counter": 176,
             "categoryId": "TuxHammer:358298723035643905"
         },
         {
@@ -355,7 +355,7 @@
         {
             "command": "good-bot",
             "message": "ty bby",
-            "counter": 117,
+            "counter": 119,
             "categoryId": "kappa:358293780107100160"
         },
         {
@@ -396,7 +396,7 @@
         },
         {
             "command": "ids",
-            "counter": 113,
+            "counter": 120,
             "message": "The API uses 3 types of IDs for players: summoner IDs, account IDs, and PUUIDs.\nDifferent APIs use different ID types, and you should use whichever type is required by the API you are using. \nSummoner and account IDs are only unique per region, and PUUIDs are unique globally. \nAs of API v4, all IDs are encrypted using encryption keys unique to each project. Because of this, an ID obtained with your dev key will not work with your production key (and vice versa).\n\nSummoner ID: When lol first came out, riot built every single system around league of legends, that's how summoner ID was born\nAccount ID: A few years ago Riot decided that they want to put the S into Riot Games so they started separating some systems from league and they started preparing for the multi-game future. That's how RSO (and with RSO, account ID) came to be\nPUUID: Riot realized that it sucks that you need an ID and a region just to find an account, so they made PUUIDs which is unique globally (so for example the merch store doesn't need to store your region too)",
             "categoryId": "%E2%84%B9"
         },
@@ -414,7 +414,7 @@
         },
         {
             "command": "issues",
-            "counter": 181,
+            "counter": 182,
             "message": "https://github.com/RiotGames/developer-relations/issues",
             "categoryId": "%F0%9F%94%97"
         },
@@ -444,13 +444,13 @@
         },
         {
             "command": "lcu",
-            "counter": 46,
+            "counter": 47,
             "message": "https://developer.riotgames.com/league-client-apis.html",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "lcu-start",
-            "counter": 14,
+            "counter": 16,
             "message": "https://hextechdocs.dev/getting-started-with-the-lcu-api/",
             "categoryId": "%F0%9F%94%97"
         },
@@ -480,7 +480,7 @@
         },
         {
             "command": "libs",
-            "counter": 83,
+            "counter": 84,
             "message": "Did you mean `!libs`?",
             "categoryId": "%E2%84%B9"
         },
@@ -673,7 +673,7 @@
         {
             "command": "rso",
             "message": "> RSO is Riot Sign On, standard OAuth2 that allows you to verify users own an account.\n> You need an approved production application and then apply to use RSO on the beta developer portal at <https://beta.developer.riotgames.com/>\n> For detailed questions on usage look at the pins and ask in <#946641562757107782>\n> or see the examples at: <https://github.com/RiotGames/developer-relations/tree/main/sample_apps/rso_sample_apps>",
-            "counter": 137,
+            "counter": 138,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -696,13 +696,13 @@
         },
         {
             "command": "rule-6",
-            "counter": 23,
+            "counter": 24,
             "message": "Gurus do whatever they want. #screwTheRules ",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "rule-6a",
-            "counter": 6,
+            "counter": 7,
             "message": "...except André",
             "categoryId": "TuxHammer:358298723035643905"
         },
@@ -727,7 +727,7 @@
         {
             "command": "server-info",
             "message": "This Discord server is for the Riot Games API, a tool which provides data to sites like op.gg. All Rioters here that are working officially are part of the team that manages the API, and will not be able to help you with support or gameplay issues. If you're having account related issues or technical problems, contact Riot Games support: <https://support.riotgames.com/hc/en-us>. If you have a game-related suggestion or feedback, post on the subreddit, or the League of Legends Discord: <https://www.reddit.com/r/leagueoflegends/> / <https://discordapp.com/invite/lol>",
-            "counter": 634,
+            "counter": 635,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -750,7 +750,7 @@
         },
         {
             "command": "summoner-name",
-            "counter": 28,
+            "counter": 32,
             "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names will remain in the API for the foreseeable future, new accounts will not have a summoner name and instead will have a generated UUID.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
             "categoryId": "%E2%84%B9"
         },
@@ -792,7 +792,7 @@
         },
         {
             "command": "unofficial-auth",
-            "counter": 25,
+            "counter": 26,
             "message": "This server is for approved usage of resources that Riot has made available to 3rd party developers. Store checkers or similar apps, or any application that prompts a user for their Riot Games credentials are not officially approved use case. The only supported use of Riot authentication on this server is with an approved application and RSO client credentials through the developer portal (https://developer.riotgames.com/)",
             "categoryId": "%E2%84%B9"
         },
@@ -804,13 +804,13 @@
         },
         {
             "command": "verify-github",
-            "counter": 9,
+            "counter": 10,
             "message": "As of 2023-08-28 GitHub verification is no longer acceptable.",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "version",
-            "counter": 400,
+            "counter": 401,
             "message": "**DDragon**: You can find the available versions here: http://ddragon.leagueoflegends.com/api/versions.json. The current version is {ddragonVersion}.\n**Game**: The game is currently at version {gameVersion}.",
             "categoryId": "%E2%84%B9"
         },
@@ -843,6 +843,12 @@
             "counter": 16,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
+        },
+        {
+            "command": "tournament-stub",
+            "counter": 0,
+            "message": "The tournament stub is an API available to developer and personal keys for development of the Tournament API. It helps you build the flow of the Tournament API into your application. The codes it generates are not real codes and will be the same every time.\nOnce your product is built you can apply for a production key with tournament access to use Tournament-V5 for the ability to generate real tournament codes.",
+            "categoryId": "%E2%84%B9"
         }
     ]
 }
