@@ -1,7 +1,5 @@
 {
     "recents": [
-        "legal",
-        "summoner-name",
         "roles",
         "rule-6",
         "app-verify",
@@ -24,7 +22,8 @@
         "champion",
         "400",
         "403",
-        "summoner-name"
+        "summoner-name",
+        "430"
     ],
     "categories": [
         {
@@ -720,6 +719,12 @@
             "categoryId": "%E2%84%B9"
         },
         {
+            "command": "runes",
+            "counter": 3,
+            "message": "Did you mean `.perks`?",
+            "categoryId": "%E2%84%B9"
+        },
+        {
             "command": "seed-data",
             "counter": 19,
             "message": "You can find seed ids for match data here http://canisback.com/matchId/ ",
@@ -850,12 +855,6 @@
             "counter": 16,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
-        },
-        {
-            "command": "ranked-emblems",
-            "counter": 0,
-            "message": "Riot provides ranked emblems in the form of a zip on the developer portal and does not include them in DDragon. You can download them here: <https://static.developer.riotgames.com/docs/lol/ranked-emblems-latest.zip>\nCDragon hosts the images from the client and you can find them here: <https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-static-assets/global/default/images/ranked-emblem/>",
-            "categoryId": "%F0%9F%94%97"
         }
     ]
 }
