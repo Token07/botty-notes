@@ -1,37 +1,30 @@
 {
     "recents": [
-        "api-status-page",
-        "api-status-page",
-        "roles",
-        "lcu",
-        "lcu-swagger",
-        "champion",
-        "400",
-        "403",
-        "summoner-name",
-        "430",
-        "summoner-name",
-        "401",
-        "lcu-start",
-        "issues",
-        "youbanistan",
-        "lol-match-retention",
-        "dab",
-        "pins",
-        "server-info",
-        "items",
-        "champion",
-        "rso",
-        "tuxedo",
-        "tuxedo",
-        "just-ask",
-        "summoner-name",
-        "queues",
-        "summoner-name",
         "lol-match-retention",
         "summoner-name",
         "how-long",
-        "tournament"
+        "tournament",
+        "champion",
+        "summoner-name",
+        "items",
+        "python",
+        "libraries",
+        "how-long",
+        "cors",
+        "youbanistan",
+        "issues",
+        "youbanistan",
+        "knife",
+        "tuxedo",
+        "tuxedo",
+        "champion",
+        "runes",
+        "perks",
+        "ranked-emblems",
+        "summoner-name",
+        "rate-limiting",
+        "1",
+        "legal"
     ],
     "categories": [
         {
@@ -236,7 +229,7 @@
         },
         {
             "command": "champion",
-            "counter": 344,
+            "counter": 346,
             "message": "Here is a JSON containing all champion data for patch {ddragonVersion}: <http://ddragon.leagueoflegends.com/cdn/{ddragonVersion}/data/en_US/champion.json>\nHere are a couple of Javascript helper functions to get up to date champion info (using latest patch, with translation options and examples): <https://gist.github.com/Querijn/5fe4b9f65a1236b98ead0bc39ab155ad>",
             "categoryId": "%F0%9F%94%97"
         },
@@ -248,7 +241,7 @@
         },
         {
             "command": "cors",
-            "counter": 189,
+            "counter": 190,
             "message": "Client-side calls are blocked because there is no way to make them without exposing your API key to users. You will need to setup a backend server that can make API calls while keeping your API key secure. If you want to quickly setup a proxy server, you can create some functions with AWS Lambda (<https://pastebin.com/LYsyfGgD>) or use Kernel (<https://github.com/meraki-analytics/kernel>).\nIf your project is only intended for personal usage, you can modify your browser settings to disable CORS (the mechanism which blocks you from making client-side calls). However, you will not be allowed to publish your site if you do this. More info about disabling CORS can be found here: <https://www.thepolyglotdeveloper.com/2014/08/bypass-cors-errors-testing-apis-locally/>",
             "categoryId": "%E2%84%B9"
         },
@@ -274,6 +267,12 @@
             "command": "ddragon-explorer",
             "counter": 7,
             "message": "You can look at the ddragon CDN contents here: http://ddragon.canisback.com/",
+            "categoryId": "%F0%9F%94%97"
+        },
+        {
+            "command": "dev-support",
+            "counter": 0,
+            "message": "<https://support-developer.riotgames.com/>",
             "categoryId": "%F0%9F%94%97"
         },
         {
@@ -392,7 +391,7 @@
         },
         {
             "command": "how-long",
-            "counter": 132,
+            "counter": 133,
             "message": "**Applications**: They are typically reviewed weekly for the previous week. However, due to overwhelming amounts of requests, sometimes the review process can take up to three weeks.\n**Messages**: Each week they review messages from the week prior. Due to an overwhelming amount of messages, sometimes it can take up to two weeks to respond. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.",
             "categoryId": "kappa:358293780107100160"
         },
@@ -422,13 +421,13 @@
         },
         {
             "command": "issues",
-            "counter": 185,
+            "counter": 186,
             "message": "https://github.com/RiotGames/developer-relations/issues",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "items",
-            "counter": 15,
+            "counter": 16,
             "message": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/items.json",
             "categoryId": "%E2%84%B9"
         },
@@ -446,7 +445,7 @@
         },
         {
             "command": "knife",
-            "counter": 9,
+            "counter": 10,
             "message": "🔪",
             "categoryId": "kappa:358293780107100160"
         },
@@ -476,13 +475,13 @@
         },
         {
             "command": "legal",
-            "counter": 64,
+            "counter": 65,
             "message": "Guidelines concerning the usage of Riot's intellectual property can be found here: https://www.riotgames.com/legal-jibber-jabber",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "libraries",
-            "counter": 3,
+            "counter": 4,
             "message": "Use !libs <your language here> to get a list of libraries made for your language. For example, !libs python.",
             "categoryId": "%E2%84%B9"
         },
@@ -559,12 +558,6 @@
             "categoryId": "%E2%84%B9"
         },
         {
-            "command": "money",
-            "counter": 10,
-            "message": "https://developer.riotgames.com/policies.html#monetization",
-            "categoryId": "%F0%9F%91%AA"
-        },
-        {
             "command": "my-apps",
             "message": "https://developer.riotgames.com/apps",
             "counter": 27,
@@ -590,7 +583,7 @@
         },
         {
             "command": "perks",
-            "counter": 110,
+            "counter": 111,
             "message": "Rune list: http://ddragon.leagueoflegends.com/cdn/{ddragonVersion}/data/en_US/runesReforged.json\nRune icons: the icon field for each rune is relative to https://ddragon.leagueoflegends.com/cdn/img/ (e.g. https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/Electrocute/Electrocute.png)\nUsing CDragon, there's this file that contains more in-depth information:\nhttp://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perks.json",
             "categoryId": "%E2%84%B9"
         },
@@ -620,7 +613,7 @@
         },
         {
             "command": "ranked-emblems",
-            "counter": 0,
+            "counter": 1,
             "message": "Riot provides ranked emblems in the form of a zip on the developer portal and does not include them in DDragon. You can download them here: <https://static.developer.riotgames.com/docs/lol/ranked-emblems-latest.zip>\nCDragon hosts the images from the client and you can find them here: <https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-static-assets/global/default/images/ranked-emblem/>",
             "categoryId": "%F0%9F%94%97"
         },
@@ -639,7 +632,7 @@
         {
             "command": "rate-limiting",
             "message": "https://developer.riotgames.com/rate-limiting.html",
-            "counter": 27,
+            "counter": 28,
             "categoryId": "%F0%9F%94%97"
         },
         {
@@ -728,7 +721,7 @@
         },
         {
             "command": "runes",
-            "counter": 3,
+            "counter": 4,
             "message": "Did you mean `.perks`?",
             "categoryId": "%E2%84%B9"
         },
@@ -764,7 +757,7 @@
         },
         {
             "command": "summoner-name",
-            "counter": 39,
+            "counter": 41,
             "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names will remain in the API for the foreseeable future, new accounts will not have a summoner name and instead will have a generated UUID.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
             "categoryId": "%E2%84%B9"
         },
@@ -806,7 +799,7 @@
         },
         {
             "command": "tuxedo",
-            "counter": 520,
+            "counter": 522,
             "message": "😍 [̲̅W̲̅][̲̅O̲̅][̲̅W̲̅]! You've found the 【S】【E】【C】【R】【E】【T】 𝕋𝕌𝕏𝔼𝔻𝕆 note! <:tuxedo:341518598084493313>\n```★·.·´¯`·.·★ Ｕｓｅ ｔｈｉｓ ｎｏｔｅ {counter} ｍｏｒｅ ｔｉｍｅｓ ｆｏｒ ７ ｙｅａｒｓ ｏｆ ｆｒｅｅ ｐｉｚｚａ! ★·.·´¯`·.·★```",
             "categoryId": "kappa:358293780107100160"
         },
@@ -860,9 +853,15 @@
         },
         {
             "command": "youbanistan",
-            "counter": 17,
+            "counter": 19,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
+        },
+        {
+            "command": "dev-support",
+            "counter": 0,
+            "message": "<https://support-developer.riotgames.com/>",
+            "categoryId": "%F0%9F%94%97"
         }
     ]
 }
