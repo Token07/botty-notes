@@ -1,7 +1,5 @@
 {
     "recents": [
-        "lol-match-retention",
-        "summoner-name",
         "how-long",
         "tournament",
         "champion",
@@ -24,7 +22,8 @@
         "summoner-name",
         "rate-limiting",
         "1",
-        "legal"
+        "legal",
+        "cdragon"
     ],
     "categories": [
         {
@@ -205,7 +204,7 @@
         },
         {
             "command": "cdragon",
-            "counter": 287,
+            "counter": 288,
             "message": "cdragon is a community project aimed at fixing the errors in ddragon and providing assets from the game. Join the cdragon discord here https://discord.gg/yNFG5yk\nYou can find raw files (no API) here: https://raw.communitydragon.org/\nYou can find the CDN endpoints here: https://cdn.communitydragon.org/endpoints",
             "categoryId": "%F0%9F%91%AA"
         },
@@ -558,6 +557,12 @@
             "categoryId": "%E2%84%B9"
         },
         {
+            "command": "money",
+            "counter": 10,
+            "message": "https://developer.riotgames.com/policies.html#monetization",
+            "categoryId": "%F0%9F%91%AA"
+        },
+        {
             "command": "my-apps",
             "message": "https://developer.riotgames.com/apps",
             "counter": 27,
@@ -856,12 +861,6 @@
             "counter": 19,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
-        },
-        {
-            "command": "dev-support",
-            "counter": 0,
-            "message": "<https://support-developer.riotgames.com/>",
-            "categoryId": "%F0%9F%94%97"
         }
     ]
 }
