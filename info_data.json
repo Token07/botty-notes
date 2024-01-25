@@ -1,20 +1,5 @@
 {
     "recents": [
-        "how-long",
-        "tournament",
-        "champion",
-        "summoner-name",
-        "items",
-        "python",
-        "libraries",
-        "how-long",
-        "cors",
-        "youbanistan",
-        "issues",
-        "youbanistan",
-        "knife",
-        "tuxedo",
-        "tuxedo",
         "champion",
         "runes",
         "perks",
@@ -23,7 +8,26 @@
         "rate-limiting",
         "1",
         "legal",
-        "cdragon"
+        "cdragon",
+        "runes",
+        "perks",
+        "runes",
+        "runes",
+        "perks",
+        "libraries",
+        "lcu",
+        "awesome-lcu",
+        "1",
+        "rso",
+        "just-ask",
+        "app-verify",
+        "cors",
+        "400",
+        "champion",
+        "cors",
+        "how-long",
+        "app-verify",
+        "match-prefix"
     ],
     "categories": [
         {
@@ -66,7 +70,7 @@
         },
         {
             "command": "400",
-            "counter": 93,
+            "counter": 94,
             "message": "**400**: If you're getting this message, you've most likely entered an incorrect summonerId or PUUID.\nApplications are given a unique encryption on all IDs (summoner, account, and puuids). If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
             "categoryId": "429:453058143694487554"
         },
@@ -156,7 +160,7 @@
         },
         {
             "command": "app-verify",
-            "counter": 33,
+            "counter": 35,
             "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
             "categoryId": "%E2%84%B9"
         },
@@ -174,7 +178,7 @@
         },
         {
             "command": "awesome-lcu",
-            "counter": 13,
+            "counter": 14,
             "message": "https://github.com/PixelHir/awesome-lcu",
             "categoryId": "%F0%9F%91%AA"
         },
@@ -228,7 +232,7 @@
         },
         {
             "command": "champion",
-            "counter": 346,
+            "counter": 347,
             "message": "Here is a JSON containing all champion data for patch {ddragonVersion}: <http://ddragon.leagueoflegends.com/cdn/{ddragonVersion}/data/en_US/champion.json>\nHere are a couple of Javascript helper functions to get up to date champion info (using latest patch, with translation options and examples): <https://gist.github.com/Querijn/5fe4b9f65a1236b98ead0bc39ab155ad>",
             "categoryId": "%F0%9F%94%97"
         },
@@ -240,8 +244,14 @@
         },
         {
             "command": "cors",
-            "counter": 190,
+            "counter": 192,
             "message": "Client-side calls are blocked because there is no way to make them without exposing your API key to users. You will need to setup a backend server that can make API calls while keeping your API key secure. If you want to quickly setup a proxy server, you can create some functions with AWS Lambda (<https://pastebin.com/LYsyfGgD>) or use Kernel (<https://github.com/meraki-analytics/kernel>).\nIf your project is only intended for personal usage, you can modify your browser settings to disable CORS (the mechanism which blocks you from making client-side calls). However, you will not be allowed to publish your site if you do this. More info about disabling CORS can be found here: <https://www.thepolyglotdeveloper.com/2014/08/bypass-cors-errors-testing-apis-locally/>",
+            "categoryId": "%E2%84%B9"
+        },
+        {
+            "command": "creep-score",
+            "counter": 0,
+            "message": "To get the cs count shown in game:\n``neutralMinionsKilled`` + ``totalMinionsKilled``",
             "categoryId": "%E2%84%B9"
         },
         {
@@ -390,7 +400,7 @@
         },
         {
             "command": "how-long",
-            "counter": 133,
+            "counter": 134,
             "message": "**Applications**: They are typically reviewed weekly for the previous week. However, due to overwhelming amounts of requests, sometimes the review process can take up to three weeks.\n**Messages**: Each week they review messages from the week prior. Due to an overwhelming amount of messages, sometimes it can take up to two weeks to respond. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.",
             "categoryId": "kappa:358293780107100160"
         },
@@ -439,7 +449,7 @@
         {
             "command": "just-ask",
             "message": "If you're having an issue and need help with something, just post your problem in the relevant channel (don't bother asking if somebody can help you first). This should decrease the time it takes for you to get the help you need.",
-            "counter": 133,
+            "counter": 134,
             "categoryId": "TuxHammer:358298723035643905"
         },
         {
@@ -450,7 +460,7 @@
         },
         {
             "command": "lcu",
-            "counter": 48,
+            "counter": 49,
             "message": "https://developer.riotgames.com/league-client-apis.html",
             "categoryId": "%F0%9F%94%97"
         },
@@ -480,7 +490,7 @@
         },
         {
             "command": "libraries",
-            "counter": 4,
+            "counter": 5,
             "message": "Use !libs <your language here> to get a list of libraries made for your language. For example, !libs python.",
             "categoryId": "%E2%84%B9"
         },
@@ -503,12 +513,6 @@
             "categoryId": "%E2%84%B9"
         },
         {
-            "command": "lol-match-retention",
-            "counter": 18,
-            "message": "Match data is retained for 2 years, match timelines for 1 year. A player's match list will only show up to the last 1000 matches played. Non-public games (customs, practice tool, etc.) count towards the 1000 match limit so it may never hold exactly 1000. Games exceeding the limit but not exceeding the retention period will only be accessible through the match list of another player that participated in the game, or directly by the match id.",
-            "categoryId": "%E2%84%B9"
-        },
-        {
             "command": "lookup",
             "counter": 2,
             "message": "It's !lookup, baka.",
@@ -528,7 +532,7 @@
         },
         {
             "command": "match-prefix",
-            "counter": 12,
+            "counter": 13,
             "message": "If you get a gameId from the client you will need to add the platform prefix to the gameId to get a matchId.\nFor example if you're playing on EUW and your gameId is ``6553947989`` the matchId will be ``EUW1_6553947989``.\nCustom game data is still unavailable even if you have the matchId.",
             "categoryId": "%E2%84%B9"
         },
@@ -588,7 +592,7 @@
         },
         {
             "command": "perks",
-            "counter": 111,
+            "counter": 113,
             "message": "Rune list: http://ddragon.leagueoflegends.com/cdn/{ddragonVersion}/data/en_US/runesReforged.json\nRune icons: the icon field for each rune is relative to https://ddragon.leagueoflegends.com/cdn/img/ (e.g. https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/Electrocute/Electrocute.png)\nUsing CDragon, there's this file that contains more in-depth information:\nhttp://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perks.json",
             "categoryId": "%E2%84%B9"
         },
@@ -685,7 +689,7 @@
         {
             "command": "rso",
             "message": "> RSO is Riot Sign On, standard OAuth2 that allows you to verify users own an account.\n> You need an approved production application and then apply to use RSO on the beta developer portal at <https://beta.developer.riotgames.com/>\n> For detailed questions on usage look at the pins and ask in <#946641562757107782>\n> or see the examples at: <https://github.com/RiotGames/developer-relations/tree/main/sample_apps/rso_sample_apps>",
-            "counter": 140,
+            "counter": 141,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -726,7 +730,7 @@
         },
         {
             "command": "runes",
-            "counter": 4,
+            "counter": 7,
             "message": "Did you mean `.perks`?",
             "categoryId": "%E2%84%B9"
         },
@@ -861,6 +865,12 @@
             "counter": 19,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
+        },
+        {
+            "command": "creep-score",
+            "counter": 0,
+            "message": "To get the cs count shown in game:\n``neutralMinionsKilled`` + ``totalMinionsKilled``",
+            "categoryId": "%E2%84%B9"
         }
     ]
 }
