@@ -27,7 +27,8 @@
         "cors",
         "how-long",
         "app-verify",
-        "match-prefix"
+        "match-prefix",
+        "api-ref"
     ],
     "categories": [
         {
@@ -137,7 +138,7 @@
         {
             "command": "api-ref",
             "message": "https://developer.riotgames.com/api-methods/",
-            "counter": 7,
+            "counter": 8,
             "categoryId": "%F0%9F%94%97"
         },
         {
@@ -513,6 +514,12 @@
             "categoryId": "%E2%84%B9"
         },
         {
+            "command": "lol-match-retention",
+            "counter": 18,
+            "message": "Match data is retained for 2 years, match timelines for 1 year. A player's match list will only show up to the last 1000 matches played. Non-public games (customs, practice tool, etc.) count towards the 1000 match limit so it may never hold exactly 1000. Games exceeding the limit but not exceeding the retention period will only be accessible through the match list of another player that participated in the game, or directly by the match id.",
+            "categoryId": "%E2%84%B9"
+        },
+        {
             "command": "lookup",
             "counter": 2,
             "message": "It's !lookup, baka.",
@@ -865,12 +872,6 @@
             "counter": 19,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
-        },
-        {
-            "command": "creep-score",
-            "counter": 0,
-            "message": "To get the cs count shown in game:\n``neutralMinionsKilled`` + ``totalMinionsKilled``",
-            "categoryId": "%E2%84%B9"
         }
     ]
 }
