@@ -1,7 +1,5 @@
 {
     "recents": [
-        "403",
-        "503",
         "how-long",
         "htd",
         "lol-match-retention",
@@ -24,7 +22,12 @@
         "summoner-name",
         "api-status-page",
         "cors",
-        "routing-values"
+        "routing-values",
+        "rule-6",
+        "rule-6",
+        "401",
+        "400",
+        "summoner-name"
     ],
     "categories": [
         {
@@ -67,13 +70,13 @@
         },
         {
             "command": "400",
-            "counter": 103,
+            "counter": 104,
             "message": "**400**: If you're getting this message, you've most likely entered an incorrect summonerId or PUUID.\nApplications are given a unique encryption on all IDs (summoner, account, and puuids). If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "401",
-            "counter": 101,
+            "counter": 102,
             "message": "__**401 (Unauthorized)**__ \nThis error indicates that the request being made did not contain the necessary authentication credentials (e.g., an API key) and therefore the client was denied access. The client should not continue to make similar requests without including an API key in the request.\n\n**Common Reasons:**\nAn API key has not been included in the request.",
             "categoryId": "429:453058143694487554"
         },
@@ -715,7 +718,7 @@
         },
         {
             "command": "rule-6",
-            "counter": 26,
+            "counter": 28,
             "message": "Gurus do whatever they want. #screwTheRules ",
             "categoryId": "kappa:358293780107100160"
         },
@@ -763,8 +766,8 @@
         },
         {
             "command": "summoner-name",
-            "counter": 68,
-            "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names will remain in the API for the foreseeable future, new accounts will not have a summoner name and instead will have a generated UUID.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
+            "counter": 69,
+            "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names have been transitioned out of the API responses starting April 8th 2024.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
             "categoryId": "%E2%84%B9"
         },
         {
