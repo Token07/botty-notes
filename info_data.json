@@ -1,12 +1,5 @@
 {
     "recents": [
-        "403",
-        "devportal",
-        "how-long",
-        "401",
-        "dab",
-        "summoner-name",
-        "api-status-page",
         "cors",
         "routing-values",
         "rule-6",
@@ -29,7 +22,8 @@
         "rso",
         "how-long",
         "summoner-name",
-        "ids"
+        "ids",
+        "format-code"
     ],
     "categories": [
         {
@@ -354,7 +348,7 @@
         },
         {
             "command": "format-code",
-            "counter": 0,
+            "counter": 1,
             "message": "You can format your code in a message enclosing it in three backticks ( \\` ) to make your code readable. You can add your language after the backticks to add code highlighting.\nExample:\n\\`\\`\\`js\nconsole.log(\"Hello World!\");\n\\`\\`\\`\nTurns into:\n```js\nconsole.log(\"Hello World\");\n```",
             "categoryId": "%E2%84%B9"
         },
@@ -785,6 +779,12 @@
             "categoryId": "%F0%9F%94%97"
         },
         {
+            "command": "swagger",
+            "message": "http://www.mingweisamuel.com/riotapi-schema/tool/",
+            "counter": 30,
+            "categoryId": "%F0%9F%91%AA"
+        },
+        {
             "command": "tournament",
             "message": "https://developer.riotgames.com/docs/lol#tournament-api",
             "counter": 25,
@@ -867,12 +867,6 @@
             "counter": 19,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
-        },
-        {
-            "command": "format-code",
-            "counter": 0,
-            "message": "You can format your code in a message enclosing it in three backticks ( \\` ) to make your code readable. You can add your language after the backticks to add code highlighting.\nExample:\n\\`\\`\\`js\nconsole.log(\"Hello World!\");\n\\`\\`\\`\nTurns into:\n```js\nconsole.log(\"Hello World\");\n```",
-            "categoryId": "%E2%84%B9"
         }
     ]
 }
