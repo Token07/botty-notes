@@ -1,19 +1,5 @@
 {
     "recents": [
-        "how-long",
-        "htd",
-        "lol-match-retention",
-        "verify-github",
-        "app-verify",
-        "cdragon",
-        "meraki",
-        "403",
-        "how-long",
-        "rate-limiting",
-        "verify-github",
-        "app-verify",
-        "8",
-        "how-long",
         "403",
         "devportal",
         "how-long",
@@ -27,7 +13,23 @@
         "rule-6",
         "401",
         "400",
-        "summoner-name"
+        "summoner-name",
+        "cs",
+        "cors",
+        "time",
+        "gamecreation",
+        "gametime",
+        "dont-mention-rioters",
+        "server-info",
+        "summoner-name",
+        "400",
+        "support",
+        "cors",
+        "rso",
+        "rso",
+        "how-long",
+        "summoner-name",
+        "ids"
     ],
     "categories": [
         {
@@ -70,7 +72,7 @@
         },
         {
             "command": "400",
-            "counter": 104,
+            "counter": 105,
             "message": "**400**: If you're getting this message, you've most likely entered an incorrect summonerId or PUUID.\nApplications are given a unique encryption on all IDs (summoner, account, and puuids). If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
             "categoryId": "429:453058143694487554"
         },
@@ -244,7 +246,7 @@
         },
         {
             "command": "cors",
-            "counter": 207,
+            "counter": 209,
             "message": "Client-side calls are blocked because there is no way to make them without exposing your API key to users. You will need to setup a backend server that can make API calls while keeping your API key secure. If you want to quickly setup a proxy server, you can create some functions with AWS Lambda (<https://pastebin.com/LYsyfGgD>) or use Kernel (<https://github.com/meraki-analytics/kernel>).\nIf your project is only intended for personal usage, you can modify your browser settings to disable CORS (the mechanism which blocks you from making client-side calls). However, you will not be allowed to publish your site if you do this. More info about disabling CORS can be found here: <https://www.thepolyglotdeveloper.com/2014/08/bypass-cors-errors-testing-apis-locally/>",
             "categoryId": "%E2%84%B9"
         },
@@ -305,7 +307,7 @@
         {
             "command": "dont-mention-rioters",
             "message": "Rule 5. Please do not mention or DM individual Rioters for help (unless advised to). Instead, ask in one of the public channels for assistance as it will get more exposure there (More 👀 will see it) and you will probably receive an answer faster. Note: This rule does not apply to Gurus, and Rioters.",
-            "counter": 176,
+            "counter": 177,
             "categoryId": "TuxHammer:358298723035643905"
         },
         {
@@ -349,6 +351,12 @@
             "message": "Please post an example of your problem, without your API key.",
             "counter": 58,
             "categoryId": "TuxHammer:358298723035643905"
+        },
+        {
+            "command": "format-code",
+            "counter": 0,
+            "message": "You can format your code in a message enclosing it in three backticks ( \\` ) to make your code readable. You can add your language after the backticks to add code highlighting.\nExample:\n\\`\\`\\`js\nconsole.log(\"Hello World!\");\n\\`\\`\\`\nTurns into:\n```js\nconsole.log(\"Hello World\");\n```",
+            "categoryId": "%E2%84%B9"
         },
         {
             "command": "forum",
@@ -400,7 +408,7 @@
         },
         {
             "command": "how-long",
-            "counter": 160,
+            "counter": 161,
             "message": "**Applications**: They are typically reviewed weekly for the previous week. However, due to overwhelming amounts of requests, sometimes the review process can take up to three weeks.\n**Messages**: Each week they review messages from the week prior. Due to an overwhelming amount of messages, sometimes it can take up to two weeks to respond. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.",
             "categoryId": "kappa:358293780107100160"
         },
@@ -412,7 +420,7 @@
         },
         {
             "command": "ids",
-            "counter": 129,
+            "counter": 130,
             "message": "The API uses 3 types of IDs for players: summoner IDs, account IDs, and PUUIDs.\nDifferent APIs use different ID types, and you should use whichever type is required by the API you are using. \nSummoner and account IDs are only unique per region, and PUUIDs are unique globally. \nAs of API v4, all IDs are encrypted using encryption keys unique to each project. Because of this, an ID obtained with your dev key will not work with your production key (and vice versa).\n\nSummoner ID: When lol first came out, riot built every single system around league of legends, that's how summoner ID was born\nAccount ID: A few years ago Riot decided that they want to put the S into Riot Games so they started separating some systems from league and they started preparing for the multi-game future. That's how RSO (and with RSO, account ID) came to be\nPUUID: Riot realized that it sucks that you need an ID and a region just to find an account, so they made PUUIDs which is unique globally (so for example the merch store doesn't need to store your region too)",
             "categoryId": "%E2%84%B9"
         },
@@ -695,7 +703,7 @@
         {
             "command": "rso",
             "message": "> RSO is Riot Sign On, standard OAuth2 that allows you to verify users own an account.\n> You need an approved production application and then apply to use RSO on the beta developer portal at <https://beta.developer.riotgames.com/>\n> For detailed questions on usage look at the pins and ask in <#946641562757107782>\n> or see the examples at: <https://github.com/RiotGames/developer-relations/tree/main/sample_apps/rso_sample_apps>",
-            "counter": 145,
+            "counter": 147,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -743,7 +751,7 @@
         {
             "command": "server-info",
             "message": "This Discord server is for the Riot Games API, a tool which provides data to sites like op.gg. All Rioters here that are working officially are part of the team that manages the API, and will not be able to help you with support or gameplay issues. If you're having account related issues or technical problems, contact Riot Games support: <https://support.riotgames.com/hc/en-us>. If you have a game-related suggestion or feedback, post on the subreddit, or the League of Legends Discord: <https://www.reddit.com/r/leagueoflegends/> / <https://discordapp.com/invite/lol>",
-            "counter": 644,
+            "counter": 645,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -766,21 +774,15 @@
         },
         {
             "command": "summoner-name",
-            "counter": 69,
+            "counter": 71,
             "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names have been transitioned out of the API responses starting April 8th 2024.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "support",
-            "counter": 173,
+            "counter": 174,
             "message": "https://support.riotgames.com or support@riotgames.com",
             "categoryId": "%F0%9F%94%97"
-        },
-        {
-            "command": "swagger",
-            "message": "http://www.mingweisamuel.com/riotapi-schema/tool/",
-            "counter": 30,
-            "categoryId": "%F0%9F%91%AA"
         },
         {
             "command": "tournament",
@@ -865,6 +867,12 @@
             "counter": 19,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
+        },
+        {
+            "command": "format-code",
+            "counter": 0,
+            "message": "You can format your code in a message enclosing it in three backticks ( \\` ) to make your code readable. You can add your language after the backticks to add code highlighting.\nExample:\n\\`\\`\\`js\nconsole.log(\"Hello World!\");\n\\`\\`\\`\nTurns into:\n```js\nconsole.log(\"Hello World\");\n```",
+            "categoryId": "%E2%84%B9"
         }
     ]
 }
