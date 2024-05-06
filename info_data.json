@@ -1,30 +1,4 @@
 {
-    "recents": [
-        "cors",
-        "routing-values",
-        "rule-6",
-        "rule-6",
-        "401",
-        "400",
-        "summoner-name",
-        "cs",
-        "cors",
-        "time",
-        "gamecreation",
-        "gametime",
-        "dont-mention-rioters",
-        "server-info",
-        "summoner-name",
-        "400",
-        "support",
-        "cors",
-        "rso",
-        "rso",
-        "how-long",
-        "summoner-name",
-        "ids",
-        "format-code"
-    ],
     "categories": [
         {
             "icon": "%E2%84%B9",
@@ -54,86 +28,92 @@
     "messages": [
         {
             "command": "200",
-            "counter": 8,
+            "counter": 3,
             "message": "Everything is fine here, move along. ",
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "204",
-            "counter": 2,
+            "counter": 1,
             "message": "__**204 (No Content)**__\nThis error indicates that the server has not found a match for the API request being made. No indication is given whether the condition is temporary or permanent. This seems to be a common return value for the clash endpoints, where others would use 404. As of right now, this behaviour is expected but undocumented.\nhttps://developer.riotgames.com/response-codes.html",
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "400",
-            "counter": 105,
-            "message": "**400**: If you're getting this message, you've most likely entered an incorrect summonerId or PUUID.\nApplications are given a unique encryption on all IDs (summoner, account, and puuids). If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
+            "counter": 40,
+            "message": "If you're getting this message, you've most likely entered an incorrect Summoner or Account ID.",
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "401",
-            "counter": 102,
+            "counter": 35,
             "message": "__**401 (Unauthorized)**__ \nThis error indicates that the request being made did not contain the necessary authentication credentials (e.g., an API key) and therefore the client was denied access. The client should not continue to make similar requests without including an API key in the request.\n\n**Common Reasons:**\nAn API key has not been included in the request.",
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "402",
             "message": "__**402 (Payment Required)**__\nThis error indicates that payment is required and the request has therefore been denied. The client should not continue to make similar requests without appropriate payment.",
-            "counter": 10,
+            "counter": 6,
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "403",
             "message": "__**403 (Forbidden)**__\nThis error indicates that the API request being made did not contain the necessary authentication credentials and therefore the client was denied access. If authentication credentials were already included then the Unauthorized response indicates that authorization has been refused for those credentials. In the case of the API, authorization credentials refer to your API key.\n\n**Common Reasons:**\nNo API key was provided with the API request\nAn invalid API key was provided with the API request\nA blacklisted API key was provided with the API request\nThe API request was for an incorrect or unsupported path\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 217,
+            "counter": 132,
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "404",
             "message": "__**404 (Not Found)**__\nThis error indicates that the server has not found a match for the API request being made. No indication is given whether the condition is temporary or permanent.\n\n**Common Reasons:**\nThe ID or name provided does not match any existing resource (e.g., there is no summoner matching the specified ID)\nThe API request was for an incorrect or unsupported path\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 46,
+            "counter": 30,
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "414",
-            "counter": 2,
+            "counter": 0,
             "message": "the url you have supplied to the server is too long... Make sure it is correct",
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "415",
             "message": "__**415 (Unsupported Media Type)**__\nThis error indicates that the server is refusing to service the request because the body of the request is in a format that is not supported.\n\n**Common Reasons:**\nThe `Content-Type` header was not appropriately set\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 14,
+            "counter": 11,
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "429",
             "message": "__**429 (Rate Limit Exceeded)**__\nThis error indicates that the application has exhausted its maximum number of allotted API calls allowed for a given duration. If the client receives a Rate Limit Exceeded response the client should process this response and halt future API calls for the duration, in seconds, indicated by the `Retry-After` header. **Applications that are in violation of this policy may have their access disabled to preserve the integrity of the API.** Please refer to our Rate Limiting documentation (https://developer.riotgames.com/rate-limiting.html) for more information on determining if you have been rate limited and how to avoid it.\n\n**Common Reasons:**\nUnregulated API calls. Check your API Call Graphs to monitor your Dev and Production API key activity.\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 47,
+            "counter": 34,
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "500",
             "message": "__**500 (Internal Server Error)**__\nThis error indicates an unexpected condition or exception which prevented the server from fulfilling an API request.\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 29,
+            "counter": 26,
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "503",
             "message": "__**503 (Service Unavailable)**__\nThis error indicates the server is currently unavailable to handle requests because of an unknown reason. The Service Unavailable response implies a temporary condition which will be alleviated after some delay.\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 49,
+            "counter": 30,
             "categoryId": "429:453058143694487554"
         },
         {
+            "command": "acs",
+            "counter": 48,
+            "message": "You can access matches played on the tournament realm through Riot's ACS (access control system). In addition to the match ID, you'll need a game hash (I'm not sure where you get that from).\n\nAn example URL is https://acs.leagueoflegends.com/v1/stats/game/TRLH3/1001380241?gameHash=23c53fb7fed21f53, and you can also get the match timeline from https://acs.leagueoflegends.com/v1/stats/game/TRLH3/1001380241/timeline?gameHash=23c53fb7fed21f53\n\nNote that accessing matches played on the tournament realm is the only approved usage of the ACS, and it isn't officially supported for 3rd party developers (so it may change at any time without warning)",
+            "categoryId": "%E2%84%B9"
+        },
+        {
             "command": "adab",
-            "counter": 26,
+            "counter": 11,
             "message": "<a:adab:599715211288510468>",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "api-ref",
             "message": "https://developer.riotgames.com/api-methods/",
-            "counter": 8,
+            "counter": 6,
             "categoryId": "%F0%9F%94%97"
         },
         {
@@ -145,48 +125,36 @@
         {
             "command": "api-status-api",
             "message": "https://querijn.codes/api_status/",
-            "counter": 14,
+            "counter": 7,
             "categoryId": "%F0%9F%91%AA"
         },
         {
-            "command": "api-status-page",
-            "counter": 22,
-            "message": "The API status page should not be relied on as there are numerous endpoints incorrectly listed or not listed at all.",
-            "categoryId": "%E2%84%B9"
-        },
-        {
-            "command": "app-verify",
-            "counter": 41,
-            "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
-            "categoryId": "%E2%84%B9"
-        },
-        {
             "command": "appid",
-            "counter": 54,
+            "counter": 45,
             "message": "What is your app ID? You can find this by going to https://developer.riotgames.com/apps, selecting your project from the list on the left, and copying the number in the URL (https://developer.riotgames.com/app/YOUR_APP_ID_IS_HERE/info)",
             "categoryId": "%E2%84%B9"
         },
         {
-            "command": "arena-data",
-            "counter": 2,
-            "message": "https://raw.communitydragon.org/latest/cdragon/arena/",
-            "categoryId": "%F0%9F%94%97"
+            "command": "ask",
+            "counter": 7,
+            "message": "You probably meant !ask",
+            "categoryId": "%E2%84%B9"
         },
         {
             "command": "awesome-lcu",
-            "counter": 14,
+            "counter": 8,
             "message": "https://github.com/PixelHir/awesome-lcu",
             "categoryId": "%F0%9F%91%AA"
         },
         {
             "command": "bad-bot",
-            "counter": 29,
+            "counter": 16,
             "message": "<:dab:499726833890230273>",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "bad-guru",
-            "counter": 4,
+            "counter": 3,
             "message": "no u!",
             "categoryId": "kappa:358293780107100160"
         },
@@ -194,60 +162,48 @@
             "command": "be-nice",
             "message": "Rule 1. Be respectful. No spamming, advertising, or NSFW content.",
             "categoryId": "TuxHammer:358298723035643905",
-            "counter": 7
+            "counter": 5
         },
         {
             "command": "botty-dev-server",
             "message": "https://discord.gg/zTJYKkA",
-            "counter": 6,
+            "counter": 4,
             "categoryId": "%F0%9F%91%AA"
         },
         {
             "command": "cdragon",
-            "counter": 304,
+            "counter": 211,
             "message": "cdragon is a community project aimed at fixing the errors in ddragon and providing assets from the game. Join the cdragon discord here https://discord.gg/yNFG5yk\nYou can find raw files (no API) here: https://raw.communitydragon.org/\nYou can find the CDN endpoints here: https://cdn.communitydragon.org/endpoints",
             "categoryId": "%F0%9F%91%AA"
         },
         {
-            "command": "cdragon-assets",
-            "counter": 2,
-            "message": "https://github.com/CommunityDragon/Docs/blob/master/assets.md",
-            "categoryId": "%F0%9F%94%97"
-        },
-        {
             "command": "cdragon-paths",
-            "counter": 11,
+            "counter": 9,
             "message": "https://github.com/CommunityDragon/Docs/blob/master/assets.md",
             "categoryId": "%F0%9F%91%AA"
         },
         {
             "command": "cdragon-search",
-            "counter": 8,
+            "counter": 7,
             "message": "https://raw.communitydragon.org/search.html",
             "categoryId": "%F0%9F%91%AA"
         },
         {
             "command": "champion",
-            "counter": 360,
+            "counter": 278,
             "message": "Here is a JSON containing all champion data for patch {ddragonVersion}: <http://ddragon.leagueoflegends.com/cdn/{ddragonVersion}/data/en_US/champion.json>\nHere are a couple of Javascript helper functions to get up to date champion info (using latest patch, with translation options and examples): <https://gist.github.com/Querijn/5fe4b9f65a1236b98ead0bc39ab155ad>",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "code-of-conduct",
             "message": "https://developer.riotgames.com/policies.html#codeofconduct",
-            "counter": 3,
+            "counter": 2,
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "cors",
-            "counter": 209,
+            "counter": 146,
             "message": "Client-side calls are blocked because there is no way to make them without exposing your API key to users. You will need to setup a backend server that can make API calls while keeping your API key secure. If you want to quickly setup a proxy server, you can create some functions with AWS Lambda (<https://pastebin.com/LYsyfGgD>) or use Kernel (<https://github.com/meraki-analytics/kernel>).\nIf your project is only intended for personal usage, you can modify your browser settings to disable CORS (the mechanism which blocks you from making client-side calls). However, you will not be allowed to publish your site if you do this. More info about disabling CORS can be found here: <https://www.thepolyglotdeveloper.com/2014/08/bypass-cors-errors-testing-apis-locally/>",
-            "categoryId": "%E2%84%B9"
-        },
-        {
-            "command": "creep-score",
-            "counter": 0,
-            "message": "To get the cs count shown in game:\n``neutralMinionsKilled`` + ``totalMinionsKilled``",
             "categoryId": "%E2%84%B9"
         },
         {
@@ -258,38 +214,32 @@
         },
         {
             "command": "dab",
-            "counter": 133,
+            "counter": 71,
             "message": "<:dab:499726833890230273>",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "ddragon",
-            "counter": 387,
+            "counter": 337,
             "message": "https://ddragon.leagueoflegends.com/cdn/dragontail-{ddragonVersion}.tgz",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "ddragon-explorer",
-            "counter": 8,
+            "counter": 4,
             "message": "You can look at the ddragon CDN contents here: http://ddragon.canisback.com/",
-            "categoryId": "%F0%9F%94%97"
-        },
-        {
-            "command": "dev-support",
-            "counter": 2,
-            "message": "<https://support-developer.riotgames.com/>",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "devportal",
             "message": "https://developer.riotgames.com/api-methods/",
-            "counter": 6,
+            "counter": 3,
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "dont-mention-azoy",
             "message": "Not necessarily a rule, but every time you mention Azoy, Swift gets a little more random, and Go gets a little bit better.",
-            "counter": 40,
+            "counter": 38,
             "categoryId": "kappa:358293780107100160"
         },
         {
@@ -301,7 +251,7 @@
         {
             "command": "dont-mention-rioters",
             "message": "Rule 5. Please do not mention or DM individual Rioters for help (unless advised to). Instead, ask in one of the public channels for assistance as it will get more exposure there (More 👀 will see it) and you will probably receive an answer faster. Note: This rule does not apply to Gurus, and Rioters.",
-            "counter": 177,
+            "counter": 175,
             "categoryId": "TuxHammer:358298723035643905"
         },
         {
@@ -313,7 +263,7 @@
         {
             "command": "dragontail",
             "message": "https://ddragon.leagueoflegends.com/cdn/dragontail-{ddragonVersion}.tgz",
-            "counter": 147,
+            "counter": 145,
             "categoryId": "%F0%9F%94%97"
         },
         {
@@ -324,200 +274,146 @@
         },
         {
             "command": "esports-api",
-            "counter": 140,
-            "message": "<#976954581076553769>",
-            "categoryId": "%E2%84%B9"
-        },
-        {
-            "command": "euw",
-            "counter": 7,
-            "message": "<:429:344978692826726402>",
-            "categoryId": "kappa:358293780107100160"
-        },
-        {
-            "command": "everyone",
-            "counter": 1,
-            "message": "@everyone",
+            "counter": 133,
+            "message": "The official API does not have any endpoints for esports. There is an API used by lolesports.com, but it is not officially supported and may change at any time without warning. There is some unofficial documentation here, but it might not be accurate or up-to-date https://vickz84259.github.io/lolesports-api-docs/\nAnother solution is using community-driven solutions like Leaguepedia: https://lol.gamepedia.com/Help:API_Documentation",
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "example",
             "message": "Please post an example of your problem, without your API key.",
-            "counter": 58,
+            "counter": 57,
             "categoryId": "TuxHammer:358298723035643905"
         },
         {
-            "command": "format-code",
-            "counter": 1,
-            "message": "You can format your code in a message enclosing it in three backticks ( \\` ) to make your code readable. You can add your language after the backticks to add code highlighting.\nExample:\n\\`\\`\\`js\nconsole.log(\"Hello World!\");\n\\`\\`\\`\nTurns into:\n```js\nconsole.log(\"Hello World\");\n```",
-            "categoryId": "%E2%84%B9"
-        },
-        {
             "command": "forum",
-            "counter": 15,
+            "counter": 12,
             "message": "The forum has been removed, as mentioned in <https://www.riotgames.com/en/DevRel/new-comms/>.",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "game-constants",
             "message": "https://developer.riotgames.com/game-constants.html",
-            "counter": 26,
+            "counter": 25,
             "categoryId": "%F0%9F%94%97"
         },
         {
+            "command": "garena",
+            "counter": 14,
+            "message": "Unfortunately, due to unavoidable factors that block a large scale public roll out of this service, Riot API support won't come to Garena.\nFor more information: https://t.co/yUk9kJC7m8",
+            "categoryId": "%E2%84%B9"
+        },
+        {
             "command": "go",
-            "counter": 41,
+            "counter": 23,
             "message": "Use Go if you want",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "good-bot",
             "message": "ty bby",
-            "counter": 123,
+            "counter": 70,
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "gozaq",
-            "counter": 241,
+            "counter": 237,
             "message": "{counter}",
             "categoryId": "kappa:453058143694487554"
         },
         {
             "command": "gurus",
             "message": "Community Gurus are just normal developers that Rioters have recognized as being very knowledgeable about the API and the community, as well as trustworthy. Their main purpose is to be a good and reliable source of information about the API to the community. They are empowered to moderate the forums and the discord server if the code of conduct rules are broken.\n\n\"Gurus are trustworthy, trust me\" ~ A Guru",
-            "counter": 23,
+            "counter": 22,
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "help",
-            "counter": 95,
+            "counter": 67,
             "message": "See !help for a list of all commands or !note for a list of all notes.",
             "categoryId": "%E2%84%B9"
         },
         {
-            "command": "hi",
-            "counter": 4,
-            "message": "Stop it. Get some help.",
-            "categoryId": "kappa:358293780107100160"
-        },
-        {
-            "command": "how-long",
-            "counter": 161,
-            "message": "**Applications**: They are typically reviewed weekly for the previous week. However, due to overwhelming amounts of requests, sometimes the review process can take up to three weeks.\n**Messages**: Each week they review messages from the week prior. Due to an overwhelming amount of messages, sometimes it can take up to two weeks to respond. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.",
-            "categoryId": "kappa:358293780107100160"
-        },
-        {
-            "command": "htd",
-            "counter": 6,
-            "message": "https://hextechdocs.dev/",
-            "categoryId": "%F0%9F%94%97"
-        },
-        {
             "command": "ids",
-            "counter": 130,
+            "counter": 81,
             "message": "The API uses 3 types of IDs for players: summoner IDs, account IDs, and PUUIDs.\nDifferent APIs use different ID types, and you should use whichever type is required by the API you are using. \nSummoner and account IDs are only unique per region, and PUUIDs are unique globally. \nAs of API v4, all IDs are encrypted using encryption keys unique to each project. Because of this, an ID obtained with your dev key will not work with your production key (and vice versa).\n\nSummoner ID: When lol first came out, riot built every single system around league of legends, that's how summoner ID was born\nAccount ID: A few years ago Riot decided that they want to put the S into Riot Games so they started separating some systems from league and they started preparing for the multi-game future. That's how RSO (and with RSO, account ID) came to be\nPUUID: Riot realized that it sucks that you need an ID and a region just to find an account, so they made PUUIDs which is unique globally (so for example the merch store doesn't need to store your region too)",
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "invite",
-            "counter": 2,
+            "counter": 0,
             "message": "https://discordapp.com/invite/riotgamesdevrel",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "is-euw-down",
-            "counter": 51,
+            "counter": 38,
             "message": "YES!",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "issues",
-            "counter": 193,
+            "counter": 158,
             "message": "https://github.com/RiotGames/developer-relations/issues",
             "categoryId": "%F0%9F%94%97"
         },
         {
-            "command": "items",
-            "counter": 19,
-            "message": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/items.json",
-            "categoryId": "%E2%84%B9"
-        },
-        {
             "command": "jibber-jabber",
             "message": "Guidelines concerning the usage of Riot's intellectual property can be found here: https://www.riotgames.com/legal-jibber-jabber",
-            "counter": 20,
+            "counter": 19,
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "just-ask",
             "message": "If you're having an issue and need help with something, just post your problem in the relevant channel (don't bother asking if somebody can help you first). This should decrease the time it takes for you to get the help you need.",
-            "counter": 143,
+            "counter": 93,
             "categoryId": "TuxHammer:358298723035643905"
         },
         {
-            "command": "knife",
-            "counter": 12,
-            "message": "🔪",
-            "categoryId": "kappa:358293780107100160"
-        },
-        {
             "command": "lcu",
-            "counter": 50,
+            "counter": 39,
             "message": "https://developer.riotgames.com/league-client-apis.html",
             "categoryId": "%F0%9F%94%97"
         },
         {
-            "command": "lcu-start",
-            "counter": 22,
-            "message": "https://hextechdocs.dev/getting-started-with-the-lcu-api/",
-            "categoryId": "%F0%9F%94%97"
-        },
-        {
             "command": "lcu-swagger",
-            "counter": 33,
-            "message": "Here are online tools listing the LCU API endpoints: <https://lcu.kebs.dev/> or <https://swagger.dysolix.dev/lcu/>.",
+            "counter": 20,
+            "message": "Here is an online tool listing the LCU API endpoints: http://www.mingweisamuel.com/lcu-schema/tool/.\nUse Rift Explorer (!note rift-explorer) if you want to interactively call the endpoints.",
             "categoryId": "%F0%9F%91%AA"
         },
         {
             "command": "leaguedirector",
-            "counter": 6,
+            "counter": 1,
             "message": "Unfortunately Riot Games seems to have abandoned active development on LeagueDirector and they have closed the issues section of their github, meaning that there is no current place to discuss this application. This server is for the discussion surrounding the use of the API made by Riot Games, not the applications.\nIf still interested, you can find it here: <https://github.com/RiotGames/leaguedirector>\nIf you're looking for alternatives that work, I suggest going for: https://github.com/SkinSpotlights/CreatorSuite-ReplayAPI/releases",
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "legal",
-            "counter": 72,
+            "counter": 40,
             "message": "Guidelines concerning the usage of Riot's intellectual property can be found here: https://www.riotgames.com/legal-jibber-jabber",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "libraries",
-            "counter": 6,
-            "message": "Use !libs <your language here> to get a list of libraries made for your language. For example, !libs python.",
-            "categoryId": "%E2%84%B9"
+            "message": "https://discussion.developer.riotgames.com/articles/61/public-libraries-for-the-riot-games-api.html",
+            "counter": 21,
+            "categoryId": "%F0%9F%91%AA"
         },
         {
             "command": "libs",
-            "counter": 86,
+            "counter": 57,
             "message": "Did you mean `!libs`?",
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "limits",
             "message": "https://developer.riotgames.com/rate-limiting.html",
-            "counter": 7,
+            "counter": 6,
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "login-issues",
             "counter": 5,
             "message": "If you have issues logging in to the devportal, try;\nClicking the \"signout\" button if its there\nClearing your browser's cache\nUsing an incognito/private window\nLogging in to https://na.leagueoflegends.com/en/",
-            "categoryId": "%E2%84%B9"
-        },
-        {
-            "command": "lol-match-retention",
-            "counter": 28,
-            "message": "Match data is retained for 2 years, match timelines for 1 year. A player's match list will only show up to the last 1000 matches played. Non-public games (customs, practice tool, etc.) count towards the 1000 match limit so it may never hold exactly 1000. Games exceeding the limit but not exceeding the retention period will only be accessible through the match list of another player that participated in the game, or directly by the match id.",
             "categoryId": "%E2%84%B9"
         },
         {
@@ -539,128 +435,86 @@
             "categoryId": "%F0%9F%94%97"
         },
         {
-            "command": "match-prefix",
-            "counter": 14,
-            "message": "If you get a gameId from the client you will need to add the platform prefix to the gameId to get a matchId.\nFor example if you're playing on EUW and your gameId is ``6553947989`` the matchId will be ``EUW1_6553947989``.\nCustom game data is still unavailable even if you have the matchId.",
-            "categoryId": "%E2%84%B9"
-        },
-        {
-            "command": "match-v4",
-            "counter": 25,
-            "message": "match-v4 was removed from the API <t:1632715200:R>. Any code, documentation or examples referencing match-v4 should be considered incorrect and will need to be updated. Match-v5 (<https://developer.riotgames.com/apis#match-v5>) is the replacement. Take note the parameters have changed from match-v4.",
-            "categoryId": "%E2%84%B9"
-        },
-        {
             "command": "memes",
-            "counter": 33,
+            "counter": 31,
             "message": "<https://imgur.com/a/j22Ov>",
             "categoryId": "kappa:358293780107100160"
         },
         {
-            "command": "meraki",
-            "counter": 20,
-            "message": "Meraki aim to strike a balance between champion/item data that is accurate and simple enough to be understandable and parsable. You can find more out about this project at <https://github.com/meraki-analytics/lolstaticdata>\nChampions: <https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/champions/>\nItems: <https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/items/>",
-            "categoryId": "%F0%9F%94%97"
-        },
-        {
             "command": "mobile-apps",
             "message": "You can create a mobile app that uses the API, but you'll need to create a webpage to explain the app, and a server to proxy your API calls. The website should contain enough information so that Rioters can evaluate your project (to ensure it isn't breaking any rules) without actually downloading it. You'll also need to setup a server to make your API calls from. You cannot securely store your API key in a distributed app, so your app will need to communicate with a server, which will in turn communicate with the API.",
-            "counter": 42,
+            "counter": 41,
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "money",
-            "counter": 10,
+            "counter": 3,
             "message": "https://developer.riotgames.com/policies.html#monetization",
             "categoryId": "%F0%9F%91%AA"
         },
         {
             "command": "my-apps",
             "message": "https://developer.riotgames.com/apps",
-            "counter": 27,
+            "counter": 26,
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "new\nline",
-            "counter": 4,
+            "counter": 2,
             "message": "sup boiii",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "omaewamoushindeiru",
-            "counter": 4,
+            "counter": 2,
             "message": "NANI?!",
             "categoryId": "kappa:358293780107100160"
         },
         {
-            "command": "onboarding",
-            "counter": 27,
-            "message": "https://media.discordapp.net/attachments/187652476080488449/1064720691372499065/image.png",
-            "categoryId": "TuxHammer:358298723035643905"
-        },
-        {
             "command": "perks",
-            "counter": 123,
+            "counter": 65,
             "message": "Rune list: http://ddragon.leagueoflegends.com/cdn/{ddragonVersion}/data/en_US/runesReforged.json\nRune icons: the icon field for each rune is relative to https://ddragon.leagueoflegends.com/cdn/img/ (e.g. https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/Electrocute/Electrocute.png)\nUsing CDragon, there's this file that contains more in-depth information:\nhttp://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perks.json",
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "pins",
-            "counter": 94,
+            "counter": 46,
             "message": "The pins on each channel have some useful information on the topic that will most likely answer your question. Click on this icon to see the pins: https://i.imgur.com/x1RZYsE.png",
             "categoryId": "%E2%84%B9"
         },
         {
-            "command": "policies",
-            "counter": 4,
-            "message": "https://developer.riotgames.com/policies/general",
-            "categoryId": "%F0%9F%94%97"
-        },
-        {
             "command": "programming-discords",
             "message": "These are some programming help discords. Please join these for beginner help: https://discordservers.com/?term=programming",
-            "counter": 7,
-            "categoryId": "%F0%9F%94%97"
-        },
-        {
-            "command": "queues",
-            "counter": 23,
-            "message": "To search for games of a certain type or to identify what kind of game was played in match history use the queue or queueId field.\nhttps://static.developer.riotgames.com/docs/lol/queues.json\nRiot's data is manually updated and may be missing queues, CDragon has data from the client that may be more accurate but less descriptive:\nhttps://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/queues.json",
-            "categoryId": "%E2%84%B9"
-        },
-        {
-            "command": "ranked-emblems",
-            "counter": 4,
-            "message": "Riot provides ranked emblems in the form of a zip on the developer portal and does not include them in DDragon. You can download them here: <https://static.developer.riotgames.com/docs/lol/ranked-emblems-latest.zip>\nCDragon hosts the images from the client and you can find them here: <https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-static-assets/global/default/images/ranked-emblem/>",
+            "counter": 6,
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "ranked-info",
-            "counter": 8,
+            "counter": 6,
             "message": "https://developer.riotgames.com/ranked-info.html",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "rate-limit",
             "message": "https://developer.riotgames.com/rate-limiting.html",
-            "counter": 28,
+            "counter": 13,
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "rate-limiting",
             "message": "https://developer.riotgames.com/rate-limiting.html",
-            "counter": 33,
+            "counter": 20,
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "repo",
             "message": "https://github.com/Querijn/BottyMcBotface",
-            "counter": 150,
+            "counter": 130,
             "categoryId": "%F0%9F%91%AA"
         },
         {
             "command": "report-player",
-            "counter": 1,
+            "counter": 0,
             "message": "Go here if you want to report a player: https://support-leagueoflegends.riotgames.com/hc/en-us/requests/new?ticket_form_id=652587",
             "categoryId": "%F0%9F%94%97"
         },
@@ -671,136 +525,118 @@
             "categoryId": "%F0%9F%94%97"
         },
         {
+            "command": "rgea",
+            "counter": 17,
+            "message": "Riot Games Ecosystem Analytics is basically a JS script to be included on every page of a 3rd party application to allow Riot to collect/track usage. The goal is to gain better insight into the player impact of tools that utilize the Riot Games API. Riot belives the data will better help inform and prioritize decisions around the API.\n```\nThe snippet collects a couple metrics from sites that are RGEA enabled:\nProperty Id (pid)\nDevice Id (did) - generated uuid (Cleared when anonymized)\nSession Id (sid) - generated uuid (Cleared when anonymized)\nUser Id (uid) - encrypted puuid (Cleared when anonymized)\nUser Timestamp (uts)\nLeague Platform Id (lolpid)\nLeague Account Id (lolaid) - encrypted accountId (Cleared when anonymized)\nWebsite Host (dh)\nWebsite Path (dp)\nUser Language (ul)\nUser Timezone (utz)\nAnonymize (anon)\n```",
+            "categoryId": "%E2%84%B9"
+        },
+        {
             "command": "rhythms",
-            "counter": 9,
+            "counter": 7,
             "message": "lol",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "rift-explorer",
-            "counter": 121,
+            "counter": 119,
             "message": "<https://github.com/Pupix/rift-explorer>",
             "categoryId": "%F0%9F%91%AA"
         },
         {
             "command": "roles",
-            "counter": 155,
+            "counter": 135,
             "message": "The algorithm used to calculate the `role` and `lane` values often generates incorrect values, but there are some community projects that may yield more accurate results.\n<https://github.com/Canisback/roleML>\n<https://github.com/meraki-analytics/role-identification>",
             "categoryId": "%E2%84%B9"
         },
         {
-            "command": "routing-values",
-            "counter": 4,
-            "message": "As listed on the top of the developer portal:\n> The AMERICAS routing value serves NA, BR, LAN and LAS. The ASIA routing value serves KR and JP. The EUROPE routing value serves EUNE, EUW, TR and RU. The SEA routing value serves OCE, PH2, SG2, TH2, TW2 and VN2.",
-            "categoryId": "%E2%84%B9"
-        },
-        {
             "command": "rso",
-            "message": "> RSO is Riot Sign On, standard OAuth2 that allows you to verify users own an account.\n> You need an approved production application and then apply to use RSO on the beta developer portal at <https://beta.developer.riotgames.com/>\n> For detailed questions on usage look at the pins and ask in <#946641562757107782>\n> or see the examples at: <https://github.com/RiotGames/developer-relations/tree/main/sample_apps/rso_sample_apps>",
-            "counter": 147,
-            "categoryId": "%E2%84%B9"
-        },
-        {
-            "command": "rso-endpoints",
-            "counter": 1,
-            "message": "The /me endpoints and any endpoints requiring an ``Authorization`` Header require an access token from RSO. Unless you need to verify the users identity you are most likely looking for another endpoint. To learn more about RSO type ``!note rso`` or see <#946641562757107782>",
+            "message": "RSO is Riot Sign-On, the login logic you see whenever you access anything that requires your account. \n\nAwhile back, they stopped doing updates on RSO's timeline because its a very slow moving beast. You can think of Riot as a few dozen internal teams. They each have their own goals and can move their group in a direction that they best see fit for Riot and League of Legends. Obviously, upper management has goals and things in mind, but these groups can strive for those goals in any fashion they like, as they have that freedom.\n\nNow, the API itself is nothing more than an edge layer that exposes the internal APIs. Each endpoint you hit, is the same endpoints (more or less) that the game uses itself, the API ones are exposed to the public. The API endpoints are all managed by different internal teams. One team could control /summoner/ and another the /match/ endpoints. Meaning if the API team wanted to add a new field to all endpoints then every team would have to do this, as the internal teams control their respective API endpoints not the API team itself.\n\nNow on top of this those teams could say \"Well I know you want this but its not a priority for us right now, sorry\". And BOOM, the idea is dead.\n\nSame deal with the RSO, however, rather than adding a simple field they are now exposing private data which on top of not being a priority for some teams, it may also be something certain teams refuse to do, as they think it will be too big of a risk. If Developer Jimmy finds a flaw in the RSO API, they could start pulling actual sensitive and private data, that's a very real and scary thing, because you also use RSO to go view things like your account information and billing, etc.\n\nSo part of the battle is still in defining how they would actually go about this in a safe way, on top of making it an actual priority for every single team that would be involved with it. \n\nTLDR: RSO is a goal, but will take time due to security and priority concerns.",
+            "counter": 84,
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "rule-5",
-            "counter": 9,
+            "counter": 4,
             "message": "dont dm rioters.",
             "categoryId": "TuxHammer:358298723035643905"
         },
         {
             "command": "rule-555",
-            "counter": 17,
+            "counter": 16,
             "message": "Don't mention anyone. ~Riot Tuxedo",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "rule-6",
-            "counter": 28,
+            "counter": 16,
             "message": "Gurus do whatever they want. #screwTheRules ",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "rules-gurus",
-            "counter": 4,
+            "counter": 3,
             "message": "rules dont apply to gurus, so shh",
             "categoryId": "%E2%84%B9"
         },
         {
-            "command": "runes",
-            "counter": 9,
-            "message": "Did you mean `.perks`?",
-            "categoryId": "%E2%84%B9"
-        },
-        {
             "command": "seed-data",
-            "counter": 19,
+            "counter": 17,
             "message": "You can find seed ids for match data here http://canisback.com/matchId/ ",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "server-info",
             "message": "This Discord server is for the Riot Games API, a tool which provides data to sites like op.gg. All Rioters here that are working officially are part of the team that manages the API, and will not be able to help you with support or gameplay issues. If you're having account related issues or technical problems, contact Riot Games support: <https://support.riotgames.com/hc/en-us>. If you have a game-related suggestion or feedback, post on the subreddit, or the League of Legends Discord: <https://www.reddit.com/r/leagueoflegends/> / <https://discordapp.com/invite/lol>",
-            "counter": 645,
+            "counter": 486,
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "shipment",
-            "counter": 124,
+            "counter": 114,
             "message": " \n———————————————————————— \n A new shipment of <:ayaya:547538847823822848> has arrived! \n————————————————————————",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "should-i-use-a-library",
             "message": "Using a Riot API wrapper makes working with the API much easier, and is highly recommended for everyone (especially beginners). If you use a wrapper, you don't need to worry about things like rate limiting or properly formatting requests. You can find a list of libraries by PM <@!293623987051823107> `!libs <Your language of choice>`",
-            "counter": 41,
+            "counter": 37,
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "static-data",
-            "counter": 62,
+            "counter": 61,
             "message": "https://developer.riotgames.com/ddragon.html",
             "categoryId": "%F0%9F%94%97"
         },
         {
-            "command": "summoner-name",
-            "counter": 71,
-            "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names have been transitioned out of the API responses starting April 8th 2024.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
-            "categoryId": "%E2%84%B9"
-        },
-        {
             "command": "support",
-            "counter": 174,
+            "counter": 141,
             "message": "https://support.riotgames.com or support@riotgames.com",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "swagger",
             "message": "http://www.mingweisamuel.com/riotapi-schema/tool/",
-            "counter": 30,
+            "counter": 28,
             "categoryId": "%F0%9F%91%AA"
         },
         {
-            "command": "tournament",
-            "message": "https://developer.riotgames.com/docs/lol#tournament-api",
-            "counter": 25,
+            "command": "third-party-code-example",
+            "counter": 62,
+            "message": "https://i.imgur.com/xCRNiQF.gifv",
+            "categoryId": "%F0%9F%91%AA"
+        },
+        {
+            "command": "tickets",
+            "message": "https://developer.riotgames.com/support/tickets/",
+            "counter": 6,
             "categoryId": "%F0%9F%94%97"
         },
         {
-            "command": "tournament-callback",
-            "counter": 5,
-            "message": "You can find more about tournament callbacks here: <https://developer.riotgames.com/docs/lol#tournament-api_server-callback>\nIf you are using https, it probably won't work due to a newer certificate in your chain, http is much more reliable. (If the certificate authority in your chain is issued after 2012 it won't work, there are very few issuers who fall into this category)\nIf you are using a newer uncommon TLD (something other than .com, .net, etc.) verify it is supported on the link above.\nTournament callbacks are only done when the game is fully complete, meaning the nexus has exploded.\nYou can test your callback endpoint using the sample data provided in the link above.",
-            "categoryId": "%E2%84%B9"
-        },
-        {
-            "command": "tournament-stub",
-            "counter": 1,
-            "message": "The tournament stub is an API available to developer and personal keys for development of the Tournament API. It helps you build the flow of the Tournament API into your application. The codes it generates are not real codes and will be the same every time.\nOnce your product is built you can apply for a production key with tournament access to use Tournament-V5 for the ability to generate real tournament codes.",
-            "categoryId": "%E2%84%B9"
+            "command": "tournament",
+            "message": "https://developer.riotgames.com/tournament-api.html",
+            "counter": 20,
+            "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "translators",
@@ -810,63 +646,45 @@
         },
         {
             "command": "tuxedo",
-            "counter": 526,
+            "counter": 109,
             "message": "😍 [̲̅W̲̅][̲̅O̲̅][̲̅W̲̅]! You've found the 【S】【E】【C】【R】【E】【T】 𝕋𝕌𝕏𝔼𝔻𝕆 note! <:tuxedo:341518598084493313>\n```★·.·´¯`·.·★ Ｕｓｅ ｔｈｉｓ ｎｏｔｅ {counter} ｍｏｒｅ ｔｉｍｅｓ ｆｏｒ ７ ｙｅａｒｓ ｏｆ ｆｒｅｅ ｐｉｚｚａ! ★·.·´¯`·.·★```",
             "categoryId": "kappa:358293780107100160"
         },
         {
-            "command": "unofficial-auth",
-            "counter": 28,
-            "message": "This server is for approved usage of resources that Riot has made available to 3rd party developers. Store checkers or similar apps, or any application that prompts a user for their Riot Games credentials are not officially approved use case. The only supported use of Riot authentication on this server is with an approved application and RSO client credentials through the developer portal (https://developer.riotgames.com/)",
-            "categoryId": "%E2%84%B9"
-        },
-        {
             "command": "v4",
-            "counter": 30,
+            "counter": 25,
             "message": "<https://www.riotgames.com/en/DevRel/player-universally-unique-identifiers-and-a-new-security-layer>",
             "categoryId": "%F0%9F%94%97"
         },
         {
-            "command": "verify-github",
-            "counter": 14,
-            "message": "As of 2023-08-28 GitHub verification is no longer acceptable.",
-            "categoryId": "%F0%9F%94%97"
+            "command": "valorant",
+            "counter": 35,
+            "message": "This is not the place for asking for VALORANT access, not even access as a streamer. We cannot give you these privileges, nor is Riot looking for more streamers to be added to the beta. Please do not send direct messages to the Rioters on this server, as their job is not to hand these out, nor interact with content creators. If you believe this to be in error; contact support: <https://support.riotgames.com/> or support@riotgames.com.\nYou can find the discord for Valorant here: https://discord.gg/valorant",
+            "categoryId": "TuxHammer:358298723035643905"
         },
         {
             "command": "version",
-            "counter": 403,
+            "counter": 378,
             "message": "**DDragon**: You can find the available versions here: http://ddragon.leagueoflegends.com/api/versions.json. The current version is {ddragonVersion}.\n**Game**: The game is currently at version {gameVersion}.",
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "we-mad",
-            "counter": 19,
+            "counter": 5,
             "message": "No, we're not angry. The issue here is that we deal with this so many times, even though we have so many barriers in place to ensure that you know about your issue beforehand, but you seem to just blatantly disregard them just for sake of some sweet sweet Rioter interaction. We're fully aware of your issue but nobody, and even the Rioters here, are able to help you. Your efforts are fruitless, in vain, and frankly, it's really annoying having to deal with them now. Imagine having to re-iterate something to someone just because they don't want to understand, instead of not being able to understand. It's.. it's something else.",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "whalecome",
-            "counter": 4,
+            "counter": 2,
             "message": "'Sup newcomer.\nI'm Botty, but you can call me ThEGuRuOfD00mx3.\nSo uh >_< i just wanted to let you know that like, uh, asking for Valorant access is not okay in here, okay? uwu\nAnyways, have a great time here and i hope to see you soon!! x3\nHugs and love, Botty",
             "categoryId": "kappa:358293780107100160"
         },
         {
-            "command": "yeet",
-            "counter": 8,
-            "message": "``` ╭┻━━┻╮\n ┃╭╮╭╮┃\n╭┫▕▎▕▎┣╮\n╰┓┳╰╯┳┏╯ For You\n╭┛╰━━╯┗━━━━━╮\n┃┃    ┏━━━╭╰╯╮\n┃┃    ┃┏━━┻━━┻━━┓\n╰┫ ╭╮ ┃┃  YEET  ┃ \n ┃ ┃┃ ┃╰━━━━━━━━┛```",
-            "categoryId": "TuxHammer:358298723035643905"
-        },
-        {
             "command": "yellow",
-            "counter": 3,
+            "counter": 2,
             "message": "The users with yellow names are Translators - users who have volunteered their time to assist others who are more comfortable communicating in a language other than English. 💛",
             "categoryId": "%F0%9F%91%AA"
-        },
-        {
-            "command": "youbanistan",
-            "counter": 19,
-            "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
-            "categoryId": "TuxHammer:358298723035643905"
         }
     ]
 }
