@@ -1,34 +1,30 @@
 {
     "recents": [
-        "tuxedo",
-        "tuxedo",
-        "tuxedo",
-        "libs",
-        "ddragon",
-        "meraki",
-        "app-verify",
-        "400",
-        "format-code",
-        "summoner-name",
-        "perks",
-        "403",
-        "champion",
-        "tournament-callback",
-        "cors",
-        "cors",
-        "429",
-        "403",
-        "cors",
-        "summoner-name",
-        "tournament-callback",
-        "summoner-name",
-        "app-verify",
         "issues",
         "match-prefix",
         "ranked-emblems",
         "meraki",
         "match-prefix",
-        "hmm"
+        "hmm",
+        "just-ask",
+        "hmm",
+        "429",
+        "cors",
+        "runes",
+        "perks",
+        "summoner-name",
+        "lol-match-retention",
+        "just-ask",
+        "lcu-start",
+        "400",
+        "format-code",
+        "version",
+        "ids",
+        "ai",
+        "ddragon",
+        "ddragon-explorer",
+        "hi",
+        "custom-data"
     ],
     "categories": [
         {
@@ -71,7 +67,7 @@
         },
         {
             "command": "400",
-            "counter": 115,
+            "counter": 116,
             "message": "**400**: If you're getting this message, you've most likely entered an incorrect summonerId or PUUID.\nApplications are given a unique encryption on all IDs (summoner, account, and puuids). If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
             "categoryId": "429:453058143694487554"
         },
@@ -114,7 +110,7 @@
         {
             "command": "429",
             "message": "__**429 (Rate Limit Exceeded)**__\nThis error indicates that the application has exhausted its maximum number of allotted API calls allowed for a given duration. If the client receives a Rate Limit Exceeded response the client should process this response and halt future API calls for the duration, in seconds, indicated by the `Retry-After` header. **Applications that are in violation of this policy may have their access disabled to preserve the integrity of the API.** Please refer to our Rate Limiting documentation (https://developer.riotgames.com/rate-limiting.html) for more information on determining if you have been rate limited and how to avoid it.\n\n**Common Reasons:**\nUnregulated API calls. Check your API Call Graphs to monitor your Dev and Production API key activity.\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 50,
+            "counter": 51,
             "categoryId": "429:453058143694487554"
         },
         {
@@ -245,7 +241,7 @@
         },
         {
             "command": "cors",
-            "counter": 219,
+            "counter": 220,
             "message": "Client-side calls are blocked because there is no way to make them without exposing your API key to users. You will need to setup a backend server that can make API calls while keeping your API key secure. If you want to quickly setup a proxy server, you can create some functions with AWS Lambda (<https://pastebin.com/LYsyfGgD>) or use Kernel (<https://github.com/meraki-analytics/kernel>).\nIf your project is only intended for personal usage, you can modify your browser settings to disable CORS (the mechanism which blocks you from making client-side calls). However, you will not be allowed to publish your site if you do this. More info about disabling CORS can be found here: <https://www.thepolyglotdeveloper.com/2014/08/bypass-cors-errors-testing-apis-locally/>",
             "categoryId": "%E2%84%B9"
         },
@@ -257,8 +253,8 @@
         },
         {
             "command": "custom-data",
-            "message": "Currently, custom game data (excluding the tournament system), is not retrievable from the API due to privacy policies.\n\nA lot of these private things, like custom modes, champion mastery grade, etc that developers would like, are all things that one of the users in each game may not want to be publicly pull-able. Whereas, all users agree to it being pull-able in all other official games. While a normal game isn't try-hard like ranked, the user is still probably playing with the goal to win or compete in the game as intended. This may not always be the case in a custom mode.\n\nThe tournament system also takes into account a user's agreement, as the user is choosing to participate in an official game (the tournament system) and therefore giving some consent on data pulling for those specific games by using the tournament API.\n\nThe shining light to this, is that Riot is slowly but surely working towards an external RSO (Riot Sign-On) solution. Meaning, we as developers, can have users authenticate into Riot (officially) via the API. Which if all goes all, means a user could potentially give us their consent to go view their custom game data or champion mastery grades, etc.. but you would probably need consent per user to do these special calls, versus a blanket policy of letting developers go retrieve more private information.",
-            "counter": 58,
+            "message": "Custom game data is not available through the Riot Games API. These options do not include tournament realm games (See <#976954581076553769> for esports data)\n1. Use the Tournament API. This requires specific approval with a production app. You can generate tournament codes then gather data using the callback or getting the game id from the tournament code. This option is made for tournaments only, there have been exceptions but Riot has not been as lenient on giving those out recently.\nTo read about Tournament API:\n<https://developer.riotgames.com/docs/lol#tournament-api>\n<https://developer.riotgames.com/apis#tournament-v5>\n2. Using the <#516802588805431296> . This requires you to run a program on a player's computer that participated in the game (match history does not show for spectators). You will need to build your own application and upload the match files to your server using your application or manually. The LCU is not an officially supported resource so documentation isn't as readily available.\nTo read about the LCU:\n<https://hextechdocs.dev/getting-started-with-the-lcu-api/>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1ProductsLolByPuuidMatches>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1GamesByGameId>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1GameTimelinesByGameId>",
+            "counter": 59,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -269,13 +265,13 @@
         },
         {
             "command": "ddragon",
-            "counter": 393,
+            "counter": 394,
             "message": "https://ddragon.leagueoflegends.com/cdn/dragontail-{ddragonVersion}.tgz",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "ddragon-explorer",
-            "counter": 8,
+            "counter": 9,
             "message": "You can look at the ddragon CDN contents here: http://ddragon.canisback.com/",
             "categoryId": "%F0%9F%94%97"
         },
@@ -353,7 +349,7 @@
         },
         {
             "command": "format-code",
-            "counter": 7,
+            "counter": 8,
             "message": "You can format your code in a message enclosing it in three backticks ( \\` ) to make your code readable. You can add your language after the backticks to add code highlighting.\nExample:\n\\`\\`\\`js\nconsole.log(\"Hello World!\");\n\\`\\`\\`\nTurns into:\n```js\nconsole.log(\"Hello World\");\n```",
             "categoryId": "%E2%84%B9"
         },
@@ -401,7 +397,7 @@
         },
         {
             "command": "hi",
-            "counter": 4,
+            "counter": 5,
             "message": "Stop it. Get some help.",
             "categoryId": "kappa:358293780107100160"
         },
@@ -425,7 +421,7 @@
         },
         {
             "command": "ids",
-            "counter": 134,
+            "counter": 135,
             "message": "The API uses 3 types of IDs for players: summoner IDs, account IDs, and PUUIDs.\nDifferent APIs use different ID types, and you should use whichever type is required by the API you are using. \nSummoner and account IDs are only unique per region, and PUUIDs are unique globally. \nAs of API v4, all IDs are encrypted using encryption keys unique to each project. Because of this, an ID obtained with your dev key will not work with your production key (and vice versa).\n\nSummoner ID: When lol first came out, riot built every single system around league of legends, that's how summoner ID was born\nAccount ID: A few years ago Riot decided that they want to put the S into Riot Games so they started separating some systems from league and they started preparing for the multi-game future. That's how RSO (and with RSO, account ID) came to be\nPUUID: Riot realized that it sucks that you need an ID and a region just to find an account, so they made PUUIDs which is unique globally (so for example the merch store doesn't need to store your region too)",
             "categoryId": "%E2%84%B9"
         },
@@ -462,7 +458,7 @@
         {
             "command": "just-ask",
             "message": "If you're having an issue and need help with something, just post your problem in the relevant channel (don't bother asking if somebody can help you first). This should decrease the time it takes for you to get the help you need.",
-            "counter": 146,
+            "counter": 148,
             "categoryId": "TuxHammer:358298723035643905"
         },
         {
@@ -479,7 +475,7 @@
         },
         {
             "command": "lcu-start",
-            "counter": 23,
+            "counter": 24,
             "message": "https://hextechdocs.dev/getting-started-with-the-lcu-api/",
             "categoryId": "%F0%9F%94%97"
         },
@@ -527,7 +523,7 @@
         },
         {
             "command": "lol-match-retention",
-            "counter": 32,
+            "counter": 33,
             "message": "Match data is retained for 2 years, match timelines for 1 year. A player's match list will only show up to the last 1000 matches played. Non-public games (customs, practice tool, etc.) count towards the 1000 match limit so it may never hold exactly 1000. Games exceeding the limit but not exceeding the retention period will only be accessible through the match list of another player that participated in the game, or directly by the match id.",
             "categoryId": "%E2%84%B9"
         },
@@ -611,7 +607,7 @@
         },
         {
             "command": "perks",
-            "counter": 131,
+            "counter": 132,
             "message": "Rune list: http://ddragon.leagueoflegends.com/cdn/{ddragonVersion}/data/en_US/runesReforged.json\nRune icons: the icon field for each rune is relative to https://ddragon.leagueoflegends.com/cdn/img/ (e.g. https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/Electrocute/Electrocute.png)\nUsing CDragon, there's this file that contains more in-depth information:\nhttp://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perks.json",
             "categoryId": "%E2%84%B9"
         },
@@ -743,7 +739,7 @@
         },
         {
             "command": "runes",
-            "counter": 11,
+            "counter": 12,
             "message": "Did you mean `.perks`?",
             "categoryId": "%E2%84%B9"
         },
@@ -779,7 +775,7 @@
         },
         {
             "command": "summoner-name",
-            "counter": 97,
+            "counter": 98,
             "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names have been transitioned out of the API responses starting April 8th 2024.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
             "categoryId": "%E2%84%B9"
         },
@@ -845,7 +841,7 @@
         },
         {
             "command": "version",
-            "counter": 406,
+            "counter": 407,
             "message": "**DDragon**: You can find the available versions here: http://ddragon.leagueoflegends.com/api/versions.json. The current version is {ddragonVersion}.\n**Game**: The game is currently at version {gameVersion}.",
             "categoryId": "%E2%84%B9"
         },
