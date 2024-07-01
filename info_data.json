@@ -1,22 +1,5 @@
 {
     "recents": [
-        "queues",
-        "issues",
-        "ids",
-        "perks",
-        "meraki",
-        "rso",
-        "legal",
-        "cors",
-        "queues",
-        "champion",
-        "app-verify",
-        "queues",
-        "version",
-        "servers",
-        "regions",
-        "403",
-        "cdragon",
         "summoner-name",
         "ids",
         "cdragon",
@@ -24,7 +7,23 @@
         "perks",
         "403",
         "cors",
-        "lcu"
+        "lcu",
+        "lol-match-retention",
+        "pins",
+        "summoner-name",
+        "good-bot",
+        "endpoints",
+        "rso",
+        "good-bot",
+        "cdragon",
+        "400",
+        "runes",
+        "perks",
+        "404",
+        "pins",
+        "perks",
+        "arena-data",
+        "endpoints"
     ],
     "categories": [
         {
@@ -67,7 +66,7 @@
         },
         {
             "command": "400",
-            "counter": 118,
+            "counter": 119,
             "message": "**400**: If you're getting this message, you've most likely entered an incorrect summonerId or PUUID.\nApplications are given a unique encryption on all IDs (summoner, account, and puuids). If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
             "categoryId": "429:453058143694487554"
         },
@@ -92,7 +91,7 @@
         {
             "command": "404",
             "message": "__**404 (Not Found)**__\nThis error indicates that the server has not found a match for the API request being made. No indication is given whether the condition is temporary or permanent.\n\n**Common Reasons:**\nThe ID or name provided does not match any existing resource (e.g., there is no summoner matching the specified ID)\nThe API request was for an incorrect or unsupported path\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 47,
+            "counter": 48,
             "categoryId": "429:453058143694487554"
         },
         {
@@ -169,7 +168,7 @@
         },
         {
             "command": "arena-data",
-            "counter": 3,
+            "counter": 4,
             "message": "https://raw.communitydragon.org/latest/cdragon/arena/",
             "categoryId": "%F0%9F%94%97"
         },
@@ -205,7 +204,7 @@
         },
         {
             "command": "cdragon",
-            "counter": 315,
+            "counter": 316,
             "message": "cdragon is a community project aimed at fixing the errors in ddragon and providing assets from the game. Join the cdragon discord here https://discord.gg/yNFG5yk\nYou can find raw files (no API) here: https://raw.communitydragon.org/\nYou can find the CDN endpoints here: https://cdn.communitydragon.org/endpoints",
             "categoryId": "%F0%9F%91%AA"
         },
@@ -318,6 +317,12 @@
             "categoryId": "%F0%9F%94%97"
         },
         {
+            "command": "endpoints",
+            "counter": 0,
+            "message": "Did you mean `!endpoints`",
+            "categoryId": "%E2%84%B9"
+        },
+        {
             "command": "esports",
             "counter": 20,
             "message": "did you mean `.esports-api` ",
@@ -374,7 +379,7 @@
         {
             "command": "good-bot",
             "message": "ty bby",
-            "counter": 131,
+            "counter": 133,
             "categoryId": "kappa:358293780107100160"
         },
         {
@@ -400,12 +405,6 @@
             "counter": 6,
             "message": "Stop it. Get some help.",
             "categoryId": "kappa:358293780107100160"
-        },
-        {
-            "command": "leaguev4",
-            "counter": 1,
-            "message": "veteran => The player has played more than 100 games in the division\ninactive => No longer actively plays (ranked decay in high elo)\nfreshBlood => Is new to the division\nhotStreak => Winning streak of 3 or higher",
-            "categoryId": "%E2%84%B9"
         },
         {
             "command": "how-long",
@@ -492,6 +491,12 @@
             "categoryId": "%E2%84%B9"
         },
         {
+            "command": "leaguev4",
+            "counter": 1,
+            "message": "veteran => The player has played more than 100 games in the division\ninactive => No longer actively plays (ranked decay in high elo)\nfreshBlood => Is new to the division\nhotStreak => Winning streak of 3 or higher",
+            "categoryId": "%E2%84%B9"
+        },
+        {
             "command": "legal",
             "counter": 75,
             "message": "Guidelines concerning the usage of Riot's intellectual property can be found here: https://www.riotgames.com/legal-jibber-jabber",
@@ -523,7 +528,7 @@
         },
         {
             "command": "lol-match-retention",
-            "counter": 33,
+            "counter": 34,
             "message": "Match data is retained for 2 years, match timelines for 1 year. A player's match list will only show up to the last 1000 matches played. Non-public games (customs, practice tool, etc.) count towards the 1000 match limit so it may never hold exactly 1000. Games exceeding the limit but not exceeding the retention period will only be accessible through the match list of another player that participated in the game, or directly by the match id.",
             "categoryId": "%E2%84%B9"
         },
@@ -607,21 +612,15 @@
         },
         {
             "command": "perks",
-            "counter": 137,
+            "counter": 139,
             "message": "Rune list: http://ddragon.leagueoflegends.com/cdn/{ddragonVersion}/data/en_US/runesReforged.json\nRune icons: the icon field for each rune is relative to https://ddragon.leagueoflegends.com/cdn/img/ (e.g. https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/Electrocute/Electrocute.png)\nUsing CDragon, there's this file that contains more in-depth information:\nhttp://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perks.json",
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "pins",
-            "counter": 101,
+            "counter": 103,
             "message": "The pins on each channel have some useful information on the topic that will most likely answer your question. Click on this icon to see the pins: https://i.imgur.com/x1RZYsE.png",
             "categoryId": "%E2%84%B9"
-        },
-        {
-            "command": "policies",
-            "counter": 4,
-            "message": "https://developer.riotgames.com/policies/general",
-            "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "programming-discords",
@@ -704,7 +703,7 @@
         {
             "command": "rso",
             "message": "> RSO is Riot Sign On, standard OAuth2 that allows you to verify users own an account.\n> You need an approved production application and then apply to use RSO on the beta developer portal at <https://beta.developer.riotgames.com/>\n> For detailed questions on usage look at the pins and ask in <#946641562757107782>\n> or see the examples at: <https://github.com/RiotGames/developer-relations/tree/main/sample_apps/rso_sample_apps>",
-            "counter": 149,
+            "counter": 150,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -739,7 +738,7 @@
         },
         {
             "command": "runes",
-            "counter": 13,
+            "counter": 14,
             "message": "Did you mean `.perks`?",
             "categoryId": "%E2%84%B9"
         },
@@ -775,7 +774,7 @@
         },
         {
             "command": "summoner-name",
-            "counter": 101,
+            "counter": 102,
             "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names have been transitioned out of the API responses starting April 8th 2024.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
             "categoryId": "%E2%84%B9"
         },
@@ -874,6 +873,12 @@
             "counter": 19,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
+        },
+        {
+            "command": "endpoints",
+            "counter": 0,
+            "message": "Did you mean `!endpoints`",
+            "categoryId": "%E2%84%B9"
         }
     ]
 }
