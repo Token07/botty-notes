@@ -1,6 +1,5 @@
 {
     "recents": [
-        "summoner-name",
         "ids",
         "cdragon",
         "roles",
@@ -23,7 +22,8 @@
         "pins",
         "perks",
         "arena-data",
-        "endpoints"
+        "endpoints",
+        "htd"
     ],
     "categories": [
         {
@@ -414,7 +414,7 @@
         },
         {
             "command": "htd",
-            "counter": 7,
+            "counter": 8,
             "message": "https://hextechdocs.dev/",
             "categoryId": "%F0%9F%94%97"
         },
@@ -621,6 +621,12 @@
             "counter": 103,
             "message": "The pins on each channel have some useful information on the topic that will most likely answer your question. Click on this icon to see the pins: https://i.imgur.com/x1RZYsE.png",
             "categoryId": "%E2%84%B9"
+        },
+        {
+            "command": "policies",
+            "counter": 4,
+            "message": "https://developer.riotgames.com/policies/general",
+            "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "programming-discords",
@@ -873,12 +879,6 @@
             "counter": 19,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
-        },
-        {
-            "command": "endpoints",
-            "counter": 0,
-            "message": "Did you mean `!endpoints`",
-            "categoryId": "%E2%84%B9"
         }
     ]
 }
