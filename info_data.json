@@ -24,7 +24,8 @@
         "lcu-start",
         "note",
         "note",
-        "leaguev4"
+        "leaguev4",
+        "perks"
     ],
     "categories": [
         {
@@ -619,7 +620,7 @@
         },
         {
             "command": "perks",
-            "counter": 142,
+            "counter": 143,
             "message": "Rune list: http://ddragon.leagueoflegends.com/cdn/{ddragonVersion}/data/en_US/runesReforged.json\nRune icons: the icon field for each rune is relative to https://ddragon.leagueoflegends.com/cdn/img/ (e.g. https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/Electrocute/Electrocute.png)\nUsing CDragon, there's this file that contains more in-depth information:\nhttp://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perks.json",
             "categoryId": "%E2%84%B9"
         },
@@ -798,6 +799,12 @@
             "categoryId": "%F0%9F%94%97"
         },
         {
+            "command": "swagger",
+            "message": "http://www.mingweisamuel.com/riotapi-schema/tool/",
+            "counter": 33,
+            "categoryId": "%F0%9F%91%AA"
+        },
+        {
             "command": "tournament",
             "message": "https://developer.riotgames.com/docs/lol#tournament-api",
             "counter": 26,
@@ -880,12 +887,6 @@
             "counter": 19,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
-        },
-        {
-            "command": "league-rank",
-            "counter": 0,
-            "message": "The League-V4 and TFT-League-V1 endpoints only return **current** league entries, no past entries and no unranked entries.\n**If you are getting an empty array response**:\nThe summoner is unranked. (All provisional games must be finished before their rank will appear)\n**If a site has past ranks:**\nThis means they have been gathering ranks since the past and storing them in their database. The API does not directly provide this information.\n**If a site has LP gains/losses:**\nThis means they are gathering ranks before & after matches, either directly through summoner entries or paging through in bulk and timestamping. If you would like this information you must store it yourself.",
-            "categoryId": "%E2%84%B9"
         }
     ]
 }
