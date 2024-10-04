@@ -1,31 +1,35 @@
 {
     "recents": [
-        "how-long",
-        "summoner-name",
-        "unofficial-auth",
-        "support",
-        "good-bot",
-        "match-prefix",
-        "ids",
-        "how-long",
-        "summoner-name",
-        "rate-limiting",
-        "how-long",
-        "perks",
-        "summoner",
-        "pins",
-        "shipment",
-        "summoner-name",
-        "400",
+        "league-rank",
         "rso",
-        "app-verify",
+        "issues",
+        "league-rank",
+        "rso-endpoints",
+        "league-rank",
+        "ranked-info",
+        "how-long",
+        "400",
         "summoner-name",
-        "lcu-swagger",
-        "lcu-start",
-        "note",
-        "note",
-        "leaguev4",
-        "perks"
+        "pins",
+        "how-long",
+        "summoner-name",
+        "how-long",
+        "app-verify",
+        "lol-match-retention",
+        "shipment",
+        "how-long",
+        "500",
+        "rso",
+        "dev-support",
+        "mobile-apps",
+        "dev-support",
+        "how-long",
+        "rate-limit",
+        "rate-limiting",
+        "rate-limiting",
+        "rate-limiting",
+        "rate-limiting",
+        "rate-limit"
     ],
     "categories": [
         {
@@ -68,20 +72,20 @@
         },
         {
             "command": "400",
-            "counter": 123,
+            "counter": 128,
             "message": "**400**: If you're getting this message, you've most likely entered an incorrect summonerId or PUUID.\nApplications are given a unique encryption on all IDs (summoner, account, and puuids). If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "401",
-            "counter": 103,
+            "counter": 105,
             "message": "__**401 (Unauthorized)**__ \nThis error indicates that the request being made did not contain the necessary authentication credentials (e.g., an API key) and therefore the client was denied access. The client should not continue to make similar requests without including an API key in the request.\n\n**Common Reasons:**\nAn API key has not been included in the request.",
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "402",
             "message": "__**402 (Payment Required)**__\nThis error indicates that payment is required and the request has therefore been denied. The client should not continue to make similar requests without appropriate payment.",
-            "counter": 10,
+            "counter": 11,
             "categoryId": "429:453058143694487554"
         },
         {
@@ -117,7 +121,7 @@
         {
             "command": "500",
             "message": "__**500 (Internal Server Error)**__\nThis error indicates an unexpected condition or exception which prevented the server from fulfilling an API request.\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 30,
+            "counter": 31,
             "categoryId": "429:453058143694487554"
         },
         {
@@ -158,7 +162,7 @@
         },
         {
             "command": "app-verify",
-            "counter": 56,
+            "counter": 59,
             "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
             "categoryId": "%E2%84%B9"
         },
@@ -201,12 +205,12 @@
         {
             "command": "botty-dev-server",
             "message": "https://discord.gg/zTJYKkA",
-            "counter": 6,
+            "counter": 7,
             "categoryId": "%F0%9F%91%AA"
         },
         {
             "command": "cdragon",
-            "counter": 321,
+            "counter": 322,
             "message": "cdragon is a community project aimed at fixing the errors in ddragon and providing assets from the game. Join the cdragon discord here https://discord.gg/yNFG5yk\nYou can find raw files (no API) here: https://raw.communitydragon.org/\nYou can find the CDN endpoints here: https://cdn.communitydragon.org/endpoints",
             "categoryId": "%F0%9F%91%AA"
         },
@@ -242,20 +246,20 @@
         },
         {
             "command": "cors",
-            "counter": 222,
+            "counter": 225,
             "message": "Client-side calls are blocked because there is no way to make them without exposing your API key to users. You will need to setup a backend server that can make API calls while keeping your API key secure. If you want to quickly setup a proxy server, you can create some functions with AWS Lambda (<https://pastebin.com/LYsyfGgD>) or use Kernel (<https://github.com/meraki-analytics/kernel>).\nIf your project is only intended for personal usage, you can modify your browser settings to disable CORS (the mechanism which blocks you from making client-side calls). However, you will not be allowed to publish your site if you do this. More info about disabling CORS can be found here: <https://www.thepolyglotdeveloper.com/2014/08/bypass-cors-errors-testing-apis-locally/>",
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "creep-score",
-            "counter": 1,
+            "counter": 2,
             "message": "To get the cs count shown in game:\n``neutralMinionsKilled`` + ``totalMinionsKilled``",
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "custom-data",
             "message": "League of Legends custom game data is now available through the Riot Games API for applications with RSO. These options do not include tournament realm games (See <#976954581076553769> for esports data)\nOfficial Methods:\n1. Use lol-rso-match-v1 https://developer.riotgames.com/apis#lol-rso-match-v1 you can use this with a RSO token. See pins of <#946641562757107782> for more information on RSO.\n2. Use the Tournament API. This requires specific approval with a production app. You can generate tournament codes then gather data using the callback or getting the game id from the tournament code. This option is made for tournaments only, there have been exceptions but Riot has not been as lenient on giving those out recently.\nTo read about Tournament API:\n<https://developer.riotgames.com/docs/lol#tournament-api>\n<https://developer.riotgames.com/apis#tournament-v5>\nUnofficial Method:\nUsing the <#516802588805431296> . This requires you to run a program on a player's computer that participated in the game (match history does not show for spectators). You will need to build your own application and upload the match files to your server using your application or manually. The LCU is not an officially supported resource so documentation isn't as readily available.\nTo read about the LCU:\n<https://hextechdocs.dev/getting-started-with-the-lcu-api/>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1ProductsLolByPuuidMatches>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1GamesByGameId>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1GameTimelinesByGameId>",
-            "counter": 61,
+            "counter": 63,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -278,7 +282,7 @@
         },
         {
             "command": "dev-support",
-            "counter": 3,
+            "counter": 6,
             "message": "<https://support-developer.riotgames.com/>",
             "categoryId": "%F0%9F%94%97"
         },
@@ -381,7 +385,7 @@
         {
             "command": "good-bot",
             "message": "ty bby",
-            "counter": 136,
+            "counter": 137,
             "categoryId": "kappa:358293780107100160"
         },
         {
@@ -410,7 +414,7 @@
         },
         {
             "command": "how-long",
-            "counter": 177,
+            "counter": 183,
             "message": "**Applications**: They are typically reviewed weekly for the previous week. However, due to overwhelming amounts of requests, sometimes the review process can take up to three weeks.\n**Messages**: Each week they review messages from the week prior. Due to an overwhelming amount of messages, sometimes it can take up to two weeks to respond. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.",
             "categoryId": "kappa:358293780107100160"
         },
@@ -422,7 +426,7 @@
         },
         {
             "command": "ids",
-            "counter": 143,
+            "counter": 146,
             "message": "The API uses 3 types of IDs for players: summoner IDs, account IDs, and PUUIDs.\nDifferent APIs use different ID types, and you should use whichever type is required by the API you are using. \nSummoner and account IDs are only unique per region, and PUUIDs are unique globally. \nAs of API v4, all IDs are encrypted using encryption keys unique to each project. Because of this, an ID obtained with your dev key will not work with your production key (and vice versa).\n\nSummoner ID: When lol first came out, riot built every single system around league of legends, that's how summoner ID was born\nAccount ID: A few years ago Riot decided that they want to put the S into Riot Games so they started separating some systems from league and they started preparing for the multi-game future. That's how RSO (and with RSO, account ID) came to be\nPUUID: Riot realized that it sucks that you need an ID and a region just to find an account, so they made PUUIDs which is unique globally (so for example the merch store doesn't need to store your region too)",
             "categoryId": "%E2%84%B9"
         },
@@ -440,13 +444,13 @@
         },
         {
             "command": "issues",
-            "counter": 200,
+            "counter": 201,
             "message": "https://github.com/RiotGames/developer-relations/issues",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "items",
-            "counter": 21,
+            "counter": 22,
             "message": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/items.json",
             "categoryId": "%E2%84%B9"
         },
@@ -488,7 +492,7 @@
         },
         {
             "command": "league-rank",
-            "counter": 0,
+            "counter": 3,
             "message": "The League-V4 and TFT-League-V1 endpoints only return **current** league entries, no past entries and no unranked entries.\n**If you are getting an empty array response**:\nThe summoner is unranked. (All provisional games must be finished before their rank will appear)\n**If a site has past ranks:**\nThis means they have been gathering ranks since the past and storing them in their database. The API does not directly provide this information.\n**If a site has LP gains/losses:**\nThis means they are gathering ranks before & after matches, either directly through summoner entries or paging through in bulk and timestamping. If you would like this information you must store it yourself.",
             "categoryId": "%E2%84%B9"
         },
@@ -536,7 +540,7 @@
         },
         {
             "command": "lol-match-retention",
-            "counter": 36,
+            "counter": 37,
             "message": "Match data is retained for 2 years, match timelines for 1 year. A player's match list will only show up to the last 1000 matches played. Non-public games (customs, practice tool, etc.) count towards the 1000 match limit so it may never hold exactly 1000. Games exceeding the limit but not exceeding the retention period will only be accessible through the match list of another player that participated in the game, or directly by the match id.",
             "categoryId": "%E2%84%B9"
         },
@@ -578,14 +582,14 @@
         },
         {
             "command": "meraki",
-            "counter": 31,
+            "counter": 32,
             "message": "Meraki aim to strike a balance between champion/item data that is accurate and simple enough to be understandable and parsable. You can find more out about this project at <https://github.com/meraki-analytics/lolstaticdata>\nChampions: <https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/champions/>\nItems: <https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/items/>",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "mobile-apps",
             "message": "You can create a mobile app that uses the API, but you'll need to create a webpage to explain the app, and a server to proxy your API calls. The website should contain enough information so that Rioters can evaluate your project (to ensure it isn't breaking any rules) without actually downloading it. You'll also need to setup a server to make your API calls from. You cannot securely store your API key in a distributed app, so your app will need to communicate with a server, which will in turn communicate with the API.",
-            "counter": 42,
+            "counter": 43,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -626,7 +630,7 @@
         },
         {
             "command": "pins",
-            "counter": 110,
+            "counter": 111,
             "message": "The pins on each channel have some useful information on the topic that will most likely answer your question. Click on this icon to see the pins: https://i.imgur.com/x1RZYsE.png",
             "categoryId": "%E2%84%B9"
         },
@@ -644,7 +648,7 @@
         },
         {
             "command": "queues",
-            "counter": 35,
+            "counter": 36,
             "message": "To search for games of a certain type or to identify what kind of game was played in match history use the queue or queueId field.\nhttps://static.developer.riotgames.com/docs/lol/queues.json\nRiot's data is manually updated and may be missing queues, CDragon has data from the client that may be more accurate but less descriptive:\nhttps://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/queues.json",
             "categoryId": "%E2%84%B9"
         },
@@ -656,26 +660,20 @@
         },
         {
             "command": "ranked-info",
-            "counter": 8,
+            "counter": 9,
             "message": "https://developer.riotgames.com/ranked-info.html",
-            "categoryId": "%F0%9F%94%97"
-        },
-        {
-            "command": "rate-limit",
-            "message": "https://developer.riotgames.com/rate-limiting.html",
-            "counter": 31,
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "rate-limiting",
             "message": "https://developer.riotgames.com/rate-limiting.html",
-            "counter": 40,
+            "counter": 44,
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "repo",
             "message": "https://github.com/Querijn/BottyMcBotface",
-            "counter": 153,
+            "counter": 155,
             "categoryId": "%F0%9F%91%AA"
         },
         {
@@ -717,12 +715,12 @@
         {
             "command": "rso",
             "message": "> RSO is Riot Sign On, standard OAuth2 that allows you to verify users own an account.\n> You need an approved production application and then apply to use RSO on the beta developer portal at <https://beta.developer.riotgames.com/>\n> For detailed questions on usage look at the pins and ask in <#946641562757107782>\n> or see the examples at: <https://github.com/RiotGames/developer-relations/tree/main/sample_apps/rso_sample_apps>",
-            "counter": 155,
+            "counter": 158,
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "rso-endpoints",
-            "counter": 2,
+            "counter": 3,
             "message": "The /me endpoints and any endpoints requiring an ``Authorization`` Header require an access token from RSO. Unless you need to verify the users identity you are most likely looking for another endpoint. To learn more about RSO type ``!note rso`` or see <#946641562757107782>",
             "categoryId": "%E2%84%B9"
         },
@@ -770,7 +768,7 @@
         },
         {
             "command": "shipment",
-            "counter": 126,
+            "counter": 128,
             "message": " \n———————————————————————— \n A new shipment of <:ayaya:547538847823822848> has arrived! \n————————————————————————",
             "categoryId": "kappa:358293780107100160"
         },
@@ -788,13 +786,13 @@
         },
         {
             "command": "summoner-name",
-            "counter": 110,
+            "counter": 112,
             "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names have been transitioned out of the API responses starting April 8th 2024.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "support",
-            "counter": 178,
+            "counter": 179,
             "message": "https://support.riotgames.com or support@riotgames.com",
             "categoryId": "%F0%9F%94%97"
         },
@@ -830,13 +828,13 @@
         },
         {
             "command": "tuxedo",
-            "counter": 545,
+            "counter": 546,
             "message": "😍 [̲̅W̲̅][̲̅O̲̅][̲̅W̲̅]! You've found the 【S】【E】【C】【R】【E】【T】 𝕋𝕌𝕏𝔼𝔻𝕆 note! <:tuxedo:341518598084493313>\n```★·.·´¯`·.·★ Ｕｓｅ ｔｈｉｓ ｎｏｔｅ {counter} ｍｏｒｅ ｔｉｍｅｓ ｆｏｒ ７ ｙｅａｒｓ ｏｆ ｆｒｅｅ ｐｉｚｚａ! ★·.·´¯`·.·★```",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "unofficial-auth",
-            "counter": 31,
+            "counter": 32,
             "message": "This server is for approved usage of resources that Riot has made available to 3rd party developers. Store checkers or similar apps, or any application that prompts a user for their Riot Games credentials are not officially approved use case. The only supported use of Riot authentication on this server is with an approved application and RSO client credentials through the developer portal (https://developer.riotgames.com/)",
             "categoryId": "%E2%84%B9"
         },
