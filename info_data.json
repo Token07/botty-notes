@@ -569,7 +569,7 @@
         {
             "command": "match-prefix",
             "counter": 21,
-            "message": "If you get a gameId from the client or tournament api you will need to add the platform prefix to the gameId to get a matchId.\nFor example if you're playing on EUW and your gameId is 6553947989 the matchId will be EUW1_6553947989.\nCustom game data is still unavailable from Match-V5 even if you have the matchId, you can use\nLol-rso-match-v1 for this if you have a production application with access to RSO.",
+            "message": "If you get a gameId from the client or tournament api you will need to add the platform prefix to the gameId to get a matchId.\nFor example if you're playing on EUW and your gameId is 6553947989 the matchId will be EUW1_6553947989.\nCustom game data is still unavailable from Match-V5 even if you have the matchId, you can use Lol-rso-match-v1 for this if you have a production application with access to RSO.",
             "categoryId": "%E2%84%B9"
         },
         {
