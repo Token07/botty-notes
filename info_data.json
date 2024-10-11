@@ -1,23 +1,5 @@
 {
     "recents": [
-        "league-rank",
-        "rso",
-        "issues",
-        "league-rank",
-        "rso-endpoints",
-        "league-rank",
-        "ranked-info",
-        "how-long",
-        "400",
-        "summoner-name",
-        "pins",
-        "how-long",
-        "summoner-name",
-        "how-long",
-        "app-verify",
-        "lol-match-retention",
-        "shipment",
-        "how-long",
         "500",
         "rso",
         "dev-support",
@@ -29,7 +11,29 @@
         "rate-limiting",
         "rate-limiting",
         "rate-limiting",
-        "rate-limit"
+        "rate-limit",
+        "issues",
+        "cdragon",
+        "app-verify",
+        "app-verify",
+        "custom-data",
+        "rso",
+        "ddragon",
+        "cdragon",
+        "cdragon",
+        "ids",
+        "perks",
+        "version",
+        "app-verify",
+        "verify-github",
+        "ids",
+        "how-long",
+        "lcu-start",
+        "tournament",
+        "champion",
+        "meraki",
+        "rso",
+        "match-prefix"
     ],
     "categories": [
         {
@@ -162,7 +166,7 @@
         },
         {
             "command": "app-verify",
-            "counter": 59,
+            "counter": 62,
             "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
             "categoryId": "%E2%84%B9"
         },
@@ -210,7 +214,7 @@
         },
         {
             "command": "cdragon",
-            "counter": 322,
+            "counter": 325,
             "message": "cdragon is a community project aimed at fixing the errors in ddragon and providing assets from the game. Join the cdragon discord here https://discord.gg/yNFG5yk\nYou can find raw files (no API) here: https://raw.communitydragon.org/\nYou can find the CDN endpoints here: https://cdn.communitydragon.org/endpoints",
             "categoryId": "%F0%9F%91%AA"
         },
@@ -234,7 +238,7 @@
         },
         {
             "command": "champion",
-            "counter": 378,
+            "counter": 379,
             "message": "Here is a JSON containing all champion data for patch {ddragonVersion}: <http://ddragon.leagueoflegends.com/cdn/{ddragonVersion}/data/en_US/champion.json>\nHere are a couple of Javascript helper functions to get up to date champion info (using latest patch, with translation options and examples): <https://gist.github.com/Querijn/5fe4b9f65a1236b98ead0bc39ab155ad>",
             "categoryId": "%F0%9F%94%97"
         },
@@ -259,7 +263,7 @@
         {
             "command": "custom-data",
             "message": "League of Legends custom game data is now available through the Riot Games API for applications with RSO. These options do not include tournament realm games (See <#976954581076553769> for esports data)\nOfficial Methods:\n1. Use lol-rso-match-v1 https://developer.riotgames.com/apis#lol-rso-match-v1 you can use this with a RSO token. See pins of <#946641562757107782> for more information on RSO.\n2. Use the Tournament API. This requires specific approval with a production app. You can generate tournament codes then gather data using the callback or getting the game id from the tournament code. This option is made for tournaments only, there have been exceptions but Riot has not been as lenient on giving those out recently.\nTo read about Tournament API:\n<https://developer.riotgames.com/docs/lol#tournament-api>\n<https://developer.riotgames.com/apis#tournament-v5>\nUnofficial Method:\nUsing the <#516802588805431296> . This requires you to run a program on a player's computer that participated in the game (match history does not show for spectators). You will need to build your own application and upload the match files to your server using your application or manually. The LCU is not an officially supported resource so documentation isn't as readily available.\nTo read about the LCU:\n<https://hextechdocs.dev/getting-started-with-the-lcu-api/>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1ProductsLolByPuuidMatches>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1GamesByGameId>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1GameTimelinesByGameId>",
-            "counter": 63,
+            "counter": 64,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -270,7 +274,7 @@
         },
         {
             "command": "ddragon",
-            "counter": 400,
+            "counter": 401,
             "message": "https://ddragon.leagueoflegends.com/cdn/dragontail-{ddragonVersion}.tgz",
             "categoryId": "%F0%9F%94%97"
         },
@@ -414,7 +418,7 @@
         },
         {
             "command": "how-long",
-            "counter": 183,
+            "counter": 184,
             "message": "**Applications**: They are typically reviewed weekly for the previous week. However, due to overwhelming amounts of requests, sometimes the review process can take up to three weeks.\n**Messages**: Each week they review messages from the week prior. Due to an overwhelming amount of messages, sometimes it can take up to two weeks to respond. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.",
             "categoryId": "kappa:358293780107100160"
         },
@@ -426,7 +430,7 @@
         },
         {
             "command": "ids",
-            "counter": 146,
+            "counter": 148,
             "message": "The API uses 3 types of IDs for players: summoner IDs, account IDs, and PUUIDs.\nDifferent APIs use different ID types, and you should use whichever type is required by the API you are using. \nSummoner and account IDs are only unique per region, and PUUIDs are unique globally. \nAs of API v4, all IDs are encrypted using encryption keys unique to each project. Because of this, an ID obtained with your dev key will not work with your production key (and vice versa).\n\nSummoner ID: When lol first came out, riot built every single system around league of legends, that's how summoner ID was born\nAccount ID: A few years ago Riot decided that they want to put the S into Riot Games so they started separating some systems from league and they started preparing for the multi-game future. That's how RSO (and with RSO, account ID) came to be\nPUUID: Riot realized that it sucks that you need an ID and a region just to find an account, so they made PUUIDs which is unique globally (so for example the merch store doesn't need to store your region too)",
             "categoryId": "%E2%84%B9"
         },
@@ -444,7 +448,7 @@
         },
         {
             "command": "issues",
-            "counter": 201,
+            "counter": 202,
             "message": "https://github.com/RiotGames/developer-relations/issues",
             "categoryId": "%F0%9F%94%97"
         },
@@ -480,7 +484,7 @@
         },
         {
             "command": "lcu-start",
-            "counter": 26,
+            "counter": 27,
             "message": "https://hextechdocs.dev/getting-started-with-the-lcu-api/",
             "categoryId": "%F0%9F%94%97"
         },
@@ -564,8 +568,8 @@
         },
         {
             "command": "match-prefix",
-            "counter": 20,
-            "message": "If you get a gameId from the client or tournament api you will need to add the platform prefix to the gameId to get a matchId.\nFor example if you're playing on EUW and your gameId is 6553947989 the matchId will be EUW1_6553947989.\nCustom game data is still unavailable even if you have the matchId.",
+            "counter": 21,
+            "message": "If you get a gameId from the client or tournament api you will need to add the platform prefix to the gameId to get a matchId.\nFor example if you're playing on EUW and your gameId is 6553947989 the matchId will be EUW1_6553947989.\nCustom game data is still unavailable from Match-V5 even if you have the matchId, you can use\nLol-rso-match-v1 for this if you have a production application with access to RSO.",
             "categoryId": "%E2%84%B9"
         },
         {
@@ -582,7 +586,7 @@
         },
         {
             "command": "meraki",
-            "counter": 32,
+            "counter": 33,
             "message": "Meraki aim to strike a balance between champion/item data that is accurate and simple enough to be understandable and parsable. You can find more out about this project at <https://github.com/meraki-analytics/lolstaticdata>\nChampions: <https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/champions/>\nItems: <https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/items/>",
             "categoryId": "%F0%9F%94%97"
         },
@@ -624,7 +628,7 @@
         },
         {
             "command": "perks",
-            "counter": 143,
+            "counter": 144,
             "message": "Rune list: http://ddragon.leagueoflegends.com/cdn/{ddragonVersion}/data/en_US/runesReforged.json\nRune icons: the icon field for each rune is relative to https://ddragon.leagueoflegends.com/cdn/img/ (e.g. https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/Electrocute/Electrocute.png)\nUsing CDragon, there's this file that contains more in-depth information:\nhttp://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perks.json",
             "categoryId": "%E2%84%B9"
         },
@@ -715,7 +719,7 @@
         {
             "command": "rso",
             "message": "> RSO is Riot Sign On, standard OAuth2 that allows you to verify users own an account.\n> You need an approved production application and then apply to use RSO on the beta developer portal at <https://beta.developer.riotgames.com/>\n> For detailed questions on usage look at the pins and ask in <#946641562757107782>\n> or see the examples at: <https://github.com/RiotGames/developer-relations/tree/main/sample_apps/rso_sample_apps>",
-            "counter": 158,
+            "counter": 160,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -805,7 +809,7 @@
         {
             "command": "tournament",
             "message": "https://developer.riotgames.com/docs/lol#tournament-api",
-            "counter": 26,
+            "counter": 27,
             "categoryId": "%F0%9F%94%97"
         },
         {
@@ -846,13 +850,13 @@
         },
         {
             "command": "verify-github",
-            "counter": 16,
+            "counter": 17,
             "message": "As of 2023-08-28 GitHub verification is no longer acceptable.",
             "categoryId": "%F0%9F%94%97"
         },
         {
             "command": "version",
-            "counter": 408,
+            "counter": 409,
             "message": "**DDragon**: You can find the available versions here: http://ddragon.leagueoflegends.com/api/versions.json. The current version is {ddragonVersion}.\n**Game**: The game is currently at version {gameVersion}.",
             "categoryId": "%E2%84%B9"
         },
