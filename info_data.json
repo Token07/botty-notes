@@ -417,7 +417,7 @@
         {
             "command": "how-long",
             "counter": 204,
-            "message": "*Application s*: Soon™️\n*Messages*: Soon™️",
+            "message": "**Applications**: Expect a minimum of three weeks.\n**Messages**: Expect a minimum of three weeks. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.",
             "categoryId": "kappa:358293780107100160"
         },
         {
