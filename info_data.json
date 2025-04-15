@@ -416,7 +416,7 @@
         {
             "command": "how-long",
             "counter": 210,
-            "message": "**Applications**: Expect a minimum of six weeks.\n**Messages**: Expect a minimum of six weeks. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.",
+            "message": "**Applications:** Expect a minimum of six weeks.\n**Messages:** Expect a minimum of six weeks. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.\n**How to speed up the process:** Wait faster or time travel",
             "categoryId": "kappa:358293780107100160"
         },
         {
