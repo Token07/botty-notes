@@ -1,22 +1,5 @@
 {
     "recents": [
-        "summoners",
-        "spells",
-        "commands",
-        "400",
-        "403",
-        "val-endpoints",
-        "perks",
-        "how-long",
-        "summoner-name",
-        "cdragon",
-        "dragons",
-        "dragon",
-        "dab",
-        "dab",
-        "dragon",
-        "dragons",
-        "commands",
         "roles",
         "repo",
         "how-long",
@@ -24,7 +7,23 @@
         "summoner-name",
         "504",
         "libs",
-        "how-long"
+        "how-long",
+        "summoner-name",
+        "custom-data",
+        "rso",
+        "cdragon",
+        "verify-github",
+        "app-verify",
+        "400",
+        "cdragon",
+        "meraki",
+        "val-endpoints",
+        "meraki",
+        "just-ask",
+        "custom-data",
+        "400",
+        "perks",
+        "404"
     ],
     "categories": [
         {
@@ -67,7 +66,7 @@
         },
         {
             "command": "400",
-            "counter": 142,
+            "counter": 144,
             "message": "**400**: If you're getting this message, you've most likely entered an incorrect summonerId or PUUID.\nApplications are given a unique encryption on all IDs (summoner, account, and puuids). If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
             "categoryId": "429:453058143694487554"
         },
@@ -92,7 +91,7 @@
         {
             "command": "404",
             "message": "__**404 (Not Found)**__\nThis error indicates that the server has not found a match for the API request being made. No indication is given whether the condition is temporary or permanent.\n\n**Common Reasons:**\nThe ID or name provided does not match any existing resource (e.g., there is no summoner matching the specified ID)\nThe API request was for an incorrect or unsupported path\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 49,
+            "counter": 50,
             "categoryId": "429:453058143694487554"
         },
         {
@@ -132,6 +131,12 @@
             "categoryId": "kappa:358293780107100160"
         },
         {
+            "command": "aggregated-data",
+            "counter": 0,
+            "message": "The Riot Games API **does not** provide aggregated data of any kind. This means if you see pick rates, win rates, etc. these are calculated by the third party themselves.\nIf you would like this data yourself you will need to collect a lot of matches and calculate by your metric.\nA guide on crawling matches (For League of Legends but can be adapted to all games):\n<https://hextechdocs.dev/crawling-matches-using-the-riot-games-api/>",
+            "categoryId": "%E2%84%B9"
+        },
+        {
             "command": "andre",
             "counter": 5,
             "message": "<@548590163127959557>",
@@ -163,7 +168,7 @@
         },
         {
             "command": "app-verify",
-            "counter": 72,
+            "counter": 73,
             "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
             "categoryId": "%E2%84%B9"
         },
@@ -211,7 +216,7 @@
         },
         {
             "command": "cdragon",
-            "counter": 344,
+            "counter": 346,
             "message": "cdragon is a community project aimed at fixing the errors in ddragon and providing assets from the game. Join the cdragon discord here https://discord.gg/yNFG5yk\nYou can find raw files (no API) here: https://raw.communitydragon.org/\nYou can find the CDN endpoints here: https://cdn.communitydragon.org/endpoints",
             "categoryId": "%F0%9F%91%AA"
         },
@@ -260,7 +265,7 @@
         {
             "command": "custom-data",
             "message": "League of Legends custom game data is now available through the Riot Games API for applications with RSO. These options do not include tournament realm games (See <#976954581076553769> for esports data)\nOfficial Methods:\n1. Use lol-rso-match-v1 https://developer.riotgames.com/apis#lol-rso-match-v1 you can use this with a RSO token. See pins of <#946641562757107782> for more information on RSO.\n2. Use the Tournament API. This requires specific approval with a production app. You can generate tournament codes then gather data using the callback or getting the game id from the tournament code. This option is made for tournaments only, there have been exceptions but Riot has not been as lenient on giving those out recently.\nTo read about Tournament API:\n<https://developer.riotgames.com/docs/lol#tournament-api>\n<https://developer.riotgames.com/apis#tournament-v5>\nUnofficial Method:\nUsing the <#516802588805431296> . This requires you to run a program on a player's computer that participated in the game (match history does not show for spectators). You will need to build your own application and upload the match files to your server using your application or manually. The LCU is not an officially supported resource so documentation isn't as readily available.\nTo read about the LCU:\n<https://hextechdocs.dev/getting-started-with-the-lcu-api/>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1ProductsLolByPuuidMatches>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1GamesByGameId>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1GameTimelinesByGameId>",
-            "counter": 90,
+            "counter": 92,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -464,7 +469,7 @@
         {
             "command": "just-ask",
             "message": "If you're having an issue and need help with something, just post your problem in the relevant channel (don't bother asking if somebody can help you first). This should decrease the time it takes for you to get the help you need.",
-            "counter": 162,
+            "counter": 163,
             "categoryId": "TuxHammer:358298723035643905"
         },
         {
@@ -583,7 +588,7 @@
         },
         {
             "command": "meraki",
-            "counter": 36,
+            "counter": 38,
             "message": "Meraki aim to strike a balance between champion/item data that is accurate and simple enough to be understandable and parsable. You can find more out about this project at <https://github.com/meraki-analytics/lolstaticdata>\nChampions: <https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/champions/>\nItems: <https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/items/>",
             "categoryId": "%F0%9F%94%97"
         },
@@ -625,7 +630,7 @@
         },
         {
             "command": "perks",
-            "counter": 155,
+            "counter": 156,
             "message": "Rune list: http://ddragon.leagueoflegends.com/cdn/{ddragonVersion}/data/en_US/runesReforged.json\nRune icons: the icon field for each rune is relative to https://ddragon.leagueoflegends.com/cdn/img/ (e.g. https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/Electrocute/Electrocute.png)\nUsing CDragon, there's this file that contains more in-depth information:\nhttp://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perks.json",
             "categoryId": "%E2%84%B9"
         },
@@ -716,7 +721,7 @@
         {
             "command": "rso",
             "message": "> RSO is Riot Sign On, standard OAuth2 that allows you to verify users own an account.\n> You need an approved production application and then apply to use RSO on the beta developer portal at <https://beta.developer.riotgames.com/>\n> For detailed questions on usage look at the pins and ask in <#946641562757107782>\n> or see the examples at: <https://github.com/RiotGames/developer-relations/tree/main/sample_apps/rso_sample_apps>",
-            "counter": 167,
+            "counter": 168,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -787,7 +792,7 @@
         },
         {
             "command": "summoner-name",
-            "counter": 128,
+            "counter": 129,
             "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names have been transitioned out of the API responses starting April 8th 2024.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
             "categoryId": "%E2%84%B9"
         },
@@ -853,13 +858,13 @@
         },
         {
             "command": "val-endpoints",
-            "counter": 4,
+            "counter": 5,
             "message": "VALORANT endpoints such as VAL-MATCH-V1 are available to **production applications only**. This is due to the way VALORANT handles private user data, requiring opt-ins from RSO to display data publicly.\nThis means if you want data from the API you will need to create a **publicly available application**.\nDeveloper keys will not have access and there are no personal keys for VALORANT.\nYou can build your application for approval by either mocking data or using the sample data in the pinned messages of <#694820049063510026>",
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "verify-github",
-            "counter": 20,
+            "counter": 21,
             "message": "As of 2023-08-28 GitHub verification is no longer acceptable.",
             "categoryId": "%F0%9F%94%97"
         },
