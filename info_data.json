@@ -423,7 +423,7 @@
         {
             "command": "how-long",
             "counter": 269,
-            "message": "**Applications:** Expect a minimum of six weeks, two to three months is typical.\n**Messages:** Expect a minimum of six weeks. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.\n**How to speed up the process:** Wait faster or time travel. For time travel we recommend 2019 or 2020 for League apps and 2023 for Valorant apps.\n*Not responsible for paradoxes, time loops, or accidental future vacations.*",
+            "message": "**Applications:** Expect a minimum of six weeks, two to three months is typical.\n**Messages:** Expect a minimum of six weeks. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.\n**How to speed up the process:** Wait faster or time travel. For time travel we recommend 2019 or 2020 for League apps and 2023 for Valorant apps.\n*Not responsible for paradoxes, time loops, or accidental future vacations.*\n*If your app status is unverified, type `/note app-verify` or `!note app-verify` for more information*",
             "categoryId": "kappa:358293780107100160"
         },
         {
