@@ -1,10 +1,5 @@
 {
     "recents": [
-        "perks",
-        "perks",
-        "403",
-        "ids",
-        "400",
         "legal",
         "how-long",
         "rate-limiting",
@@ -23,7 +18,12 @@
         "tuxedo",
         "v4",
         "version",
-        "everyone"
+        "everyone",
+        "knife",
+        "how-long",
+        "how-long",
+        "youbanistan",
+        "tuxedo"
     ],
     "categories": [
         {
@@ -347,12 +347,6 @@
             "categoryId": "kappa:358293780107100160"
         },
         {
-            "command": "everyone",
-            "counter": 2,
-            "message": "@everyone",
-            "categoryId": "%E2%84%B9"
-        },
-        {
             "command": "example",
             "message": "Please post an example of your problem, without your API key.",
             "counter": 58,
@@ -414,7 +408,7 @@
         },
         {
             "command": "how-long",
-            "counter": 273,
+            "counter": 275,
             "message": "**Applications:** Expect a minimum of six weeks, two to three months is typical.\n**Messages:** Expect a minimum of six weeks. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.\n**How to speed up the process:** Wait faster or time travel. For time travel we recommend 2019 or 2020 for League apps and 2023 for Valorant apps.\n*Not responsible for paradoxes, time loops, or accidental future vacations.*\n*If your app status is unverified, type `/note app-verify` or `!note app-verify` for more information*",
             "categoryId": "kappa:358293780107100160"
         },
@@ -468,7 +462,7 @@
         },
         {
             "command": "knife",
-            "counter": 24,
+            "counter": 25,
             "message": "🔪",
             "categoryId": "kappa:358293780107100160"
         },
@@ -834,7 +828,7 @@
         },
         {
             "command": "tuxedo",
-            "counter": 632,
+            "counter": 633,
             "message": "😍 [̲̅W̲̅][̲̅O̲̅][̲̅W̲̅]! You've found the 【S】【E】【C】【R】【E】【T】 𝕋𝕌𝕏𝔼𝔻𝕆 note! <:tuxedo:341518598084493313>\n```★·.·´¯`·.·★ Ｕｓｅ ｔｈｉｓ ｎｏｔｅ {counter} ｍｏｒｅ ｔｉｍｅｓ ｆｏｒ ７ ｙｅａｒｓ ｏｆ ｆｒｅｅ ｐｉｚｚａ! ★·.·´¯`·.·★```",
             "categoryId": "kappa:358293780107100160"
         },
@@ -894,7 +888,7 @@
         },
         {
             "command": "youbanistan",
-            "counter": 19,
+            "counter": 20,
             "message": "https://media.discordapp.net/attachments/187652476080488449/1097893174745235566/departure_table.gif",
             "categoryId": "TuxHammer:358298723035643905"
         }
