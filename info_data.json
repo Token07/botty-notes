@@ -1,20 +1,5 @@
 {
     "recents": [
-        "how-long",
-        "how-long",
-        "app-verify",
-        "app-verify",
-        "lcu-start",
-        "how-long",
-        "legal",
-        "cdragon",
-        "libs",
-        "lol-match-retention",
-        "version",
-        "should-i-use-a-library",
-        "how-long",
-        "lol-match-retention",
-        "lol-match-retention",
         "perks",
         "perks",
         "403",
@@ -25,7 +10,20 @@
         "rate-limiting",
         "how-long",
         "app-verify",
-        "how-long"
+        "how-long",
+        "app-verify",
+        "app-verify",
+        "how-long",
+        "app-verify",
+        "how-long",
+        "how-long",
+        "app-verify",
+        "how-long",
+        "tuxedo",
+        "tuxedo",
+        "v4",
+        "version",
+        "everyone"
     ],
     "categories": [
         {
@@ -139,12 +137,6 @@
             "categoryId": "%E2%84%B9"
         },
         {
-            "command": "andre",
-            "counter": 5,
-            "message": "<@548590163127959557>",
-            "categoryId": "kappa:358293780107100160"
-        },
-        {
             "command": "api-ref",
             "message": "https://developer.riotgames.com/api-methods/",
             "counter": 8,
@@ -170,7 +162,7 @@
         },
         {
             "command": "app-verify",
-            "counter": 84,
+            "counter": 88,
             "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
             "categoryId": "%E2%84%B9"
         },
@@ -356,7 +348,7 @@
         },
         {
             "command": "everyone",
-            "counter": 1,
+            "counter": 2,
             "message": "@everyone",
             "categoryId": "%E2%84%B9"
         },
@@ -422,7 +414,7 @@
         },
         {
             "command": "how-long",
-            "counter": 269,
+            "counter": 273,
             "message": "**Applications:** Expect a minimum of six weeks, two to three months is typical.\n**Messages:** Expect a minimum of six weeks. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.\n**How to speed up the process:** Wait faster or time travel. For time travel we recommend 2019 or 2020 for League apps and 2023 for Valorant apps.\n*Not responsible for paradoxes, time loops, or accidental future vacations.*\n*If your app status is unverified, type `/note app-verify` or `!note app-verify` for more information*",
             "categoryId": "kappa:358293780107100160"
         },
@@ -842,7 +834,7 @@
         },
         {
             "command": "tuxedo",
-            "counter": 630,
+            "counter": 632,
             "message": "😍 [̲̅W̲̅][̲̅O̲̅][̲̅W̲̅]! You've found the 【S】【E】【C】【R】【E】【T】 𝕋𝕌𝕏𝔼𝔻𝕆 note! <:tuxedo:341518598084493313>\n```★·.·´¯`·.·★ Ｕｓｅ ｔｈｉｓ ｎｏｔｅ {counter} ｍｏｒｅ ｔｉｍｅｓ ｆｏｒ ７ ｙｅａｒｓ ｏｆ ｆｒｅｅ ｐｉｚｚａ! ★·.·´¯`·.·★```",
             "categoryId": "kappa:358293780107100160"
         },
@@ -854,7 +846,7 @@
         },
         {
             "command": "v4",
-            "counter": 31,
+            "counter": 32,
             "message": "<https://www.riotgames.com/en/DevRel/player-universally-unique-identifiers-and-a-new-security-layer>",
             "categoryId": "%F0%9F%94%97"
         },
@@ -872,7 +864,7 @@
         },
         {
             "command": "version",
-            "counter": 420,
+            "counter": 421,
             "message": "**DDragon**: You can find the available versions here: http://ddragon.leagueoflegends.com/api/versions.json. The current version is {ddragonVersion}.\n**Game**: The game is currently at version {gameVersion}.",
             "categoryId": "%E2%84%B9"
         },
