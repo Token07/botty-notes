@@ -792,7 +792,7 @@
         {
             "command": "summoner-v4",
             "counter": 0,
-            "message": "Some of the API calls being shared are still using `summoner-v4`, which has been retired. The correct endpoint to use now is **`account-v1`**.\nIf AI suggested that call, remember: AI is a tool to help you, not a replacement for understanding or verifying your code. Always double-check endpoints and parameters against the [official Riot API reference](https://developer.riotgames.com/apis) before using them.",
+            "message": "Some of the API calls being shared are still using `summoner-v4/by-name`, which has been retired. The correct endpoint to use now is **`account-v1`**.\nIf AI suggested that call, remember: AI is a tool to help you, not a replacement for understanding or verifying your code. Always double-check endpoints and parameters against the [official Riot API reference](https://developer.riotgames.com/apis) before using them.",
             "categoryId": "%E2%84%B9"
         },
         {
