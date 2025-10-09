@@ -1,14 +1,5 @@
 {
     "recents": [
-        "how-long",
-        "rule-5",
-        "dont-mention-rioters",
-        "rule-6",
-        "rule-6",
-        "rule-555",
-        "just-ask",
-        "knife",
-        "summoner-name",
         "ids",
         "how-long",
         "rate-limiting",
@@ -28,7 +19,15 @@
         "lcu-start",
         "lol-match-retention",
         "rso",
-        "lol-match-retention"
+        "lol-match-retention",
+        "lcu",
+        "app-verify",
+        "app-verify",
+        "version",
+        "403",
+        "summoner-name",
+        "summoner-v4",
+        "how-long"
     ],
     "categories": [
         {
@@ -89,8 +88,8 @@
         },
         {
             "command": "403",
-            "message": "__**403 (Forbidden)**__\nThis error indicates that the API request being made did not contain the necessary authentication credentials and therefore the client was denied access. If authentication credentials were already included then the Unauthorized response indicates that authorization has been refused for those credentials. In the case of the API, authorization credentials refer to your API key.\n\n**Common Reasons:**\nNo API key was provided with the API request\nAn invalid API key was provided with the API request\nA blacklisted API key was provided with the API request\nThe API request was for an incorrect or unsupported path\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 266,
+            "message": "__**403 (Forbidden)**__\nThis error indicates that the API request being made did not contain the necessary authentication credentials and therefore the client was denied access. If authentication credentials were already included then the Unauthorized response indicates that authorization has been refused for those credentials. In the case of the API, authorization credentials refer to your API key.\n**Common Reasons:**\nA blacklisted API key was provided with the API request\nThe API request was for an incorrect or unsupported path\nhttps://developer.riotgames.com/response-codes.html",
+            "counter": 267,
             "categoryId": "429:453058143694487554"
         },
         {
@@ -167,7 +166,7 @@
         },
         {
             "command": "app-verify",
-            "counter": 102,
+            "counter": 104,
             "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
             "categoryId": "%E2%84%B9"
         },
@@ -413,7 +412,7 @@
         },
         {
             "command": "how-long",
-            "counter": 294,
+            "counter": 295,
             "message": "**Applications:** Expect a minimum of six weeks, two to three months is typical.\n**Messages:** Expect a minimum of six weeks. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.\n**How to speed up the process:** Wait faster or time travel. For time travel we recommend 2019 or 2020 for League apps and 2023 for Valorant apps.\n*Not responsible for paradoxes, time loops, or accidental future vacations.*\n*If your app status is unverified, type `/note app-verify` or `!note app-verify` for more information*",
             "categoryId": "kappa:358293780107100160"
         },
@@ -473,7 +472,7 @@
         },
         {
             "command": "lcu",
-            "counter": 57,
+            "counter": 58,
             "message": "https://hextechdocs.dev/getting-started-with-the-lcu-api/",
             "categoryId": "%F0%9F%94%97"
         },
@@ -785,13 +784,13 @@
         },
         {
             "command": "summoner-name",
-            "counter": 147,
+            "counter": 148,
             "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names have been transitioned out of the API responses starting April 8th 2024.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "summoner-v4",
-            "counter": 0,
+            "counter": 1,
             "message": "Some of the API calls being shared are still using `summoner-v4/by-name`, which has been retired. The correct endpoint to use now is **`account-v1`**.\nIf AI suggested that call, remember: AI is a tool to help you, not a replacement for understanding or verifying your code. Always double-check endpoints and parameters against the [official Riot API reference](https://developer.riotgames.com/apis) before using them.",
             "categoryId": "%E2%84%B9"
         },
@@ -869,7 +868,7 @@
         },
         {
             "command": "version",
-            "counter": 421,
+            "counter": 422,
             "message": "**DDragon**: You can find the available versions here: http://ddragon.leagueoflegends.com/api/versions.json. The current version is {ddragonVersion}.\n**Game**: The game is currently at version {gameVersion}.",
             "categoryId": "%E2%84%B9"
         },
