@@ -27,7 +27,8 @@
         "403",
         "summoner-name",
         "summoner-v4",
-        "how-long"
+        "how-long",
+        "401"
     ],
     "categories": [
         {
@@ -76,8 +77,8 @@
         },
         {
             "command": "401",
-            "counter": 114,
-            "message": "__**401 (Unauthorized)**__ \nThis error indicates that the request being made did not contain the necessary authentication credentials (e.g., an API key) and therefore the client was denied access. The client should not continue to make similar requests without including an API key in the request.\n\n**Common Reasons:**\nAn API key has not been included in the request.",
+            "counter": 115,
+            "message": "__**401 (Unauthorized)**__\nThis error indicates that the request being made did not contain the necessary authentication credentials (e.g., an API key) and therefore the client was denied access. The client should not continue to make similar requests without including an API key in the request.\n**Common Reasons:**\nAn API key has not been included in the request.\nAn Invalid API key has been included in the request.",
             "categoryId": "429:453058143694487554"
         },
         {
