@@ -1,18 +1,5 @@
 {
     "recents": [
-        "ids",
-        "how-long",
-        "rate-limiting",
-        "devportal",
-        "lol-match-retention",
-        "app-verify",
-        "lcu-start",
-        "summoner-name",
-        "lcu",
-        "lcu-start",
-        "leaguev4",
-        "dont-mention-rioters",
-        "how-long",
         "how-long",
         "cdragon",
         "tournament-stub",
@@ -28,7 +15,17 @@
         "summoner-name",
         "summoner-v4",
         "how-long",
-        "401"
+        "401",
+        "401",
+        "lol-match-retention",
+        "how-long",
+        "app-verify",
+        "app-verify",
+        "good-bot",
+        "good-bot",
+        "summoner-name",
+        "app-verify",
+        "val-endpoints"
     ],
     "categories": [
         {
@@ -77,7 +74,7 @@
         },
         {
             "command": "401",
-            "counter": 115,
+            "counter": 116,
             "message": "__**401 (Unauthorized)**__\nThis error indicates that the request being made did not contain the necessary authentication credentials (e.g., an API key) and therefore the client was denied access. The client should not continue to make similar requests without including an API key in the request.\n**Common Reasons:**\nAn API key has not been included in the request.\nAn Invalid API key has been included in the request.",
             "categoryId": "429:453058143694487554"
         },
@@ -167,7 +164,7 @@
         },
         {
             "command": "app-verify",
-            "counter": 104,
+            "counter": 107,
             "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
             "categoryId": "%E2%84%B9"
         },
@@ -384,7 +381,7 @@
         {
             "command": "good-bot",
             "message": "ty bby",
-            "counter": 139,
+            "counter": 141,
             "categoryId": "kappa:358293780107100160"
         },
         {
@@ -413,7 +410,7 @@
         },
         {
             "command": "how-long",
-            "counter": 295,
+            "counter": 296,
             "message": "**Applications:** Expect a minimum of six weeks, two to three months is typical.\n**Messages:** Expect a minimum of six weeks. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.\n**How to speed up the process:** Wait faster or time travel. For time travel we recommend 2019 or 2020 for League apps and 2023 for Valorant apps.\n*Not responsible for paradoxes, time loops, or accidental future vacations.*\n*If your app status is unverified, type `/note app-verify` or `!note app-verify` for more information*",
             "categoryId": "kappa:358293780107100160"
         },
@@ -539,7 +536,7 @@
         },
         {
             "command": "lol-match-retention",
-            "counter": 75,
+            "counter": 76,
             "message": "Match data is retained for 2 years, match timelines for 1 year. A player's match list will only show up to the last 1000 matches played. Non-public games (customs, practice tool, etc.) count towards the 1000 match limit so it may never hold exactly 1000. Games exceeding the limit but not exceeding the retention period will only be accessible through the match list of another player that participated in the game, or directly by the match id.",
             "categoryId": "%E2%84%B9"
         },
@@ -785,7 +782,7 @@
         },
         {
             "command": "summoner-name",
-            "counter": 148,
+            "counter": 149,
             "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names have been transitioned out of the API responses starting April 8th 2024.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
             "categoryId": "%E2%84%B9"
         },
@@ -806,6 +803,12 @@
             "message": "http://www.mingweisamuel.com/riotapi-schema/tool/",
             "counter": 33,
             "categoryId": "%F0%9F%91%AA"
+        },
+        {
+            "command": "test",
+            "counter": 0,
+            "message": "test 2",
+            "categoryId": "%E2%84%B9"
         },
         {
             "command": "tft-team-planner",
@@ -857,7 +860,7 @@
         },
         {
             "command": "val-endpoints",
-            "counter": 8,
+            "counter": 9,
             "message": "VALORANT endpoints such as VAL-MATCH-V1 are available to **production applications only**. This is due to the way VALORANT handles private user data, requiring opt-ins from RSO to display data publicly.\nThis means if you want data from the API you will need to create a **publicly available application**.\nDeveloper keys will not have access and there are no personal keys for VALORANT.\nYou can build your application for approval by either mocking data or using the sample data in the pinned messages of <#694820049063510026>",
             "categoryId": "%E2%84%B9"
         },
