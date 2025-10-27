@@ -1,33 +1,30 @@
 {
     "recents": [
-        "lcu-start",
-        "lol-match-retention",
-        "rso",
-        "lol-match-retention",
-        "lcu",
-        "app-verify",
-        "app-verify",
-        "version",
-        "403",
-        "summoner-name",
-        "summoner-v4",
-        "how-long",
-        "401",
-        "401",
-        "lol-match-retention",
-        "how-long",
-        "app-verify",
-        "app-verify",
-        "good-bot",
-        "good-bot",
-        "summoner-name",
-        "app-verify",
-        "val-endpoints",
         "test",
         "how-long",
         "lol-match-retention",
         "custom-data",
-        "how-long"
+        "how-long",
+        "help",
+        "400",
+        "dont-ping-gurus",
+        "rso",
+        "how-long",
+        "app-verify",
+        "app-verify",
+        "app-verify",
+        "ddragon",
+        "how-long",
+        "app-verify",
+        "502",
+        "500",
+        "503",
+        "502",
+        "how-long",
+        "app-verify",
+        "legal",
+        "just-ask",
+        "lol-match-retention"
     ],
     "categories": [
         {
@@ -70,7 +67,7 @@
         },
         {
             "command": "400",
-            "counter": 148,
+            "counter": 149,
             "message": "**400**: If you're getting this message, you've most likely entered an incorrect summonerId or PUUID.\nApplications are given a unique encryption on all IDs (summoner, account, and puuids). If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
             "categoryId": "429:453058143694487554"
         },
@@ -119,13 +116,13 @@
         {
             "command": "500",
             "message": "__**500 (Internal Server Error)**__\nThis error indicates an unexpected condition or exception which prevented the server from fulfilling an API request.\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 31,
+            "counter": 32,
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "503",
             "message": "__**503 (Service Unavailable)**__\nThis error indicates the server is currently unavailable to handle requests because of an unknown reason. The Service Unavailable response implies a temporary condition which will be alleviated after some delay.\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 51,
+            "counter": 52,
             "categoryId": "429:453058143694487554"
         },
         {
@@ -166,7 +163,7 @@
         },
         {
             "command": "app-verify",
-            "counter": 107,
+            "counter": 112,
             "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
             "categoryId": "%E2%84%B9"
         },
@@ -274,7 +271,7 @@
         },
         {
             "command": "ddragon",
-            "counter": 410,
+            "counter": 411,
             "message": "https://ddragon.leagueoflegends.com/cdn/dragontail-{ddragonVersion}.tgz",
             "categoryId": "%F0%9F%94%97"
         },
@@ -316,7 +313,7 @@
         },
         {
             "command": "dont-ping-gurus",
-            "counter": 3,
+            "counter": 4,
             "message": "Actually, do ping Gurus. Ping them as much as you want. Nobody will care.",
             "categoryId": "kappa:358293780107100160"
         },
@@ -400,7 +397,7 @@
         },
         {
             "command": "help",
-            "counter": 105,
+            "counter": 106,
             "message": "See !help for a list of all commands or !note for a list of all notes.",
             "categoryId": "%E2%84%B9"
         },
@@ -412,7 +409,7 @@
         },
         {
             "command": "how-long",
-            "counter": 298,
+            "counter": 301,
             "message": "**Applications:** Expect a minimum of six weeks, three-six months is typical.\n**Messages:** Expect a minimum of six weeks. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.\n**How to speed up the process:** Wait faster or time travel. For time travel we recommend 2019 or 2020 for League apps and 2023 for Valorant apps.\n*Not responsible for paradoxes, time loops, or accidental future vacations.*\n*If your app status is unverified, type `/note app-verify` or `!note app-verify` for more information*",
             "categoryId": "kappa:358293780107100160"
         },
@@ -461,7 +458,7 @@
         {
             "command": "just-ask",
             "message": "If you're having an issue and need help with something, just post your problem in the relevant channel (don't bother asking if somebody can help you first). This should decrease the time it takes for you to get the help you need.",
-            "counter": 166,
+            "counter": 167,
             "categoryId": "TuxHammer:358298723035643905"
         },
         {
@@ -508,9 +505,15 @@
         },
         {
             "command": "legal",
-            "counter": 85,
+            "counter": 86,
             "message": "Guidelines concerning the usage of Riot's intellectual property can be found here: https://www.riotgames.com/legal-jibber-jabber",
             "categoryId": "%F0%9F%94%97"
+        },
+        {
+            "command": "lets-encrypt",
+            "counter": 0,
+            "message": "The Developer Portal currently cannot validate apps using certificates issued by Let's Encrypt. Riot is aware of the issue and is looking into it.\nAs a temporary workaround, use a certificate from a different Certificate Authority.",
+            "categoryId": "%E2%84%B9"
         },
         {
             "command": "libraries",
@@ -538,7 +541,7 @@
         },
         {
             "command": "lol-match-retention",
-            "counter": 77,
+            "counter": 78,
             "message": "Match data is retained for 2 years, match timelines for 1 year. A player's match list will only show up to the last 1000 matches played. Non-public games (customs, practice tool, etc.) count towards the 1000 match limit so it may never hold exactly 1000. Games exceeding the limit but not exceeding the retention period will only be accessible through the match list of another player that participated in the game, or directly by the match id.",
             "categoryId": "%E2%84%B9"
         },
@@ -713,7 +716,7 @@
         {
             "command": "rso",
             "message": "> RSO is Riot Sign On, standard OAuth2 that allows you to verify users own an account.\n> You need an approved production application and then apply to use RSO on the beta developer portal at <https://beta.developer.riotgames.com/>\n> For detailed questions on usage look at the pins and ask in <#946641562757107782>\n> or see the examples at: <https://github.com/RiotGames/developer-relations/tree/main/sample_apps/rso_sample_apps>",
-            "counter": 178,
+            "counter": 179,
             "categoryId": "%E2%84%B9"
         },
         {
