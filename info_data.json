@@ -1,15 +1,5 @@
 {
     "recents": [
-        "how-long",
-        "how-long",
-        "how-long",
-        "app-verify",
-        "how-long",
-        "we-mad",
-        "app-verify",
-        "app-verify",
-        "how-long",
-        "how-long",
         "dab",
         "dab",
         "good-bot",
@@ -24,7 +14,16 @@
         "how-long",
         "aggregated-data",
         "403",
-        "match-prefix"
+        "match-prefix",
+        "how-long",
+        "how-long",
+        "app-verify",
+        "403",
+        "rso",
+        "403",
+        "summoner-name",
+        "ddragon",
+        "cdragon"
     ],
     "categories": [
         {
@@ -85,8 +84,8 @@
         },
         {
             "command": "403",
-            "message": "__**403 (Forbidden)**__\nThis error indicates that the API request being made did not contain the necessary authentication credentials and therefore the client was denied access. If authentication credentials were already included then the Unauthorized response indicates that authorization has been refused for those credentials. In the case of the API, authorization credentials refer to your API key.\n**Common Reasons:**\nA blacklisted API key was provided with the API request\nThe API request was for an incorrect or unsupported path\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 270,
+            "message": "__**403 (Forbidden)**__\nThis error indicates that the API request being made did not contain the necessary authentication credentials and therefore the client was denied access. If authentication credentials were already included then the Unauthorized response indicates that authorization has been refused for those credentials. In the case of the API, authorization credentials refer to your API key.\n**Common Reasons:**\nA blacklisted API key was provided with the API request\nThe API request was for an incorrect or unsupported path (are you trying to use summoner/by-name, match-v4, or an endpoint that requires a summoner id?)\nThe requested match is unavailable through the API (match-v5 only)\nhttps://developer.riotgames.com/response-codes.html",
+            "counter": 272,
             "categoryId": "429:453058143694487554"
         },
         {
@@ -163,7 +162,7 @@
         },
         {
             "command": "app-verify",
-            "counter": 116,
+            "counter": 117,
             "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
             "categoryId": "%E2%84%B9"
         },
@@ -211,7 +210,7 @@
         },
         {
             "command": "cdragon",
-            "counter": 359,
+            "counter": 360,
             "message": "cdragon is a community project aimed at fixing the errors in ddragon and providing assets from the game. Join the cdragon discord here https://discord.gg/yNFG5yk\nYou can find raw files (no API) here: https://raw.communitydragon.org/\nYou can find the CDN endpoints here: https://cdn.communitydragon.org/endpoints",
             "categoryId": "%F0%9F%91%AA"
         },
@@ -271,7 +270,7 @@
         },
         {
             "command": "ddragon",
-            "counter": 417,
+            "counter": 418,
             "message": "https://ddragon.leagueoflegends.com/cdn/dragontail-{ddragonVersion}.tgz",
             "categoryId": "%F0%9F%94%97"
         },
@@ -409,7 +408,7 @@
         },
         {
             "command": "how-long",
-            "counter": 319,
+            "counter": 321,
             "message": "**Applications:** Expect a minimum of six weeks, three-six months is typical.\n**Messages:** Expect a minimum of six weeks. Since they review specific date ranges, submitting multiple messages may kick you to the back of the queue.\n**How to speed up the process:** Wait faster or time travel. For time travel we recommend 2019 or 2020 for League apps and 2023 for Valorant apps.\n*Not responsible for paradoxes, time loops, or accidental future vacations.*\n*If your app status is unverified, type `/note app-verify` or `!note app-verify` for more information*",
             "categoryId": "kappa:358293780107100160"
         },
@@ -710,7 +709,7 @@
         {
             "command": "rso",
             "message": "> RSO is Riot Sign On, standard OAuth2 that allows you to verify users own an account.\n> You need an approved production application and then apply to use RSO on the beta developer portal at <https://beta.developer.riotgames.com/>\n> For detailed questions on usage look at the pins and ask in <#946641562757107782>\n> or see the examples at: <https://github.com/RiotGames/developer-relations/tree/main/sample_apps/rso_sample_apps>",
-            "counter": 180,
+            "counter": 181,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -781,7 +780,7 @@
         },
         {
             "command": "summoner-name",
-            "counter": 152,
+            "counter": 153,
             "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names have been transitioned out of the API responses starting April 8th 2024.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
             "categoryId": "%E2%84%B9"
         },
