@@ -1,13 +1,5 @@
 {
     "recents": [
-        "how-long",
-        "app-verify",
-        "cdragon",
-        "good-bot",
-        "knife",
-        "503",
-        "lol-match-retention",
-        "how-long",
         "app-verify",
         "good-bot",
         "how-long",
@@ -25,7 +17,13 @@
         "how-long",
         "app-verify",
         "app-verify",
-        "how-long"
+        "how-long",
+        "how-long",
+        "app-verify",
+        "app-verify",
+        "app-verify",
+        "400",
+        "edit"
     ],
     "categories": [
         {
@@ -68,8 +66,8 @@
         },
         {
             "command": "400",
-            "counter": 153,
-            "message": "**400**: If you're getting this message, you've most likely entered an incorrect summonerId or PUUID.\nApplications are given a unique encryption on all IDs (summoner, account, and puuids). If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
+            "counter": 154,
+            "message": "If you're getting this message, you've most likely entered an incorrect PUUID.\nApplications are given a unique encryption on all PUUIDs. If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
             "categoryId": "429:453058143694487554"
         },
         {
@@ -164,7 +162,7 @@
         },
         {
             "command": "app-verify",
-            "counter": 129,
+            "counter": 132,
             "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
             "categoryId": "%E2%84%B9"
         },
@@ -410,7 +408,7 @@
         },
         {
             "command": "how-long",
-            "counter": 347,
+            "counter": 348,
             "message": "Expect **upwards of 8 months** for an application review.\nTicket response times may be slightly shorter, but are still at least several months out.\n*If your app status is listed as `unverified` in the developer portal, type `/note app-verify` or `!note app-verify` for more information*",
             "categoryId": "kappa:358293780107100160"
         },
