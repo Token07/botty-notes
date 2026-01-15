@@ -323,6 +323,12 @@
             "categoryId": "%F0%9F%94%97"
         },
         {
+            "command": "edit",
+            "counter": 0,
+            "message": "Did you mean `!note replace`?",
+            "categoryId": "kappa:358293780107100160"
+        },
+        {
             "command": "endpoints",
             "counter": 4,
             "message": "Did you mean `!endpoints`",
