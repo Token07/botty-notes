@@ -109,7 +109,7 @@
         {
             "command": "418",
             "counter": 0,
-            "message": "*_418 I'm a teapot_*\nThis error indicates that your request was routed to a teapot. The response may be short and stout.",
+            "message": "**__418 I'm a teapot__**\nThis error indicates that your request was routed to a teapot. The response may be short and stout.",
             "categoryId": "kappa:358293780107100160"
         },
         {
