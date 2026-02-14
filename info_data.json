@@ -1,35 +1,30 @@
 {
     "recents": [
         "app-verify",
-        "how-long",
-        "custom-data",
-        "good-bot",
+        "app-verify",
         "403",
-        "404",
-        "405",
-        "418",
-        "libs",
-        "how-long",
-        "rate-limiting",
-        "404",
-        "403",
-        "522",
-        "version",
-        "perks",
-        "repo",
-        "how-long",
-        "how-long",
-        "cdragon",
-        "429",
         "lol-match-retention",
-        "app-verify",
-        "good-bot",
         "how-long",
         "how-long",
-        "summoner-name",
         "how-long",
-        "app-verify",
-        "app-verify"
+        "how-long",
+        "how-long",
+        "version",
+        "how-long",
+        "how-long",
+        "github",
+        "issues",
+        "403",
+        "401",
+        "how-long",
+        "403",
+        "cdragon",
+        "rule-5",
+        "rule-6",
+        "rule-6",
+        "rule-7",
+        "rule-5",
+        "rule-555"
     ],
     "categories": [
         {
@@ -78,7 +73,7 @@
         },
         {
             "command": "401",
-            "counter": 118,
+            "counter": 119,
             "message": "__**401 (Unauthorized)**__\nThis error indicates that the request being made did not contain the necessary authentication credentials (e.g., an API key) and therefore the client was denied access. The client should not continue to make similar requests without including an API key in the request.\n**Common Reasons:**\nAn API key has not been included in the request.\nAn Invalid API key has been included in the request.",
             "categoryId": "429:453058143694487554"
         },
@@ -91,7 +86,7 @@
         {
             "command": "403",
             "message": "__**403 (Forbidden)**__\nThis error indicates that the API request being made did not contain the necessary authentication credentials and therefore the client was denied access. If authentication credentials were already included then the Unauthorized response indicates that authorization has been refused for those credentials. In the case of the API, authorization credentials refer to your API key.\n**Common Reasons:**\nA blacklisted API key was provided with the API request\nThe API request was for an incorrect or unsupported path (are you trying to use summoner/by-name, match-v4, or an endpoint that requires a summoner id?)\nThe requested match is unavailable through the API (match-v5 only)\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 281,
+            "counter": 284,
             "categoryId": "429:453058143694487554"
         },
         {
@@ -222,7 +217,7 @@
         },
         {
             "command": "cdragon",
-            "counter": 369,
+            "counter": 370,
             "message": "cdragon is a community project aimed at fixing the errors in ddragon and providing assets from the game. Join the cdragon discord here https://discord.gg/yNFG5yk\nYou can find raw files (no API) here: https://raw.communitydragon.org/\nYou can find the CDN endpoints here: https://cdn.communitydragon.org/endpoints",
             "categoryId": "%F0%9F%91%AA"
         },
@@ -426,7 +421,7 @@
         },
         {
             "command": "how-long",
-            "counter": 361,
+            "counter": 369,
             "message": "Expect **upwards of 8 months** for an application review.\nTicket response times may be slightly shorter, but are still at least several months out.\n*If your app status is listed as `unverified` in the developer portal it will **not** be reviewed.*",
             "categoryId": "kappa:358293780107100160"
         },
@@ -456,7 +451,7 @@
         },
         {
             "command": "issues",
-            "counter": 213,
+            "counter": 214,
             "message": "https://github.com/RiotGames/developer-relations/issues",
             "categoryId": "%F0%9F%94%97"
         },
@@ -552,7 +547,7 @@
         },
         {
             "command": "lol-match-retention",
-            "counter": 84,
+            "counter": 85,
             "message": "Match data is retained for 2 years, match timelines for 1 year. A player's match list will only show up to the last 1000 matches played. Non-public games (customs, practice tool, etc.) count towards the 1000 match limit so it may never hold exactly 1000. Games exceeding the limit but not exceeding the retention period will only be accessible through the match list of another player that participated in the game, or directly by the match id.",
             "categoryId": "%E2%84%B9"
         },
@@ -738,20 +733,26 @@
         },
         {
             "command": "rule-5",
-            "counter": 16,
+            "counter": 18,
             "message": "dont dm rioters.",
             "categoryId": "TuxHammer:358298723035643905"
         },
         {
             "command": "rule-555",
-            "counter": 20,
+            "counter": 21,
             "message": "Don't mention anyone. ~Riot Tuxedo",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "rule-6",
-            "counter": 40,
+            "counter": 42,
             "message": "Gurus do whatever they want. #screwTheRules ",
+            "categoryId": "kappa:358293780107100160"
+        },
+        {
+            "command": "rule6-7",
+            "counter": 0,
+            "message": "https://discord.com/channels/187652476080488449/187652476080488449/1472218899423428618",
             "categoryId": "kappa:358293780107100160"
         },
         {
@@ -882,7 +883,7 @@
         },
         {
             "command": "version",
-            "counter": 425,
+            "counter": 426,
             "message": "**DDragon**: You can find the available versions here: http://ddragon.leagueoflegends.com/api/versions.json. The current version is {ddragonVersion}.\n**Game**: The game is currently at version {gameVersion}.",
             "categoryId": "%E2%84%B9"
         },
