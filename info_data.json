@@ -1,8 +1,5 @@
 {
     "recents": [
-        "app-verify",
-        "app-verify",
-        "403",
         "lol-match-retention",
         "how-long",
         "how-long",
@@ -24,7 +21,10 @@
         "rule-6",
         "rule-7",
         "rule-5",
-        "rule-555"
+        "rule-555",
+        "rule6-7",
+        "help",
+        "how-long"
     ],
     "categories": [
         {
@@ -409,7 +409,7 @@
         },
         {
             "command": "help",
-            "counter": 106,
+            "counter": 107,
             "message": "See !help for a list of all commands or !note for a list of all notes.",
             "categoryId": "%E2%84%B9"
         },
@@ -421,8 +421,8 @@
         },
         {
             "command": "how-long",
-            "counter": 369,
-            "message": "Expect **upwards of 8 months** for an application review.\nTicket response times may be slightly shorter, but are still at least several months out.\n*If your app status is listed as `unverified` in the developer portal it will **not** be reviewed.*",
+            "counter": 370,
+            "message": "Expect **3-8 months** for an application review.\nTicket response times may be slightly shorter, but are still at least several months out.\n*If your app status is listed as `unverified` in the developer portal it will **not** be reviewed.*",
             "categoryId": "kappa:358293780107100160"
         },
         {
@@ -751,7 +751,7 @@
         },
         {
             "command": "rule6-7",
-            "counter": 0,
+            "counter": 1,
             "message": "https://discord.com/channels/187652476080488449/187652476080488449/1472218899423428618",
             "categoryId": "kappa:358293780107100160"
         },
