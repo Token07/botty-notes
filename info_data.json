@@ -1,30 +1,29 @@
 {
     "recents": [
-        "lol-match-retention",
-        "how-long",
-        "how-long",
-        "how-long",
-        "how-long",
-        "how-long",
-        "version",
-        "how-long",
-        "how-long",
-        "github",
-        "issues",
+        "bad-bot",
         "403",
-        "401",
         "how-long",
-        "403",
+        "good-bot",
+        "bad-bot",
+        "bad-bot",
+        "how-long",
+        "how-long",
+        "how-long",
         "cdragon",
-        "rule-5",
-        "rule-6",
-        "rule-6",
-        "rule-7",
-        "rule-5",
+        "how-long",
+        "how-long",
+        "how-long",
+        "how-long",
+        "how-long",
+        "custom-data",
+        "dont-mention-rioters",
         "rule-555",
-        "rule6-7",
-        "help",
-        "how-long"
+        "cdragon",
+        "custom-data",
+        "libraries",
+        "400",
+        "ids",
+        "pins"
     ],
     "categories": [
         {
@@ -67,8 +66,8 @@
         },
         {
             "command": "400",
-            "counter": 154,
-            "message": "If you're getting this message, you've most likely entered an incorrect PUUID.\nApplications are given a unique encryption on all PUUIDs. If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
+            "counter": 155,
+            "message": "**__400 - Bad Request__**: If you're getting this message, you've most likely entered an incorrect PUUID.\nApplications are given a unique encryption on all PUUIDs. If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
             "categoryId": "429:453058143694487554"
         },
         {
@@ -86,7 +85,7 @@
         {
             "command": "403",
             "message": "__**403 (Forbidden)**__\nThis error indicates that the API request being made did not contain the necessary authentication credentials and therefore the client was denied access. If authentication credentials were already included then the Unauthorized response indicates that authorization has been refused for those credentials. In the case of the API, authorization credentials refer to your API key.\n**Common Reasons:**\nA blacklisted API key was provided with the API request\nThe API request was for an incorrect or unsupported path (are you trying to use summoner/by-name, match-v4, or an endpoint that requires a summoner id?)\nThe requested match is unavailable through the API (match-v5 only)\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 284,
+            "counter": 288,
             "categoryId": "429:453058143694487554"
         },
         {
@@ -193,7 +192,7 @@
         },
         {
             "command": "bad-bot",
-            "counter": 35,
+            "counter": 39,
             "message": "<:dab:499726833890230273>",
             "categoryId": "kappa:358293780107100160"
         },
@@ -217,7 +216,7 @@
         },
         {
             "command": "cdragon",
-            "counter": 370,
+            "counter": 373,
             "message": "cdragon is a community project aimed at fixing the errors in ddragon and providing assets from the game. Join the cdragon discord here https://discord.gg/yNFG5yk\nYou can find raw files (no API) here: https://raw.communitydragon.org/\nYou can find the CDN endpoints here: https://cdn.communitydragon.org/endpoints",
             "categoryId": "%F0%9F%91%AA"
         },
@@ -266,18 +265,18 @@
         {
             "command": "custom-data",
             "message": "League of Legends custom game data is now available through the Riot Games API for applications with RSO. These options do not include tournament realm games (See <#976954581076553769> for esports data)\nOfficial Methods:\n1. Use lol-rso-match-v1 https://developer.riotgames.com/apis#lol-rso-match-v1 you can use this with a RSO token. See pins of <#946641562757107782> for more information on RSO.\n2. Use the Tournament API. This requires specific approval with a production app. You can generate tournament codes then gather data using the callback or getting the game id from the tournament code. This option is made for tournaments only, there have been exceptions but Riot has not been as lenient on giving those out recently.\nTo read about Tournament API:\n<https://developer.riotgames.com/docs/lol#tournament-api>\n<https://developer.riotgames.com/apis#tournament-v5>\nUnofficial Method:\nUsing the <#516802588805431296> . This requires you to run a program on a player's computer that participated in the game (match history does not show for spectators). You will need to build your own application and upload the match files to your server using your application or manually. The LCU is not an officially supported resource so documentation isn't as readily available.\nTo read about the LCU:\n<https://hextechdocs.dev/getting-started-with-the-lcu-api/>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1ProductsLolByPuuidMatches>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1GamesByGameId>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1GameTimelinesByGameId>",
-            "counter": 114,
+            "counter": 116,
             "categoryId": "%E2%84%B9"
         },
         {
             "command": "dab",
-            "counter": 157,
+            "counter": 158,
             "message": "<:dab:499726833890230273>",
             "categoryId": "kappa:358293780107100160"
         },
         {
             "command": "ddragon",
-            "counter": 422,
+            "counter": 423,
             "message": "https://ddragon.leagueoflegends.com/cdn/dragontail-{ddragonVersion}.tgz",
             "categoryId": "%F0%9F%94%97"
         },
@@ -314,7 +313,7 @@
         {
             "command": "dont-mention-rioters",
             "message": "Rule 5. Please do not mention or DM individual Rioters for help (unless advised to). Instead, ask in one of the public channels for assistance as it will get more exposure there (More 👀 will see it) and you will probably receive an answer faster. Note: This rule does not apply to Gurus, and Rioters.",
-            "counter": 180,
+            "counter": 181,
             "categoryId": "TuxHammer:358298723035643905"
         },
         {
@@ -392,7 +391,7 @@
         {
             "command": "good-bot",
             "message": "ty bby",
-            "counter": 154,
+            "counter": 155,
             "categoryId": "kappa:358293780107100160"
         },
         {
@@ -421,7 +420,7 @@
         },
         {
             "command": "how-long",
-            "counter": 370,
+            "counter": 384,
             "message": "Expect **3-8 months** for an application review.\nTicket response times may be slightly shorter, but are still at least several months out.\n*If your app status is listed as `unverified` in the developer portal it will **not** be reviewed.*",
             "categoryId": "kappa:358293780107100160"
         },
@@ -433,7 +432,7 @@
         },
         {
             "command": "ids",
-            "counter": 176,
+            "counter": 177,
             "message": "**Summoner and Account ids:**\nSummonerId endpoints were removed <t:1750395600:R>. SummonerIds and AccountIds were removed from endpoint responses beginning <t:1751864400:R>. You should use PUUID equivalents for all endpoints now.\n**Encryption**:\nAll ids returned by the Riot Games API are encrypted. This means they will be tied to the application they were originally generated for. This means if you pull ids from one application (like a developer key) you will not be able to use them with another application (like a personal or production key). You must get these ids how you originally got them again, likely through Account-V1. There are situations like with RSO that Riot can merge encryption across apps but this is not the default.",
             "categoryId": "%E2%84%B9"
         },
@@ -523,7 +522,7 @@
         },
         {
             "command": "libraries",
-            "counter": 8,
+            "counter": 9,
             "message": "Use !libs <your language here> to get a list of libraries made for your language. For example, !libs python.",
             "categoryId": "%E2%84%B9"
         },
@@ -637,7 +636,7 @@
         },
         {
             "command": "pins",
-            "counter": 128,
+            "counter": 129,
             "message": "The pins on each channel have some useful information on the topic that will most likely answer your question. Click on this icon to see the pins: https://i.imgur.com/x1RZYsE.png",
             "categoryId": "%E2%84%B9"
         },
@@ -739,7 +738,7 @@
         },
         {
             "command": "rule-555",
-            "counter": 21,
+            "counter": 22,
             "message": "Don't mention anyone. ~Riot Tuxedo",
             "categoryId": "kappa:358293780107100160"
         },
@@ -799,7 +798,7 @@
         },
         {
             "command": "summoner-name",
-            "counter": 157,
+            "counter": 159,
             "message": "> Summoner names were removed on November 20th 2023. League of Legends will now use Riot IDs in their place.\n> -\n> Summoner names have been transitioned out of the API responses starting April 8th 2024.\n> -\n> Use Account-V1 by gameName/tagLine as a replacement for Summoner-V4 by-name endpoint. <https://developer.riotgames.com/apis#account-v1/GET_getByRiotId>\n> -\n> You can use the PUUID from that endpoint with Summoner-V4 by-puuid to get the same summoner information as you were getting before <https://developer.riotgames.com/apis#summoner-v4/GET_getByPUUID>\n> -\n> You can read more about the transition here: <https://www.riotgames.com/en/DevRel/summoner-names-to-riot-id>",
             "categoryId": "%E2%84%B9"
         },
