@@ -1,29 +1,29 @@
 {
     "recents": [
-        "bad-bot",
-        "403",
-        "how-long",
-        "good-bot",
-        "bad-bot",
-        "bad-bot",
-        "how-long",
-        "how-long",
-        "how-long",
         "cdragon",
         "how-long",
         "how-long",
         "how-long",
-        "how-long",
-        "how-long",
+        "lol-match-retention",
+        "match-v4",
+        "lol-match-retention",
+        "lol-match-retention",
+        "lol-match-retention",
+        "app-verify",
+        "app-verify",
+        "app-verify",
+        "app-verify",
+        "repo",
+        "app-verify",
         "custom-data",
-        "dont-mention-rioters",
-        "rule-555",
-        "cdragon",
-        "custom-data",
-        "libraries",
+        "should-i-use-a-library",
+        "401",
+        "401",
+        "how-long",
         "400",
-        "ids",
-        "pins"
+        "403",
+        "401",
+        "400"
     ],
     "categories": [
         {
@@ -66,13 +66,13 @@
         },
         {
             "command": "400",
-            "counter": 155,
-            "message": "**__400 - Bad Request__**: If you're getting this message, you've most likely entered an incorrect PUUID.\nApplications are given a unique encryption on all PUUIDs. If you looked up a player on a different key you will need to use the same method to get the ID on the different application.",
+            "counter": 157,
+            "message": "**__400 - Bad Request__**: If you're getting this message, you've most likely entered an incorrect PUUID.\nApplications are given a unique encryption on all PUUIDs. If you looked up a player on a different key you will need to use the same method to get the ID on the different application.\ntldr: IF YOU TRY TO USE A PUUID OBTAINED WITH A DIFFERENT KEY THAN THE ONE IT WAS OBTAINED WITH IT WONT WORK",
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "401",
-            "counter": 119,
+            "counter": 122,
             "message": "__**401 (Unauthorized)**__\nThis error indicates that the request being made did not contain the necessary authentication credentials (e.g., an API key) and therefore the client was denied access. The client should not continue to make similar requests without including an API key in the request.\n**Common Reasons:**\nAn API key has not been included in the request.\nAn Invalid API key has been included in the request.",
             "categoryId": "429:453058143694487554"
         },
@@ -85,7 +85,7 @@
         {
             "command": "403",
             "message": "__**403 (Forbidden)**__\nThis error indicates that the API request being made did not contain the necessary authentication credentials and therefore the client was denied access. If authentication credentials were already included then the Unauthorized response indicates that authorization has been refused for those credentials. In the case of the API, authorization credentials refer to your API key.\n**Common Reasons:**\nA blacklisted API key was provided with the API request\nThe API request was for an incorrect or unsupported path (are you trying to use summoner/by-name, match-v4, or an endpoint that requires a summoner id?)\nThe requested match is unavailable through the API (match-v5 only)\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 288,
+            "counter": 289,
             "categoryId": "429:453058143694487554"
         },
         {
@@ -168,7 +168,7 @@
         },
         {
             "command": "app-verify",
-            "counter": 138,
+            "counter": 144,
             "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
             "categoryId": "%E2%84%B9"
         },
@@ -216,7 +216,7 @@
         },
         {
             "command": "cdragon",
-            "counter": 373,
+            "counter": 374,
             "message": "cdragon is a community project aimed at fixing the errors in ddragon and providing assets from the game. Join the cdragon discord here https://discord.gg/yNFG5yk\nYou can find raw files (no API) here: https://raw.communitydragon.org/\nYou can find the CDN endpoints here: https://cdn.communitydragon.org/endpoints",
             "categoryId": "%F0%9F%91%AA"
         },
@@ -265,7 +265,7 @@
         {
             "command": "custom-data",
             "message": "League of Legends custom game data is now available through the Riot Games API for applications with RSO. These options do not include tournament realm games (See <#976954581076553769> for esports data)\nOfficial Methods:\n1. Use lol-rso-match-v1 https://developer.riotgames.com/apis#lol-rso-match-v1 you can use this with a RSO token. See pins of <#946641562757107782> for more information on RSO.\n2. Use the Tournament API. This requires specific approval with a production app. You can generate tournament codes then gather data using the callback or getting the game id from the tournament code. This option is made for tournaments only, there have been exceptions but Riot has not been as lenient on giving those out recently.\nTo read about Tournament API:\n<https://developer.riotgames.com/docs/lol#tournament-api>\n<https://developer.riotgames.com/apis#tournament-v5>\nUnofficial Method:\nUsing the <#516802588805431296> . This requires you to run a program on a player's computer that participated in the game (match history does not show for spectators). You will need to build your own application and upload the match files to your server using your application or manually. The LCU is not an officially supported resource so documentation isn't as readily available.\nTo read about the LCU:\n<https://hextechdocs.dev/getting-started-with-the-lcu-api/>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1ProductsLolByPuuidMatches>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1GamesByGameId>\n<https://swagger.dysolix.dev/lcu/#/Plugin%20lol-match-history/GetLolMatchHistoryV1GameTimelinesByGameId>",
-            "counter": 116,
+            "counter": 117,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -420,7 +420,7 @@
         },
         {
             "command": "how-long",
-            "counter": 384,
+            "counter": 389,
             "message": "Expect **3-8 months** for an application review.\nTicket response times may be slightly shorter, but are still at least several months out.\n*If your app status is listed as `unverified` in the developer portal it will **not** be reviewed.*",
             "categoryId": "kappa:358293780107100160"
         },
@@ -546,7 +546,7 @@
         },
         {
             "command": "lol-match-retention",
-            "counter": 85,
+            "counter": 89,
             "message": "Match data is retained for 2 years, match timelines for 1 year. A player's match list will only show up to the last 1000 matches played. Non-public games (customs, practice tool, etc.) count towards the 1000 match limit so it may never hold exactly 1000. Games exceeding the limit but not exceeding the retention period will only be accessible through the match list of another player that participated in the game, or directly by the match id.",
             "categoryId": "%E2%84%B9"
         },
@@ -576,7 +576,7 @@
         },
         {
             "command": "match-v4",
-            "counter": 30,
+            "counter": 31,
             "message": "match-v4 was removed from the API <t:1632715200:R>. Any code, documentation or examples referencing match-v4 should be considered incorrect and will need to be updated. Match-v5 (<https://developer.riotgames.com/apis#match-v5>) is the replacement. Take note the parameters have changed from match-v4.",
             "categoryId": "%E2%84%B9"
         },
@@ -679,7 +679,7 @@
         {
             "command": "repo",
             "message": "https://github.com/Querijn/BottyMcBotface",
-            "counter": 164,
+            "counter": 165,
             "categoryId": "%F0%9F%91%AA"
         },
         {
@@ -787,7 +787,7 @@
         {
             "command": "should-i-use-a-library",
             "message": "Using a Riot API wrapper makes working with the API much easier, and is highly recommended for everyone (especially beginners). If you use a wrapper, you don't need to worry about things like rate limiting or properly formatting requests. You can find a list of libraries by PM <@!293623987051823107> `!libs <Your language of choice>`",
-            "counter": 43,
+            "counter": 44,
             "categoryId": "%E2%84%B9"
         },
         {
