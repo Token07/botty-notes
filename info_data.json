@@ -1,9 +1,5 @@
 {
     "recents": [
-        "rso",
-        "how-long",
-        "how-long",
-        "how-long",
         "shipping",
         "shipment",
         "how-long",
@@ -23,7 +19,11 @@
         "just-ask",
         "lol-match-retention",
         "how-long",
-        "support"
+        "support",
+        "memory",
+        "update",
+        "delete",
+        "edit"
     ],
     "categories": [
         {
@@ -330,7 +330,7 @@
         },
         {
             "command": "edit",
-            "counter": 0,
+            "counter": 1,
             "message": "Did you mean `!note replace`?",
             "categoryId": "kappa:358293780107100160"
         },
@@ -588,8 +588,8 @@
         },
         {
             "command": "memory",
-            "counter": 0,
-            "message": "The liveclient api has not been updated for years and only provides incomplete information.\nThe only way to get accurate data is through memory reading or by using existing memory reading projects.\nMemory reading is possible by injecting a signed DLL, but there are no real guidelines on what is allowed and what will get you in trouble.\nAlternatively, you can use an existing 3rd party frontend lib from BlueBottle, they have a free tier that gives you basic data: https://github.com/BlueBottleGG/leaguebroadcast-js-client / https://bluebottle.gg/",
+            "counter": 1,
+            "message": "The liveclient api has not been updated for years and only provides incomplete information.\nThe only way to get accurate data is through memory reading or by using existing memory reading projects.\nMemory reading is possible by injecting a signed DLL, but there are no real guidelines on what is allowed and what will get you in trouble.\nAlternatively, you can use an existing 3rd party frontend lib from BlueBottle, they have a free tier that gives you basic data: <https://github.com/BlueBottleGG/leaguebroadcast-js-client> / <https://bluebottle.gg/>",
             "categoryId": "%E2%84%B9"
         },
         {
