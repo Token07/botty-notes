@@ -621,6 +621,12 @@
             "categoryId": "%F0%9F%91%AA"
         },
         {
+            "command": "test",
+            "counter": 0,
+            "message": "test",
+            "categoryId": "%E2%84%B9"
+        },
+        {
             "command": "third-party-code-example",
             "counter": 62,
             "message": "https://i.imgur.com/xCRNiQF.gifv",
