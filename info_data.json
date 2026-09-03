@@ -423,7 +423,7 @@
         {
             "command": "how-long",
             "counter": 556,
-            "message": "Expect **3-8 months** for an application review.\nTicket response times may be slightly shorter, but are still at least several months out.\n*If your app status is listed as `unverified` in the developer portal it will **not** be reviewed.*\nThe Admins and Gurus are not\nNote: If you applied for Riftbound, Riot does not appear to be accepting or rejecting applications at this time.",
+            "message": "Expect **3-8 months** for an application review.\nTicket response times may be slightly shorter, but are still at least several months out.\n*If your app status is listed as `unverified` in the developer portal it will **not** be reviewed.*\nThe Admins and Gurus are not Riot employees and cannot help you with escalating a review\nNote: If you applied for Riftbound, Riot does not appear to be accepting or rejecting applications at this time.",
             "categoryId": "kappa:358293780107100160"
         },
         {
