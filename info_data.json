@@ -1,14 +1,5 @@
 {
     "recents": [
-        "lol-match-retention",
-        "how-long",
-        "queues",
-        "how-long",
-        "how-long",
-        "rate-limiting",
-        "how-long",
-        "how-long",
-        "how-long",
         "verify-github",
         "app-verify",
         "how-long",
@@ -24,6 +15,20 @@
         "how-long",
         "good-bot",
         "knife",
+        "how-long",
+        "how-long",
+        "edit",
+        "replace",
+        "champion",
+        "how-long",
+        "in",
+        "in",
+        "in",
+        "how-long",
+        "how-long",
+        "app-verify",
+        "how-long",
+        "how-long",
         "how-long",
         "how-long"
     ],
@@ -56,7 +61,7 @@
     "messages": [
         {
             "command": "200",
-            "counter": 9,
+            "counter": 10,
             "message": "Everything is fine here, move along. ",
             "categoryId": "429:453058143694487554"
         },
@@ -68,7 +73,7 @@
         },
         {
             "command": "400",
-            "counter": 162,
+            "counter": 163,
             "message": "**__400 - Bad Request__**: If you're getting this message, you've most likely entered an incorrect PUUID.\nApplications are given a unique encryption on all PUUIDs. If you looked up a player on a different key you will need to use the same method to get the ID on the different application.\ntldr: IF YOU TRY TO USE A PUUID OBTAINED WITH A DIFFERENT KEY THAN THE ONE IT WAS OBTAINED WITH IT WONT WORK",
             "categoryId": "429:453058143694487554"
         },
@@ -87,13 +92,13 @@
         {
             "command": "403",
             "message": "__**403 (Forbidden)**__\nThis error indicates that the API request being made did not contain the necessary authentication credentials and therefore the client was denied access. If authentication credentials were already included then the Unauthorized response indicates that authorization has been refused for those credentials. In the case of the API, authorization credentials refer to your API key.\n**Common Reasons:**\nA blacklisted API key was provided with the API request\nThe API request was for an incorrect or unsupported path (are you trying to use summoner/by-name, match-v4, or an endpoint that requires a summoner id?)\nThe requested match is unavailable through the API (match-v5 only)\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 299,
+            "counter": 300,
             "categoryId": "429:453058143694487554"
         },
         {
             "command": "404",
             "message": "__**404 (Not Found)**__\nThis error indicates that the server has not found a match for the API request being made. No indication is given whether the condition is temporary or permanent.\n\n**Common Reasons:**\nThe ID or name provided does not match any existing resource (e.g., there is no summoner matching the specified ID)\nThe API request was for an incorrect or unsupported path\n\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 53,
+            "counter": 61,
             "categoryId": "429:453058143694487554"
         },
         {
@@ -170,7 +175,7 @@
         },
         {
             "command": "app-verify",
-            "counter": 152,
+            "counter": 153,
             "message": "You need a URL that can describe your app. If this is a web application it can be the URL of your app. If it is not, it will need to be a page describing your application including screenshots so that Rioters can fully understand your application. Rioters will not download any app, join any discord server, etc.\nIf you are having issues with verification:\nVerify you can curl your URL and only get the text that riot provided (No HTML etc). You can use <https://reqbin.com/curl> and type ``curl https://www.yourdomain.com/riot.txt`` and press Run. If the response returns anything but the code provided you will need to fix this.",
             "categoryId": "%E2%84%B9"
         },
@@ -242,7 +247,7 @@
         },
         {
             "command": "champion",
-            "counter": 401,
+            "counter": 402,
             "message": "Here is a JSON containing all champion data for patch {ddragonVersion}: <http://ddragon.leagueoflegends.com/cdn/{ddragonVersion}/data/en_US/champion.json>\nHere are a couple of Javascript helper functions to get up to date champion info (using latest patch, with translation options and examples): <https://gist.github.com/Querijn/5fe4b9f65a1236b98ead0bc39ab155ad>",
             "categoryId": "%F0%9F%94%97"
         },
@@ -332,7 +337,7 @@
         },
         {
             "command": "edit",
-            "counter": 2,
+            "counter": 3,
             "message": "Did you mean `!note replace`?",
             "categoryId": "kappa:358293780107100160"
         },
@@ -422,8 +427,8 @@
         },
         {
             "command": "how-long",
-            "counter": 556,
-            "message": "Expect **3-8 months** for an application review.\nTicket response times may be slightly shorter, but are still at least several months out.\n*If your app status is listed as `unverified` in the developer portal it will **not** be reviewed.*\nThe Admins and Gurus are not Riot employees and cannot help you with escalating a review\nNote: If you applied for Riftbound, Riot does not appear to be accepting or rejecting applications at this time.",
+            "counter": 565,
+            "message": "Expect **3-8 months** for an application review.\nTicket response times may be slightly shorter, but are still at least several months out.\n*If your app status is listed as `unverified` in the developer portal it will **not** be reviewed.*\n\nNotes:\n* If you have edited your application before approval, it will return you to the end of the queue.\n* The Admins and Gurus are not Riot employees and cannot help you with escalating a review.\n* If you applied for Riftbound, Riot does not appear to be accepting or rejecting applications at this time.",
             "categoryId": "kappa:358293780107100160"
         },
         {
@@ -783,7 +788,7 @@
         {
             "command": "server-info",
             "message": "This Community-run Discord server is for the Riot Games API, a tool which provides data to sites like op.gg. Any Rioters here are not acting in an official capacity, nor can they help you with support or gameplay issues. If you're having account related issues or technical problems, contact Riot Games support: <https://support.riotgames.com/hc/en-us>. If you have a game-related suggestion or feedback, post on the subreddit, or the League of Legends Discord: <https://www.reddit.com/r/leagueoflegends/> / <https://discordapp.com/invite/lol>",
-            "counter": 661,
+            "counter": 662,
             "categoryId": "%E2%84%B9"
         },
         {
@@ -872,7 +877,7 @@
         },
         {
             "command": "v4",
-            "counter": 32,
+            "counter": 33,
             "message": "<https://www.riotgames.com/en/DevRel/player-universally-unique-identifiers-and-a-new-security-layer>",
             "categoryId": "%F0%9F%94%97"
         },
@@ -908,7 +913,7 @@
         },
         {
             "command": "yeet",
-            "counter": 14,
+            "counter": 15,
             "message": "``` ╭┻━━┻╮\n ┃╭╮╭╮┃\n╭┫▕▎▕▎┣╮\n╰┓┳╰╯┳┏╯ For You\n╭┛╰━━╯┗━━━━━╮\n┃┃    ┏━━━╭╰╯╮\n┃┃    ┃┏━━┻━━┻━━┓\n╰┫ ╭╮ ┃┃  YEET  ┃ \n ┃ ┃┃ ┃╰━━━━━━━━┛```",
             "categoryId": "TuxHammer:358298723035643905"
         },
