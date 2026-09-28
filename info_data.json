@@ -24,7 +24,8 @@
         "how-long",
         "how-long",
         "how-long",
-        "how-long"
+        "how-long",
+        "will-my-app-get-approved-before-gta-6-releases"
     ],
     "categories": [
         {
@@ -907,8 +908,8 @@
         },
         {
             "command": "will-my-app-get-approved-before-gta-6-releases",
-            "counter": 0,
-            "message": "No",
+            "counter": 2,
+            "message": "It is highly unlikely your app is approved before GTA 6 releases.",
             "categoryId": "kappa:358293780107100160"
         },
         {
