@@ -1,10 +1,5 @@
 {
     "recents": [
-        "note",
-        "note",
-        "memory",
-        "memory",
-        "rule6-7",
         "how-long",
         "custom-data",
         "rate-limiting",
@@ -25,7 +20,10 @@
         "how-long",
         "how-long",
         "how-long",
-        "will-my-app-get-approved-before-gta-6-releases"
+        "will-my-app-get-approved-before-gta-6-releases",
+        "how-long",
+        "bad-bot",
+        "403"
     ],
     "categories": [
         {
@@ -87,7 +85,7 @@
         {
             "command": "403",
             "message": "__**403 (Forbidden)**__\nThis error indicates that the API request being made did not contain the necessary authentication credentials and therefore the client was denied access. If authentication credentials were already included then the Unauthorized response indicates that authorization has been refused for those credentials. In the case of the API, authorization credentials refer to your API key.\n**Common Reasons:**\nA blacklisted API key was provided with the API request\nThe API request was for an incorrect or unsupported path (are you trying to use summoner/by-name, match-v4, or an endpoint that requires a summoner id?)\nThe requested match is unavailable through the API (match-v5 only)\nhttps://developer.riotgames.com/response-codes.html",
-            "counter": 300,
+            "counter": 301,
             "categoryId": "429:453058143694487554"
         },
         {
@@ -194,7 +192,7 @@
         },
         {
             "command": "bad-bot",
-            "counter": 45,
+            "counter": 46,
             "message": "<:dab:499726833890230273>",
             "categoryId": "kappa:358293780107100160"
         },
@@ -422,8 +420,8 @@
         },
         {
             "command": "how-long",
-            "counter": 583,
-            "message": "Expect **3-8 months** for an application review.\nTicket response times may be slightly shorter, but are still at least several months out.\n*If your app status is listed as `unverified` in the developer portal it will **not** be reviewed.*\n\nNotes:\n* If you have edited your application before approval, it will return you to the end of the queue.\n* The Admins and Gurus are not Riot employees and cannot help you with escalating a review.\n* If you applied for Riftbound, Riot does not appear to be accepting or rejecting applications at this time.",
+            "counter": 585,
+            "message": "Expect **4-9 months** for an application review.\nTicket response times may be slightly shorter, but are still at least several months out.\n*If your app status is listed as `unverified` in the developer portal it will **not** be reviewed.*\n\nNotes:\n* If you have edited your application before approval, it will return you to the end of the queue.\n* The Admins and Gurus are not Riot employees and cannot help you with escalating a review.\n* If you applied for Riftbound, Riot does not appear to be accepting or rejecting applications at this time.",
             "categoryId": "kappa:358293780107100160"
         },
         {
