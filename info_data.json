@@ -23,7 +23,9 @@
         "will-my-app-get-approved-before-gta-6-releases",
         "how-long",
         "bad-bot",
-        "403"
+        "403",
+        "how-long",
+        "dev-support"
     ],
     "categories": [
         {
@@ -288,7 +290,7 @@
         },
         {
             "command": "dev-support",
-            "counter": 15,
+            "counter": 16,
             "message": "<https://support-developer.riotgames.com/>",
             "categoryId": "%F0%9F%94%97"
         },
@@ -420,8 +422,8 @@
         },
         {
             "command": "how-long",
-            "counter": 585,
-            "message": "Expect **4-9 months** for an application review.\nTicket response times may be slightly shorter, but are still at least several months out.\n*If your app status is listed as `unverified` in the developer portal it will **not** be reviewed.*\n\nNotes:\n* If you have edited your application before approval, it will return you to the end of the queue.\n* The Admins and Gurus are not Riot employees and cannot help you with escalating a review.\n* If you applied for Riftbound, Riot does not appear to be accepting or rejecting applications at this time.",
+            "counter": 587,
+            "message": "Expect **GTA 6 to be released first** before getting an application review.\nTicket response times may be slightly shorter, but are still at least several months out.\n*If your app status is listed as `unverified` in the developer portal it will **not** be reviewed.*\n\nNotes:\n* If you have edited your application before approval, it will return you to the end of the queue.\n* The Admins and Gurus are not Riot employees and cannot help you with escalating a review.\n* If you applied for Riftbound, Riot does not appear to be accepting or rejecting applications at this time.",
             "categoryId": "kappa:358293780107100160"
         },
         {
